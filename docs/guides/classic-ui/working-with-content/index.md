@@ -1,55 +1,24 @@
-# Working with Content
+---
+myst:
+  html_meta:
+    "description": "Working with content in Plone 6 Classic UI"
+    "property=og:description": "Working with content in Plone 6 Classic UI"
+    "property=og:title": "Working with content in Plone 6 Classic UI"
+    "keywords": "content, Plone 6, Classic UI"
+---
+
+# Working with content
 
 ```{toctree}
 :maxdepth: 2
 
 introduction/index
 ```
-
-```{toctree}
-:maxdepth: 2
-
-logging-in
-```
-
-```{toctree}
-:maxdepth: 2
-
-adding-content/index
-```
-
-```{toctree}
-:maxdepth: 2
-
-managing-content/index
-```
-
-```{toctree}
-:maxdepth: 2
-
-using-tinymce-as-visual-editor/index
-```
-
-```{toctree}
-:maxdepth: 2
-
-collaboration-and-workflow/index
-```
-
-```{toctree}
-:maxdepth: 2
-
-using-collections/index
-```
-
-```{toctree}
-:maxdepth: 2
-
-portlet-management/index
-```
-
-```{toctree}
-:maxdepth: 2
-
-content-quality/index
-```
+%logging-in
+%adding-content/index
+%managing-content/index
+%using-tinymce-as-visual-editor/index
+%collaboration-and-workflow/index
+%using-collections/index
+%portlet-management/index
+%content-quality/index
