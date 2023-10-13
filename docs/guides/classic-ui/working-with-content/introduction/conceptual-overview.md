@@ -13,29 +13,33 @@ This section of the documentation explains Plone as a content management system.
 
 ## What is Plone?
 
-Plone is a content management system (CMS) which you can use to build a web site.
-With Plone, ordinary people can contribute content to a web site without the help of a computer geek.
-Plone runs over the Web, too.
+Plone is a content management system (CMS) which you can use to build a website.
+With Plone, non-experts can contribute to and manage content on a website without the help of a technical specialist.
 
-You don't need to install any special software on your computer.
-The word *content* is meant to be general, because you can publish so many types of information, including:
+There is no need to install special software on your computer or mobile device to do this.
 
-```{figure} content_types_into_plone.png
-:align: center
-:alt: true
-```
+We use the general word *content* to cover the many types of information you can publish, including:
 
-A Plone web site contains various kinds of content, including text, photos, and images.
-These can exist in many forms: documents, news items, events, videos, audio files, any types of file and data that can be uploaded or created on a web site.
-Content can also be uploaded from your local computer.
-You create *folders* on a Plone web site to hold content, and those automatically also create the navigation structure:
+- text (web pages)
+- photos and images
+- documents
+- news and events
+- videos
+- audio files
 
-```{figure} content_is_added_to_folders.png
-:align: center
-:alt: true
-```
+A Plone website can contain these kinds of content and more.
 
-## You Love Butterflies
+You create *folders* on a Plone website to hold content, and those folders automatically define the website's navigation structure.
+
+You can nest folders in a Plone website just as you would on a computer. By creating folders within folders, you can organize your website's content as finely as you need.
+
+- Folder 1
+- Folder 2
+  - Folder 3
+    - Folder 4
+- Folder 5
+
+## You love butterflies
 
 For example, to add content about butterflies, you might add a folder named "Butterflies," then add some text to a web page in the folder:
 
@@ -59,33 +63,24 @@ After adding a few reports and videos to the Butterflies folder, the content wou
 :alt: true
 ```
 
-## What Goes on Behind the Scenes
+## What goes on behind the scenes
 
-You may wonder how it all works.
-A typical Plone web site exists as an installation of Plone software on a web server.
-The web server may be anywhere, often at a website server company within a "rack" of computers dedicated to the task:
+A typical Plone website exists as an installation of Plone software on a web server.
+The web server may be anywhere on the internet, such as on a virtual machine from a cloud provider.
 
-```{figure} server_rack.png
-:align: center
-:alt: true
-```
+Your Plone site is a combination of software and storage running on one or more servers.
 
-The diagram shows the many cables that connect individual server computers to the Internet, across fast network connections.
-Your Plone site is software and database storage software installed on one of the individual server computers.
-As you type or click on your computer, data is sent up and down the networking cables and communication channels of the Internet to interact with your Plone software installation on the server.
-
-Let's simplify the diagram showing how you interact with Plone:
+This simplified diagram shows your interaction with Plone:
 
 ```{figure} client_to_server_simple.png
 :align: center
 :alt: true
 ```
 
-You use your web browser -- Firefox, Safari, Internet Explorer, etc.
--- to view and edit your Plone web site, and the changes are stored by the Plone software into its database storage system.
+You use your web browser to view and edit your Plone website, and the changes are stored by the Plone software into its storage.
 
-For example, imagine your butterfly Plone web site is located at mysite.com.
-You type www.mysite.com into your web browser.
+For example, imagine your butterfly Plone website is located at mysite.com.
+You type `mysite.com` into your web browser.
 After you press Enter, the following sequence of events happens as your browser talks to the web server at mysite.com:
 
 ```{figure} client_request.png
@@ -100,15 +95,15 @@ The Plone software responds:
 :alt: true
 ```
 
-Plone reads its database to look for information stored in mysite.com.
-It then sends back the web page to your computer, in a code called HTML.
-HTML is a computer language that describes how a web page looks.
-It includes text, graphics, fonts, the color of the background, and just about everything else.
-There are many online resources that can teach you HTML details, but one of Plone's advantages is that you don't need to know about HTML.
-That's one reason for Plone and other similar web software; to let you focus on your content, e.g., butterfly text and graphics, instead of learning a new computer language.
+Plone reads its storage to look for information stored in mysite.com.
+It then sends back the web page to your computer, in formats called HTML and CSS.
+Together, HTML and CSS are computer languages that describe what a web page contains and how it looks.
+This includes text, graphics, fonts, the color of the background, and the layout of the page.
+There are many online resources that can teach you HTML and CSS, but one of Plone's advantages is that you don't need to know either.
+That's one of main reasons for using Plone: to let you focus on your content (butterfly text and graphics, in this case) instead of having to understand the technical underpinnings.
 
 But back to our overview.
-Your web browser "renders" (translates) this HTML, and you see the resulting web page:
+Your web browser "renders" (translates) this HTML and CSS, and you see the resulting web page:
 
 ```{figure} my_site_served.png
 :align: center
@@ -116,15 +111,14 @@ Your web browser "renders" (translates) this HTML, and you see the resulting web
 ```
 
 As you view your butterfly web page, you can choose to change it or add to it.
-You can also upload photos, documents, etc.
-at any time:
+You can also upload photos, documents, and other types of content:
 
 ```{figure} plone_donut.png
 :align: center
 :alt: true
 ```
 
-After you make your edits and click "save changes," the new version of the web page will be immediately available to anyone surfing to your site:
+After you make your edits and save your changes, the new version of the web page will be immediately available to anyone viewing your site:
 
 ```{figure} plone_donut_full.png
 :align: center
