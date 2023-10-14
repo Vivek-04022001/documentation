@@ -75,7 +75,7 @@ Will Plone ever be available under a non-GPL license?
 
 > The current Plone approach states that companies can negotiate a non-GPL license.
 > Thus, the Foundation might pursue a dual-licensing (GPL and non-GPL) scheme -
-> but, at this time, the Board has not yet created any policies on this.
+> but, at this time, the Board hasn't yet created any policies on this.
 > This is an important question for the community, of course, and the Foundation intends to have this conversation in a transparent way.
 
 Why would anyone want a non-GPL Plone?

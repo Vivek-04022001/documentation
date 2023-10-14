@@ -57,7 +57,7 @@ Also another developer might have committed in the meantime (by breaking rule 1)
 ## 4) Never go home on a broken build
 
 Taking into account the first rule of CI ("Don't check in on a broken build"), breaking the build essentially stops all other developers from working on it.
-Therefore going home on a broken build (or even on a build that has not finished yet) is **not** acceptable.
+Therefore going home on a broken build (or even on a build that hasn't finished yet) is **not** acceptable.
 It will prevent all the other developers to stop working on the build or fixing the errors that you introduced.
 
 

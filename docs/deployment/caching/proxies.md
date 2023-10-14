@@ -22,7 +22,7 @@ For example, it's normally a good idea to cache static resources (such as images
 These include Plone content of the types `File` or `Image`.
 This content will then be served to most users straight from the proxy, which is much faster than Zope.
 
-The downside of this approach is that an old version of a content item may returned to a user because the cache has not been updated since the item was modified.
+The downside of this approach is that an old version of a content item may returned to a user because the cache hasn't been updated since the item was modified.
 
 ## Strategies
 
