@@ -49,7 +49,7 @@ Then you might add some butterfly photos to the folder:
 ```
 
 You can add many types of content to a folder, including sub-folders.
-After adding a few reports and videos to the Butterflies folder, the content would be organized like this, with two sub-folders within the Butterflies folder:
+After adding a few reports and videos to the Butterflies folder, the content is organized like this, with two sub-folders within the Butterflies folder:
 
 ```{figure} folders_within_folders.png
 :align: center
@@ -72,9 +72,9 @@ This simplified diagram shows your interaction with Plone:
 
 You use your web browser to view and edit your Plone website, and the changes are stored by the Plone software into its storage.
 
-For example, imagine your butterfly Plone website is located at mysite.com.
-You type `mysite.com` into your web browser.
-After you press Enter, the following sequence of events happens as your browser talks to the web server at mysite.com:
+For example, imagine your butterfly Plone website is located at www.mysite.com.
+You type `www.mysite.com` into your web browser.
+After you press Enter, the following sequence of events happens as your browser talks to the web server at www.mysite.com:
 
 ```{figure} client_request.png
 :align: center
@@ -88,14 +88,14 @@ The Plone software responds:
 :alt: true
 ```
 
-Plone reads its storage to look for information stored in mysite.com.
+Plone reads its storage to look for information stored in www.mysite.com.
 It then sends back the web page to your computer, in formats such as HTML, CSS, and JSON.
 These are computer languages that describe what a web page contains and how it looks, including its text, graphics, fonts, the color of the background, and its layout.
 There are many online resources that can teach you HTML, CSS and JSON, but one of Plone's advantages is that you don't need to know any of them.
-That's one of main reasons for using Plone: to let you focus on your content (butterfly text and graphics, in this case) instead of having to understand the technical underpinnings.
+That's one of main reasons for using Plone: to let you focus on writing and presenting your content (butterfly text and graphics, in this case).
 
 But back to our overview.
-Your web browser "renders" (translates) this HTML, CSS and JSON, and you see the resulting web page:
+Your web browser renders (translates) this HTML, CSS and JSON, and displays the resulting web page for you to see:
 
 ```{figure} my_site_served.png
 :align: center
@@ -110,7 +110,7 @@ You can also upload photos, documents, and other types of content:
 :alt: true
 ```
 
-After you make your edits and save your changes, the new version of the web page is available to anyone who views your website:
+Whenever you make edits and save your changes, the updated version of the web page becomes available to your website visitors:
 
 ```{figure} plone_donut_full.png
 :align: center
