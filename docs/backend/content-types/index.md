@@ -18,7 +18,7 @@ Content types are implemented through the {term}`Dexterity` framework.
 ## What's a content type?
 
 Each item in a Plone site is an instance of a particular content type.
-We have different content types to reflect the different kinds of information about which we need to collect and display information.
+We've different content types to reflect the different kinds of information about which we need to collect and display information.
 
 Pages, news items, events, files (binary), and images are examples of content types.
 

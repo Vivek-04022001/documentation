@@ -255,7 +255,7 @@ You should avoid adding them to your code.
 
 ## `autoinclude`
 
-We have replaced `z3c.autoinclude` with `plone.autoinclude`.
+We've replaced `z3c.autoinclude` with `plone.autoinclude`.
 Both are used by add-ons (Python packages) to signal, with an entry point, that Plone must load the ZCML of the add-on.
 In most cases, the existing entry point can stay the same.
 For example in `setup.py`:

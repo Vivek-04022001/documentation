@@ -65,7 +65,7 @@ class ProgramView(BrowserView):
             sort_on='sortable_title')
 ```
 
-We have added `sessions`, a helper method which will be used in the view.
+We've added `sessions`, a helper method which will be used in the view.
 
 You can add any methods to the view.
 They will be available to the template via the `view` variable.

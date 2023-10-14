@@ -102,7 +102,7 @@ def test_suite():
 This is a test using the Python standard library's `unittest` module.
 There are a few things to note here:
 
--   We have created a dummy class to simulate a `Program` instance.
+-   We've created a dummy class to simulate a `Program` instance.
     It doesn't contain anything at all, but we set some attributes onto it for certain tests.
     This is a very simple way to do mocks.
     There are much more sophisticated mock testing approaches, but starting simple is good.

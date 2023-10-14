@@ -196,7 +196,7 @@ You should now notice layers being set up and torn down.
 Again, use the `-t` option to run a particular test case (or test method) only.
 
 The other tests are similar.
-We have {file}`tests/test_session.py` to test the `Session` type.
+We've {file}`tests/test_session.py` to test the `Session` type.
 
 ```python
 import unittest2 as unittest

@@ -21,7 +21,7 @@ This section desribes how to cache all GET requests from anonymous users.
 Some POST requests, such as `@querystring`, should be turned into GET to improve cache.
 ```
 
-We have endpoints following classic `plone.content.itemView` content and don't accept parameters.
+We've endpoints following classic `plone.content.itemView` content and don't accept parameters.
 Those can be handled with the default rules, including purge.
 
 There are others delivering dynamic content, such as search, which are impossible to purge.

@@ -613,7 +613,7 @@ As such, you will have the following browser layer interface and its registratio
     ```
 
     ```{note}
-    We have retained the permissions and marker interface of the original view.
+    We've retained the permissions and marker interface of the original view.
     You may provide a specific permission or marker interface instead of these as your product requires.
     ```
 

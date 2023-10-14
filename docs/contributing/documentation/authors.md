@@ -155,7 +155,7 @@ If you have a mix of a shell command and its output, then use `console`.
 If `xml` doesn't work well, then try `html`.
 
 `jsx` has a complex syntax that's difficult to parse.
-We have high hopes for the project [`jsx-lexer`](https://github.com/fcurella/jsx-lexer).
+We've high hopes for the project [`jsx-lexer`](https://github.com/fcurella/jsx-lexer).
 We include it in our `requirements.txt` file.
 Please contribute to its further development.
 
