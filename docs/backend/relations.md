@@ -636,7 +636,7 @@ The built-in `linkintegrity` feature of Plone 5 is also implemented using relati
 `RelationValue` objects have a fairly complete API.
 For both target and source, you can receive the `IntId`, the `object`, and the `path`.
 On a `RelationValue`, the terms `source` and `target` aren't used.
-Instead, they are `from` and `to`.
+Instead, they're `from` and `to`.
 Thus the API for getting the target uses:
 
 -   `to_id`

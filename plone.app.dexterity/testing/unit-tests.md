@@ -21,7 +21,7 @@ As a rule of thumb, if something can be tested with a simple unit test, do so fo
 
 -   Unit tests are quick to write.
 -   They're also quick to run.
--   Because they are more isolated, you are less likely to have tests that pass or fail due to incorrect assumptions or by luck.
+-   Because they're more isolated, you are less likely to have tests that pass or fail due to incorrect assumptions or by luck.
 -   You can usually test things more thoroughly and exhaustively with unit tests than with (slower) integration tests.
 
 You'll typically supplement a larger number of unit tests with a smaller number of integration tests, to ensure that your application's correctly wired up and working.
@@ -131,7 +131,7 @@ To run just this test suite, use the following command.
 ./bin/test example.conference -t TestProgramUnit
 ```
 
-This is useful when we have other test suites that we don't want to run when they are integration tests and require lengthy setup.
+This is useful when we have other test suites that we don't want to run when they're integration tests and require lengthy setup.
 
 To get a report about test coverage, we can run the following command.
 

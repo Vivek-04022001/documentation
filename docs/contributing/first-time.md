@@ -88,7 +88,7 @@ Please don't be "that person".
     This is because first-timers have a fresh perspective that might be overlooked by old-timers.
 1.  **Discuss whether you should perform any work.**
     First see {ref}`Avoid duplicate effort <mistake-2-label>`.
-    Next, any discussion method listed below is acceptable, and they are listed in the order of most likely to get a response.
+    Next, any discussion method listed below is acceptable, and they're listed in the order of most likely to get a response.
     -   Search for open issues in the issue trackers of Plone projects on GitHub, and comment on them.
     -   If an issue doesn't already exist for what you want to work on, then create a new issue in its issue tracker.
         Use a descriptive title and description, include steps to reproduce the issue, and screenshots or videos that demonstrate the issue.

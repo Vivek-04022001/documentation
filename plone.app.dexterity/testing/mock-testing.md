@@ -196,7 +196,7 @@ Much has been written on this, including [_Mocks Aren't Stubs_ by Martin Fowler]
 
 As always, it pays to be pragmatic.
 If you find that you can't write a mock based test without reading every line of code in the method under test and reverse engineering it for the mocks, then an integration test may be more appropriate.
-In fact, it's prudent to have at least some integration tests in any case, since you can never be 100% sure your mocks are valid representations of the real objects they are mocking.
+In fact, it's prudent to have at least some integration tests in any case, since you can never be 100% sure your mocks are valid representations of the real objects they're mocking.
 
 On the other hand, if the code you are testing is using well-defined APIs in a relatively predictable manner, mock objects can be a valuable way to test the "side effects" of your code, and a helpful tool to simulate things like exceptions and input values that may be difficult to produce otherwise.
 

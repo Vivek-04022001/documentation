@@ -988,7 +988,7 @@ The distinction between the `default` and `view` views are that, for files, the 
 
 -   The `default` view is configured in {ref}`backend-content-types-label`.
 -   The `default` view is rendered when a content item is called.
-    Even though they are objects, they have the `__call__()` Python method defined.
+    Even though they're objects, they have the `__call__()` Python method defined.
 
 If you need to explicitly get a content item's view for page rendering, you can do it as follows:
 

@@ -53,7 +53,7 @@ Add a file named `registry.xml` in your profile, containing:
 ```
 
 ````{note}
-This example assumes our JavaScript and CSS are provided as browser resources, but if they are in our old `skins` folder, that would work too:
+This example assumes our JavaScript and CSS are provided as browser resources, but if they're in our old `skins` folder, that would work too:
 
 ```xml
 <value key="csscompilation">portal_skins/MyAddon/mycustom.css</value>

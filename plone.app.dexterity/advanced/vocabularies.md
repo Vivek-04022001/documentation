@@ -216,7 +216,7 @@ These are similar to context source binders, but are components registered as na
 This allows local overrides of the vocabulary via the Component Architecture, and makes it easier to distribute vocabularies in third party packages.
 
 ```{note}
-Named vocabularies can't be parameterized in the way as we did with the `GroupMembers` context source binder, since they are looked up by name only.
+Named vocabularies can't be parameterized in the way as we did with the `GroupMembers` context source binder, since they're looked up by name only.
 ```
 
 We can turn our first "members in the *organizers* group" vocabulary into a named vocabulary by creating a named utility providing `IVocabularyFactory`.

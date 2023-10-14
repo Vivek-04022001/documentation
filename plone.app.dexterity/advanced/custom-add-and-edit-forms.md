@@ -69,7 +69,7 @@ For example, we could do any of the following.
 
 ## Content add sequence
 
-Add forms are similar to edit forms in that they are built from a type's schema and the schemata of its behaviors.
+Add forms are similar to edit forms in that they're built from a type's schema and the schemata of its behaviors.
 However, for an add form to be able to construct a content object, it needs to know which `portal_type` to use.
 
 You should realize that the FTIs in the `portal_types` tool can be modified through the web.

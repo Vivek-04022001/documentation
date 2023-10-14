@@ -194,7 +194,7 @@ def canonical_object_url():
 def view_url():
     """URL to use for viewing
 
-    Files and Images get downloaded when they are directly
+    Files and Images get downloaded when they're directly
     called, instead of with /view appended.  We want to avoid that.
     """
 

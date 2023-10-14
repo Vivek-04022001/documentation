@@ -102,7 +102,7 @@ Methods will be called with no arguments in an attempt to get a value.
 If a value is found, it's indexed.
 
 ```{note}
-Objects are normally acquisition-wrapped when they are indexed, which means that an indexed value may be acquired from a parent.
+Objects are normally acquisition-wrapped when they're indexed, which means that an indexed value may be acquired from a parent.
 This can be confusing, especially if you are building container types and creating new indexes for them.
 If child objects don't have attributes or methods with names corresponding to indexes, the parent object's value will be indexed for all children as well.
 ```
@@ -124,7 +124,7 @@ In {file}`profiles/default/catalog.xml`, we have the following code.
 ```
 
 Notice how we specify both the index name and the indexed attribute.
-It's possible to use an index name (the key you use when searching) that's different to the indexed attribute, although they are usually the same.
+It's possible to use an index name (the key you use when searching) that's different to the indexed attribute, although they're usually the same.
 The metadata column is just the name of an attribute.
 
 

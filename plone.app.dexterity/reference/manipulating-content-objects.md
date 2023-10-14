@@ -253,7 +253,7 @@ This section describes ways of indexing an object in the `portal_catalog` tool.
 
 ### Reindexing the object
 
-Objects may need to be reindexed if they are modified in code.
+Objects may need to be reindexed if they're modified in code.
 The best way to reindex them is to send an event, and let Dexterity's standard event handlers take care of this.
 
 ```python

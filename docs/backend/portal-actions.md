@@ -27,7 +27,7 @@ Here only the portal actions are described.
 Portal actions are typically displayed in the site's navigation menu or toolbar and can be accessed by users with the appropriate permissions.
 
 Portal actions are managed using the {guilabel}`Portal Actions` control panel in Plone.
-This control panel allows you to add, edit, and delete actions, as well as organize them into categories and control where they are available on your site.
+This control panel allows you to add, edit, and delete actions, as well as organize them into categories and control where they're available on your site.
 
 ```{note}
 We use the terms "Portal actions" and "Actions" in this documentation to mean the same thing.
@@ -80,7 +80,7 @@ Site Actions
 : Actions that are available on every page of your site.
 
 User Actions
-: Actions that are available to users when they are logged in to your site.
+: Actions that are available to users when they're logged in to your site.
 
 Each of these action categories serves a different purpose and is intended for use in specific areas of the site.
 For example, object actions are intended for actions that are specific to a particular content item, while site actions are intended for actions that are available on every page of your site.

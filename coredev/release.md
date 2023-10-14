@@ -47,7 +47,7 @@ The Plone Release Team releases the core Plone packages.
 Several others also have the rights to release individual packages on [PyPI](https://pypi.org/).
 If you have those rights on your account, you should feel free to make releases.
 
-Some packages need special care, or should be done only by specific people, as they know what they are doing.
+Some packages need special care, or should be done only by specific people, as they know what they're doing.
 These are:
 
 `Products.CMFPlone`, `Plone`, and `plone.app.upgrade`

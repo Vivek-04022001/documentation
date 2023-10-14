@@ -402,4 +402,4 @@ If the package fails to install in the {guilabel}`Add-ons` control panel:
 If your forms don't look right, for example custom widgets are missing, then:
 
 -   Make sure your schema derives from `model.Schema`.
--   Remember that the directives require you to specify the correct field name, even if they are placed before or after the relevant field.
+-   Remember that the directives require you to specify the correct field name, even if they're placed before or after the relevant field.

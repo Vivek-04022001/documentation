@@ -103,7 +103,7 @@ Theme layers can be created through the following steps.
     ```
 
 3.  Register and set your theme as the default theme in `profiles/default/skins.xml`.
-    Theme layers require that they are set as the default theme and not just activated on your Plone site.
+    Theme layers require that they're set as the default theme and not just activated on your Plone site.
     Example:
 
     ```xml
