@@ -18,7 +18,7 @@ How to contribute to the Plone translations.
 This chapter of the documentation describes how to contribute to Plone's translations.
 Plone fully supports {term}`internationalization` and {term}`localization`.
 Plone Classic UI comes with 65 local language translations, and the new default frontend Volto comes with 12, at the time of this writing.
-However, some translations are incomplete, or certain languages have not yet been added.
+However, some translations are incomplete, or certain languages haven't yet been added.
 Translations can be added or updated as needed by the citizens of Earth.
 You will need to work in one repository for Plone core, and optionally another one for Volto.
 

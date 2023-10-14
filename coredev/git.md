@@ -290,7 +290,7 @@ exactly the same **result**
 The second version is far more easy to understand what happened and removes two superfluous commits
 (the two partial merges with master (`fffffff` and `1111111`).
 
-This happens if you have not properly configured `git pull`.
+This happens if you haven't properly configured `git pull`.
 By default it does a `merge` meaning that an extra commit is always added,
 tangling the history and making this more complex when looking back for what happened there.
 

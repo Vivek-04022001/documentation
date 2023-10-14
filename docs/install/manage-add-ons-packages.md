@@ -157,7 +157,7 @@ See the [documentation of `mxdev` in its README.md](https://github.com/mxstack/m
 
 This section provides examples of common add-on and package management tasks.
 For the examples, we will modify the default files from the previous section {ref}`manage-mxdev-usage-overview-label`.
-We will also use Classic UI for the interface because some packages and add-ons have not yet been updated to work with the new frontend.
+We will also use Classic UI for the interface because some packages and add-ons haven't yet been updated to work with the new frontend.
 
 
 (manage-add-an-add-on)=
