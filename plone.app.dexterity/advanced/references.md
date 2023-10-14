@@ -149,4 +149,4 @@ def back_references(source_object, attribute_name):
     return result
 ```
 
-This method does not check effective and expiration dates or content language.
+This method doesn't check effective and expiration dates or content language.

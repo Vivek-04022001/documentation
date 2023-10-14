@@ -12,7 +12,7 @@ myst:
 # Version-specific migration procedures and tips
 
 In addition to the general procedure described in the previous chapters, the chapters in this part of the documentation provide version-specific procedures and tips.
-If your migration does not involve a version pair specified here, then you may follow the general procedures alone.
+If your migration doesn't involve a version pair specified here, then you may follow the general procedures alone.
 
 ```{toctree}
 :maxdepth: 2

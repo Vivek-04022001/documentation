@@ -15,7 +15,7 @@ There are many people and companies who rely on Plone on a day-to-day basis, so 
 
 Plone's source code is hosted in git repositories at  <https://github.com/plone>, but only members of the developer team have commit rights.
 
-Sending in a contributors agreement does not guarantee your commit access to the repositories, but once you send it in we will always have it on file for when you are ready to contribute.
+Sending in a contributors agreement doesn't guarantee your commit access to the repositories, but once you send it in we will always have it on file for when you are ready to contribute.
 
 We ask that before requesting core access you familiarize yourself a little with the community since they will help you get ramped up:
 

@@ -133,7 +133,7 @@ For small packages or packages that have few dependencies, it's a good idea to t
 ./bin/instance fg
 ```
 
-If it does not start up, you should continue with the next steps instead of trying to fix each issue as it appears.
+If it doesn't start up, you should continue with the next steps instead of trying to fix each issue as it appears.
 
 
 ## 2. Automated fixing with modernize
@@ -368,7 +368,7 @@ do_something(value)
 
 You can use the helper methods `safe_text` and `safe_bytes` (`safe_unicode` and `safe_encode` in Plone 5.1).
 
-`python-modernize` also does not touch the import statement `from StringIO import StringIO`, even though this works only in Python 2.
+`python-modernize` also doesn't touch the import statement `from StringIO import StringIO`, even though this works only in Python 2.
 You have to check whether you are dealing with text or binary data and use the appropriate import statement from `six` (https://six.readthedocs.io/#six.StringIO).
 
 ```python

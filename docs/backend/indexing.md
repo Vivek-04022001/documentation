@@ -201,7 +201,7 @@ ZCML:
 
 This is a **named** adapter!
 The named registration allows registering multiple extenders on different behavior interfaces applying to the same object.
-The name of the adapter does not matter, but it's recommended to use the name of the behavior to reduce potential conflicts.
+The name of the adapter doesn't matter, but it's recommended to use the name of the behavior to reduce potential conflicts.
 
 If your behavior has a defined factory (which is not attribute storage), then you need to define a marker interface and register the adapter on this marker interface. 
 Dexterity objects do not provide behavior interfaces of behaviors, which are not using attribute storage.

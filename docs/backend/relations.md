@@ -596,7 +596,7 @@ We want to work with schemas to get automatically generated forms.
 The logic for this is provided by the package [z3c.relationfield](https://pypi.org/project/z3c.relationfield/).
 This package contains the `RelationValue` object and everything needed to define a relation schema, and all the code that is necessary to automatically update the catalog.
 
-A `RelationValue` object does not reference all objects directly.
+A `RelationValue` object doesn't reference all objects directly.
 For the target, it uses an ID that it gets from the {term}`IntId` utility.
 This ID allows direct recovery of the object.
 The source object stores it directly.

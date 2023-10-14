@@ -265,7 +265,7 @@ The `mimeType` and `encoding` properties will also be set based on the value of 
 The default implementation of `IRawWriteFile` for Dexterity objects assumes the input is an RFC 2822 style message document.
 It will read header values and use them to set fields on the object or in behaviors, and similarly read the body and update the corresponding primary field.
 
-`NullResource.PUT()` is responsible for creating a new content object and initializing it (recall that a `NullResource` may be returned if a WebDAV request attempts to traverse to an object which does not exist).
+`NullResource.PUT()` is responsible for creating a new content object and initializing it (recall that a `NullResource` may be returned if a WebDAV request attempts to traverse to an object which doesn't exist).
 It sniffs the content type and body from the request, and then looks for the `PUT_factory()` method on the parent folder.
 
 In Dexterity, `PUT_factory()` is implemented to look up an `IFileFactory` adapter on `self`, and use it to create the empty file.
@@ -375,7 +375,7 @@ A `MKCOL` request is used to create a new collection resource, in other words, c
 (remember that in WebDAV, the `MKCOL` request, like a `PUT` for a new resource, is sent with a location that specifies the desired new resource location, not the location of the parent object).
 
 `NullResource.MKCOL()` handles the valid case where a `MKCOL` request has been sent to a new resource.
-After checking that the resource does not already exist, that the parent is indeed a collection (folderish item), and that the parent is not locked, it calls the `MKCOL_handler()` method on the parent folder.
+After checking that the resource doesn't already exist, that the parent is indeed a collection (folderish item), and that the parent is not locked, it calls the `MKCOL_handler()` method on the parent folder.
 
 In Dexterity, the `MKCOL()_handler` is overridden to adapt `self` to an
 `IDirectoryFactory` from `zope.filerepresentation` and use this to create a directory.

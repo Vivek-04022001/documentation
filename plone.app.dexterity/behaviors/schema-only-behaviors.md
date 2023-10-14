@@ -107,7 +107,7 @@ The possible disadvantages are:
     In most cases, it will probably be sufficiently unique.
 -   If the attribute stores a large value, it will increase memory usage, as it will be loaded into memory each time the object is fetched from the ZODB.
     However, you should use blob to store large values and BTrees to store many values anyway.
-    Loading an object with a blob or BTree does not mean loading the entire data, so the memory overhead does not occur unless the whole blob or BTree is actually used.
+    Loading an object with a blob or BTree doesn't mean loading the entire data, so the memory overhead doesn't occur unless the whole blob or BTree is actually used.
 
 ```{note}
 "The moral of this story? BTrees do not always make things more efficient!" ~ Laurence Rowe

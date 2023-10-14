@@ -11,7 +11,7 @@ myst:
 
 # Language negotiation in Volto
 
-Volto does not rely on the configuration set in Plone's Language Control Panel to handle the redirection from the root of the site to the Language Root Folder.
+Volto doesn't rely on the configuration set in Plone's Language Control Panel to handle the redirection from the root of the site to the Language Root Folder.
 
 Volto has a setting in its own configuration stating whether a site is multilingual or not: `isMultilingual`.
 
@@ -23,7 +23,7 @@ As a last thing, you need to set your site's `defaultLanguage` to one of the `su
 
 When all these settings are configured, Volto's [`MultilingualRedirector`](https://github.com/plone/volto/blob/main/src/components/theme/MultilingualRedirector/MultilingualRedirector.jsx) will handle the language negotiation and the redirect.
 
-In its configuration, the component tries to match the `I18N_LANGUAGE` cookie set in the user's browser with the list of supported languages, and if the match does not succeed, it selects the default language configured in Volto.
+In its configuration, the component tries to match the `I18N_LANGUAGE` cookie set in the user's browser with the list of supported languages, and if the match doesn't succeed, it selects the default language configured in Volto.
 
 After that it does the redirection to the matched Language Root Folder.
 

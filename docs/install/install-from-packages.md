@@ -48,7 +48,7 @@ You may host multiple Plone sites on the same server.
     A UNIX-based operating system is recommended.
 
     ```{important}
-    Windows alone is not recommended because it does not support {term}`GNU make`.
+    Windows alone is not recommended because it doesn't support {term}`GNU make`.
     If you get Plone to run on Windows alone, please feel free to document and share your process.
     ```
 
@@ -104,7 +104,7 @@ See the [`nvm` install and update script documentation](https://github.com/nvm-s
 For the `fish` shell, see [`nvm.fish`](https://github.com/jorgebucaran/nvm.fish).
 ```
 
-1.  Create your shell profile, if it does not exist.
+1.  Create your shell profile, if it doesn't exist.
 
     ```shell
     touch ~/.bash_profile

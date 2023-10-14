@@ -76,7 +76,7 @@ After your Plone Contributor Agreement has been approved, and you have been adde
     Any method below is acceptable, but are listed in order of most likely to get a response.
 
     -   Search for open issues in the issue trackers of documented projects, and comment on them.
-        If an issue does not already exist for what you want to work on, then create a new issue in its issue tracker.
+        If an issue doesn't already exist for what you want to work on, then create a new issue in its issue tracker.
 
         As a convenience, at the top right of every page, there is a GitHub navigation menu.
         Tap, click, or hover over the GitHub Octocat icon for options.

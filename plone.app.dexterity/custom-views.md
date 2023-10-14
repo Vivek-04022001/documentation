@@ -196,7 +196,7 @@ Obviously, these views are very basic.
 Much more interesting views could be created by putting a little more work into the templates.
 
 You should also realize that you can create any type of view using this technique.
-Your view does not have to be related to a particular content type.
+Your view doesn't have to be related to a particular content type.
 You could set the context to `Interface`, for example, to make a view that's available on all types.
 
 

@@ -332,7 +332,7 @@ In addition, any field described in the type's schema will be available as a pro
 
 | Property/method | Type | Description |
 | -------------------- | ----------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| __name__ | unicode | The name (ID) of the object in its container. This is a Unicode string to be consistent with the Zope 3 `IContained` interface, although in reality it will only ever contain ASCII characters, since Zope 2 does not support non-ASCII URLs. |
+| __name__ | unicode | The name (ID) of the object in its container. This is a Unicode string to be consistent with the Zope 3 `IContained` interface, although in reality it will only ever contain ASCII characters, since Zope 2 doesn't support non-ASCII URLs. |
 | id | str | The name (ID) of the object in its container. This is an ASCII string encoding of the `__name__`. |
 | getId() | str | Returns the value of the `id` `property`.
 | isPrincipiaFolderish | bool/int | `True` (or `1`) if the object is a folder. `False` (or `0`) otherwise. |
@@ -340,7 +340,7 @@ In addition, any field described in the type's schema will be available as a pro
 | meta_type | str | A Zope 2 specific way to describe a class. Rarely, if ever, used in Dexterity. Do not set it on your own classes unless you know what you're doing. |
 | title_or_id() | str | Returns the value of the `title` property or, if this is not set, the `id` property. |
 | absolute_url() | str | The full URL to the content object. Will take virtual hosting and the current domain into account. |
-| getPhysicalPath() | tuple | A sequence of string path elements from the application root. Stays the same regardless of virtual hosting and domain. A common pattern is to use `'/'.join(context.getPhysicalPath())` to get a string representing the path to the Zope application root. Note that it's *not* safe to construct a relative URL from the path, because it does not take virtual hosting into account. |
+| getPhysicalPath() | tuple | A sequence of string path elements from the application root. Stays the same regardless of virtual hosting and domain. A common pattern is to use `'/'.join(context.getPhysicalPath())` to get a string representing the path to the Zope application root. Note that it's *not* safe to construct a relative URL from the path, because it doesn't take virtual hosting into account. |
 | title | unicode/str | Property representing the title of the content object. Usually part of an object's schema or provided by the `IBasic` behavior. The default is an empty string. |
 | Title() | unicode/str | Dublin Core accessor for the `title` property. Set the title by modifying this property. You can also use `setTitle()`. |
 | listCreators() | tuple | A list of user IDs for object creators. The first creator is normally the owner of the content object. You can set this list using the `setCreators()` method. |

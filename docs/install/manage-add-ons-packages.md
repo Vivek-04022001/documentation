@@ -65,7 +65,7 @@ If you want to check out a Plone core package for development, or want to overri
 plone.api>=2.0.0a3
 ```
 
-Unfortunately `pip` does not allow overriding constraints this way. 
+Unfortunately `pip` doesn't allow overriding constraints this way.
 {term}`mxdev` solves this issue.
 
 
@@ -80,7 +80,7 @@ Finally, it writes new combined requirements in {file}`requirements-mxdev.txt` a
 Together these two files contain the combined requirements and constraints, but modified according to the configuration in {file}`mx.ini`.
 The generated files indicate from where the constraints were fetched, and comments are added when a modification was necessary.
 
-`mxdev` does not run `pip` or install packages.
+`mxdev` doesn't run `pip` or install packages.
 You must perform that step.
 
 
@@ -393,7 +393,7 @@ The command `make build-backend`:
 -   This invokes the target `instance/etc/zope.ini`.
 -   This invokes the target `bin/pip`.
 
-    -   This creates a `Python` virtual environment if one does not exist.
+    -   This creates a `Python` virtual environment if one doesn't exist.
     -   It installs and upgrades Python package management tools in that virtual environment.
 
 -   Returning to the target `instance/etc/zope.ini`:

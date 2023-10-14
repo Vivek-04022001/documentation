@@ -134,7 +134,7 @@ Authors must use a proper [Pygments lexer](https://pygments.org/docs/lexers/) an
 
 The snippet must be valid syntax for the language you specify, else it will not be highlighted properly.
 Avoid adding comments to code snippets, unless you use valid comment syntax for that language.
-For example, JSON does not allow comments.
+For example, JSON doesn't allow comments.
 
 Do not indicate elided or omitted code with ellipses (`...` or `…`).
 These are almost never valid syntax and will cause syntax highlighting to fail for the code block.
@@ -143,7 +143,7 @@ These are almost never valid syntax and will cause syntax highlighting to fail f
 #### Choosing a Lexer
 
 Some lexers are less than perfect.
-If your code block does not highlight well, then consider specifying a less ambitious lexer, such as `text`.
+If your code block doesn't highlight well, then consider specifying a less ambitious lexer, such as `text`.
 
 Use `shell` for commands to be issued in a terminal session.
 Do not include shell prompts.
@@ -152,7 +152,7 @@ This will make commands easy to copy and paste for readers.
 Use `console` for output of a shell session.
 If you have a mix of a shell command and its output, then use `console`.
 
-If `xml` does not work well, then try `html`.
+If `xml` doesn't work well, then try `html`.
 
 `jsx` has a complex syntax that is difficult to parse.
 We have high hopes for the project [`jsx-lexer`](https://github.com/fcurella/jsx-lexer).

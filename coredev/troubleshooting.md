@@ -29,7 +29,7 @@ Let's take this one for example:
  pkg_resources.VersionConflict: (zc.buildout 1.5.1 (/usr/local/lib/python2.6/site-packages/zc.buildout-1.5.1-py2.6.egg), Requirement.parse('zc.buildout==1.5.2'))
 ```
 
-Buildout has simply noticed that the version of buildout required by the file `bootstrap.py` you are trying to run does not match the version of buildout in your Python library.
+Buildout has simply noticed that the version of buildout required by the file `bootstrap.py` you are trying to run doesn't match the version of buildout in your Python library.
 In the error above, your system has buildout 1.5.1 installed and the `bootstrap.py` file wants to run with 1.5.2.
 
 To fix, you have a couple options.
@@ -168,7 +168,7 @@ Try removing {file}`parts/*`, {file}`bin/*`, {file}`.installed.cfg`, then re-boo
 
 {file}`pil.cfg` is included within this buildout to aid in PIL installation.
 Run {command}`bin/buildout -c pil.cfg` to install.
-This method does not work on Windows.
+This method doesn't work on Windows.
 We're unable to run it by default.
 
 

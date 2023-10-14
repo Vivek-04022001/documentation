@@ -53,7 +53,7 @@ In `Dockerfile` replace the `yo @plone/volto` command with the `COPY . /build/pl
 
 ### Create a custom entry point
 
-The `plone-frontend` Docker image does not have a custom entry point file.
+The `plone-frontend` Docker image doesn't have a custom entry point file.
 For any commands you need to run when starting your Docker container, you will need to create it.
 
 After creating the `entrypoint.sh` file, make sure it has the execute permission:

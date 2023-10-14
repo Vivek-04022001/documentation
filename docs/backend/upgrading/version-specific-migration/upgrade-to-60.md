@@ -425,7 +425,7 @@ listing 16:16
 - The biggest scale now has a width of 1600 instead of 768.
 - The `large` scale was made slightly bigger: from 768 to 800.
 - All scales above `mini` have a height of 65536.
-  This does not mean you get an extremely high image.
+  This doesn't mean you get an extremely high image.
   It means only the width is taken into account when resizing the image.
   This is a better fit for most modern themes.
 

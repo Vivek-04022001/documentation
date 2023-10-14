@@ -89,7 +89,7 @@ The required steps are:
 
 1.  **Default Pages of Folders are merged with the Folderish Pages that replace the Folder**
 
-    Volto does not have a concept of default pages.
+    Volto doesn't have a concept of default pages.
     Instead, folderish pages can show text, a listing of all the content inside that page, or both.
     This step takes the content of the default page (such as text or the query of a collection), and adds that to the folderish page that replaces the folder.
     Metadata (subjects, author, rights, and so on) and relations are moved to the folderish page.

@@ -171,7 +171,7 @@ The following code translates `my_translateable_text` to the native language act
 ```
 
 ```{note}
-Since `my_translateable_text` is a `zope.i18nmessageid.message.Message` instance containing its own gettext domain information, the `i18n:domain` attribute in page templates does not affect message IDs declared through message factories.
+Since `my_translateable_text` is a `zope.i18nmessageid.message.Message` instance containing its own gettext domain information, the `i18n:domain` attribute in page templates doesn't affect message IDs declared through message factories.
 ```
 
 
@@ -261,8 +261,8 @@ environment-vars =
     zope_i18n_compile_mo_files true
 ```
 
-Note that the value does not matter.
-The code in `zope.i18n` looks for the mere existence of the variable, and does not care what is its value.
+Note that the value doesn't matter.
+The code in `zope.i18n` looks for the mere existence of the variable, and doesn't care what is its value.
 
 If you do not add that environment variable, you will need to provide the MO files in your package.
 To make this easier, and if you use [zest.releaser](https://pypi.org/project/zest.releaser/) to publish your packages, you can use [zest.pocompile](https://pypi.org/project/zest.pocompile/).

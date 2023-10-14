@@ -51,7 +51,7 @@ def isDefaultPageInFolder():
 def isStructuralFolder():
     """Checks if a given object is a "structural folder".
 
-    That is, a folderish item which does not explicitly implement
+    That is, a folderish item which doesn't explicitly implement
     INonStructuralFolder to declare that it doesn't wish to be treated
     as a folder by the navtree, the tab generation etc.
     """

@@ -32,7 +32,7 @@ The most common constraints are:
 
 ## Constraints
 
-If this does not suffice, you can pass your own constraint function to a field.
+If this doesn't suffice, you can pass your own constraint function to a field.
 The constraint function should take a single argument: the value that is to be validated.
 This will be the field's type.
 The function should return a boolean `True` or `False`.
@@ -43,7 +43,7 @@ def checkForMagic(value):
 ```
 
 ```{note}
-The constraint function does not have access to the context, but if you need to acquire a tool, you can use the `zope.component.hooks.getSite()` method to obtain the site root.
+The constraint function doesn't have access to the context, but if you need to acquire a tool, you can use the `zope.component.hooks.getSite()` method to obtain the site root.
 ```
 
 To use the constraint, pass the function as the `constraint` argument to the field constructor, for example:

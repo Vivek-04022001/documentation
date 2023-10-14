@@ -67,7 +67,7 @@ Implicit acquisition refers to the automatic inheritance of attributes from pare
 This is the default behavior in Zope, where objects automatically inherit attributes from their parent objects if they don't have the property defined themselves.
 For example, if object `A` contains object `B`, and object `A` has a property `x`, object `B` can implicitly acquire property `x` by accessing the property `x` via `B.x` without calling the `acquire` method.
 
-The attribute is always acquired from its nearest parent, and if it does not exist there, then it looks at the next parent up the hierarchy.
+The attribute is always acquired from its nearest parent, and if it doesn't exist there, then it looks at the next parent up the hierarchy.
 If the root is reached and no such attribute was found, an `AttributeError` is raised.
 
 A common use of implicit acquisition in Plone is to access tools such as the `portal_catalog` from deep within the object hierarchy.

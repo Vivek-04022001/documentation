@@ -185,7 +185,7 @@ For example, some `z3cform` things register their views on the `IPloneFormLayer`
 
 If you want to override the `ploneform-macros` view that is registered on the `IPloneFormLayer`, your own layer must be a subclass of `IPloneFormLayer`.
 
-If a view does not declare a specific layer, it becomes registered on the `IDefaultBrowserLayer` from `zope.publisher.interfaces.browser.IDefaultBrowserLayer`.
+If a view doesn't declare a specific layer, it becomes registered on the `IDefaultBrowserLayer` from `zope.publisher.interfaces.browser.IDefaultBrowserLayer`.
 
 
 (classic-ui-manual-layers-label)=

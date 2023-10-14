@@ -29,7 +29,7 @@ It must be added to your `profiles/default/metadata.xml` that way:
 
 ## JS/CSS bundle
 
-Plone 5 does not use `portal_css` and `portal_javascript` anymore.
+Plone 5 doesn't use `portal_css` and `portal_javascript` anymore.
 The add-on resources will have to be provided into a bundle.
 
 Add a file named `registry.xml` in your profile, containing:

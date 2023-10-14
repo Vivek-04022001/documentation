@@ -32,7 +32,7 @@ class ITestSchema(model.Schema):
 
 (richtext-label)=
 
-However, this approach does not allow for alternative markups or any form of content filtering.
+However, this approach doesn't allow for alternative markups or any form of content filtering.
 For that we need to use a more powerful field, `RichText`, from the [`plone.app.textfield`](https://pypi.org/project/plone.app.textfield/) package.
 
 ```python
@@ -93,7 +93,7 @@ class ITestSchema(model.Schema):
 
 ## The RichTextValue
 
-The `RichText` field does not store a string.
+The `RichText` field doesn't store a string.
 Instead, it stores a `RichTextValue` object.
 This is an immutable object that has the following properties.
 

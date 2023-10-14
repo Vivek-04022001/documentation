@@ -127,7 +127,7 @@ Since we want this behavior to provide form fields, we derive the behavior inter
 We also mark the `ITags` interface with `IFormFieldProvider` to signal that it should be processed for form fields by the standard forms.
 See the {doc}`Dexterity Developer Manual <../index>` for more information about setting form hints in schema interfaces.
 
-If your behavior does not provide form fields, you can just derive from `zope.interface.Interface` and omit the `alsoProvides()` line.
+If your behavior doesn't provide form fields, you can just derive from `zope.interface.Interface` and omit the `alsoProvides()` line.
 
 Next, we write the class that implements the behavior adapter and acts as the adapter factory.
 Notice how it implements the behavior interface (`ITags`), and adapts a broad interface `(IDexterityContent`).

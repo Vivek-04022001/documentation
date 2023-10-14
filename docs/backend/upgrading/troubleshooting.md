@@ -25,7 +25,7 @@ The log files are located in your project's `var/log` directory.
 Inspect `instance.log`.
 Ignore irrelevant warnings, and perform a case-insensitive search for words such as "error", "exception", and "traceback".
 
-When Zope does not start and there is no useful information in the log file, you can start Zope interactively.
+When Zope doesn't start and there is no useful information in the log file, you can start Zope interactively.
 
 Plone 6 command:
 
@@ -90,7 +90,7 @@ If the problem disappears, you will need to double-check the offending product.
 
 Create a new Plone site with your new version of Plone.
 You do not need a new Zope instance, because you can add another Plone site in the root of Zope.
-If the problem does not occur in a fresh site, the cause of your problem is most likely a customization, an installed product, or content that was not migrated properly.
+If the problem doesn't occur in a fresh site, the cause of your problem is most likely a customization, an installed product, or content that was not migrated properly.
 
 
 (upgrading-troubleshooting-make-the-problem-reproducible-label)=

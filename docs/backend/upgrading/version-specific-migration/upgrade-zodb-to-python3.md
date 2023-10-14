@@ -94,7 +94,7 @@ Python 2.7.14 (default, Sep 23 2017, 22:06:14)
 highest protocol among opcodes = 0
 ```
 
-Python 3 does not allow non-ASCII characters in bytes, the pickle declares the byte string as `SHORT_BINBYTES` and the string (Python 2 Unicode) as `BINUNICODE`.
+Python 3 doesn't allow non-ASCII characters in bytes, the pickle declares the byte string as `SHORT_BINBYTES` and the string (Python 2 Unicode) as `BINUNICODE`.
 
 ```console
 $ python3
@@ -390,7 +390,7 @@ Remember to uncomment them after the migration!
 
 ### Migration logs errors and warnings
 
-If there are log messages during the migration or during `zodbverify`, that does not necessarily mean the migration did not work, or that your database is broken.
+If there are log messages during the migration or during `zodbverify`, that doesn't necessarily mean the migration did not work, or that your database is broken.
 For example, if you migrated from Plone 4 to Plone 5, and then from Archetypes to Dexterity, it's very likely that items in the database cannot be loaded, because packages such as `Products.Archetypes`, `plone.app.blob`, or `plone.app.imaging` are not available.
 These items most likely remain, and were not removed properly and are not used.
 If your site otherwise works fine, you can choose to ignore these issues.

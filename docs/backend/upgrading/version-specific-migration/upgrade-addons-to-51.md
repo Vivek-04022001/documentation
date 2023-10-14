@@ -357,7 +357,7 @@ class NonInstallable(object):
 
     def getNonInstallableProducts(self):
         # (This used to be in CMFQuickInstallerTool.)
-        # Make sure this package does not show up in the add-ons
+        # Make sure this package doesn't show up in the add-ons
         # control panel:
         return ['collective.hidden.package']
 

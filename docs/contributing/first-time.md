@@ -90,7 +90,7 @@ Please don't be "that person".
     First see {ref}`Avoid duplicate effort <mistake-2-label>`.
     Next, any discussion method listed below is acceptable, and they are listed in the order of most likely to get a response.
     -   Search for open issues in the issue trackers of Plone projects on GitHub, and comment on them.
-    -   If an issue does not already exist for what you want to work on, then create a new issue in its issue tracker.
+    -   If an issue doesn't already exist for what you want to work on, then create a new issue in its issue tracker.
         Use a descriptive title and description, include steps to reproduce the issue, and screenshots or videos that demonstrate the issue.
     -   Discuss during sprints, conferences, trainings, and other Plone events.
     -   Discuss on the [Plone Community Forum](https://community.plone.org/).

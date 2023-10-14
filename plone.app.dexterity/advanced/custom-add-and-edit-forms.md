@@ -166,7 +166,7 @@ Add forms are always registered for any `IFolderish` context.
 ```{note}
 If the permission used for the add form is different from the `add_permission` set in the FTI, the user needs to have *both* permissions to be able to see the form and add content.
 For this reason, most add forms will use the generic `cmf.AddPortalContent` permission.
-The {guilabel}`add` menu will not render links to types where the user does not have the add permission stated in the FTI, even if this is different to `cmf.AddPortalContent`.
+The {guilabel}`add` menu will not render links to types where the user doesn't have the add permission stated in the FTI, even if this is different to `cmf.AddPortalContent`.
 ```
 
 As with edit forms, we can customize this form by overriding `z3c.form` and `plone.autoform` properties and methods.
