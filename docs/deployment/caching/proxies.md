@@ -52,7 +52,7 @@ Then a `PURGE` request could be sent to the proxy (originating from the backend,
 
 The final option, of course, is to avoid caching content in the proxy altogether.
 
-The default policies will not allow standard listing pages to be cached in the proxy, because it's too difficult to invalidate cached instances.
+The default policies won't allow standard listing pages to be cached in the proxy, because it's too difficult to invalidate cached instances.
 For example, if you change a content item's title, that may require invalidation of a number of pages where that title appears in the navigation tree, folder listings, `Collections`, portlets, and so on.
 Tracking all these dependencies and purging in an efficient manner is impossible unless the caching proxy configuration is highly customised for the site.
 

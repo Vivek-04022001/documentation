@@ -306,7 +306,7 @@ Layers are evaluated from zero index (highest priority) to the last index (lowes
 
 ## Testing layers
 
-Plone testing tool kits will not register layers for you.
+Plone testing tool kits won't register layers for you.
 You have to do it yourself somewhere in the boilerplate code, as shown in the following example.
 
 ```python

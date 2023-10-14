@@ -72,7 +72,7 @@ The following attributes are available for registering a static resource:
 
 `enabled`
 :   Whether the bundle is enabled or not.
-    If it's disabled, the bundle will not be loaded.
+    If it's disabled, the bundle won't be loaded.
 
 `jscompilation`
 :   The path to the compiled JavaScript file.

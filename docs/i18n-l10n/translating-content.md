@@ -57,7 +57,7 @@ No other thing should be outside them.
 After enabling multiple languages in your site, the Plone toolbar will provide menu items to translate your content to the available languages.
 
 Be careful!
-Plone will not translate the content for you.
+Plone won't translate the content for you.
 It will only create the content in the other language folders, and both LRFs' contents will be linked to the translations.
 
 Plone doesn't use any third party tools to automatically translate content.
@@ -82,7 +82,7 @@ LIFs are internally special folders that are linked to all languages and share t
 
 ```{note}
 It is not possible to have more than one LIF per language.
-Plone will not correctly work if you try to manually add more LIFs.
+Plone won't correctly work if you try to manually add more LIFs.
 That's the reason behind not being able to add more LIFs by default.
 ```
 

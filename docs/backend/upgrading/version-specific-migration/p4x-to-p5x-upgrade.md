@@ -48,8 +48,8 @@ They can be imported from a `GenericSetup` profile file named `userschema.xml`.
 
 If you have some custom member properties in your Plone site, be aware of the following.
 
--   Extra attributes defined in `memberdata_properties.xml` will be preserved, but they will not be automatically shown in the user profile and registration forms.
--   If you have implemented some custom forms to display your custom member attributes, they will not work anymore.
+-   Extra attributes defined in `memberdata_properties.xml` will be preserved, but they won't be automatically shown in the user profile and registration forms.
+-   If you have implemented some custom forms to display your custom member attributes, they won't work anymore.
     `plone.app.users` is now based on `z3c.form`.
     You can replace them by declaring their schema in `userschema.xml`.
 
@@ -293,7 +293,7 @@ The new registration will look something like:
 Notice how we have now added the `deps` property of `jquery`.
 This is not necessary—we are just giving an example that this script needs a global jQuery available.
 
-However, this alone will not get your JavaScript included.
+However, this alone won't get your JavaScript included.
 In order to modernize our JavaScript stack, Plone needed to make some changes with how it included JavaScript.
 All we have done so far is to define a resource.
 
@@ -363,7 +363,7 @@ require([
 ```
 
 Here the two dependencies are jQuery and the pattern registry.
-We will not get into the pattern registry, as it's off-topic for this discussion.
+We won't get into the pattern registry, as it's off-topic for this discussion.
 It is basically a registry of JavaScript components.
 
 The necessity for using it here is with AJAX calls and binding new {term}`DOM` elements dynamically added to the page.

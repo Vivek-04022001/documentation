@@ -383,7 +383,7 @@ This image supports running as a (mostly) arbitrary user via `--user` on `docker
 docker run --user="$(id -u)" -v $(pwd)/data:/data plone/plone-backend
 ```
 
-The main caveat to note is that some environment variables, such as `ADDONS` and `DEVELOP`, will not work:
+The main caveat to note is that some environment variables, such as `ADDONS` and `DEVELOP`, won't work:
 
 ```console
 $ docker run --user="$(id -u)" -v $(pwd)/data:/data -e ADDONS="eea.facetednavigation" plone/plone-backend

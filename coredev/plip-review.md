@@ -81,7 +81,7 @@ Report bugs or issues on GitHub as you would for any Plone bug.
 Reference the PLIP in the bug, assign to its implementer, and add a tag for the PLIP in the form of `plip-xxx`.
 This way the implementer can find help if they need it.
 Also set a priority for the ticket.
-The PLIP will not be merged until all blockers and critical bugs are fixed.
+The PLIP won't be merged until all blockers and critical bugs are fixed.
 
 
 ### Code Review

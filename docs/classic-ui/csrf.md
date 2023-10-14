@@ -28,7 +28,7 @@ If the token is missing or invalid, the request is rejected.
 
 In Plone, CSRF protection is done almost transparently by [`plone.protect`](https://pypi.org/project/plone.protect/).
 One important aspect of `plone.protect` is that it performs the CSRF token validation at the database transaction commit time (at the end of the request), rather than at the beginning of the request.
-This means that the view can execute and make changes to the database, but the changes will not be persisted unless a valid CSRF token is present in the request.
+This means that the view can execute and make changes to the database, but the changes won't be persisted unless a valid CSRF token is present in the request.
 
 When a logged-in user requests a page, Plone automatically includes the CSRF token in all forms by applying a transform (using `plone.transformchain`) that adds a hidden input with its value set to the token.
 This includes, but is not limited to the following:

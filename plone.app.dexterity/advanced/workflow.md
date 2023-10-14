@@ -72,7 +72,7 @@ A transition with no guard conditions is available to everyone, including the an
 
 Transitions are user-triggered by default, but may be **automatic**.
 An automatic transition triggers immediately following another transition, provided its guard conditions pass.
-It will not necessarily trigger as soon as the guard condition becomes true, as that would involve continually re-evaluating guards for all active workflows on all objects.
+It won't necessarily trigger as soon as the guard condition becomes true, as that would involve continually re-evaluating guards for all active workflows on all objects.
 
 When a transition is triggered, the `IBeforeTransitionEvent` and `IAfterTransitionEvent` **events**
 are triggered.

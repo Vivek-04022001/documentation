@@ -143,7 +143,7 @@ There are several ways in which you can influence the WebDAV behavior of your ty
     See [plone.dexterity.filerepresentation](https://github.com/plone/plone.dexterity/blob/master/plone/dexterity/filerepresentation.py) for the default implementations.
 
 As an example, let's register a custom `IFileFactory` adapter for the `IProgram` type.
-This adapter will not rely on the `content_type_registry` tool to determine which type to construct, but will instead create a `Session` object, since that is the only type that is allowed inside a `Program` container.
+This adapter won't rely on the `content_type_registry` tool to determine which type to construct, but will instead create a `Session` object, since that is the only type that is allowed inside a `Program` container.
 
 The code, in {file}`program.py`, is the following.
 

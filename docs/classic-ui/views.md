@@ -802,7 +802,7 @@ Then you can render the summary template in the main template associated with `P
 ```
 
 The `summarybox.pt` itself is a piece of HTML code without the Plone decoration frame (`main_template/master`, and other macros).
-Make sure that you declare the `i18n:domain` again, or the strings in this template will not be translated.
+Make sure that you declare the `i18n:domain` again, or the strings in this template won't be translated.
 
 ```html
 <div class="summary-box" i18n:domain="your.package">

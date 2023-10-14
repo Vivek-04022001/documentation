@@ -41,7 +41,7 @@ Follow these steps to migrate your database.
     See {doc}`upgrade-to-python3`.
 3.  Backup your database!
 4.  _Pack_ your database to _0 days_.
-    `zodbupdate` will not update your database history, will leave old objects in place, and you will not be able to pack your database in the future.
+    `zodbupdate` won't update your database history, will leave old objects in place, and you won't be able to pack your database in the future.
 5.  In your old buildout under Python 2, verify your database integrity using {py:mod}`zodbverify`.
     Solve integrity problems, if there are any.
 6.  Prepare your buildout for migrating the database to Python 3.
@@ -261,7 +261,7 @@ Committing changes (#1).
 ```
 
 ```{note}
-The blob storage (holding binary data of files and images) will not be changed or even be read during the migration, because the blobs only contain the raw binary data of the file or image.
+The blob storage (holding binary data of files and images) won't be changed or even be read during the migration, because the blobs only contain the raw binary data of the file or image.
 ```
 
 ```{note}

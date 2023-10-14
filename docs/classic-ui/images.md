@@ -215,7 +215,7 @@ You can also provide the following keyword arguments to set `title`, `alt`, or `
 
 ### Get `image_scale` by cached {term}`UID` name
 
-If you only have the cached image name from an URL and need to get the image scale, unfortunately you can't use `restrictedTraverse()`, as this will not be able to resolve the scale.
+If you only have the cached image name from an URL and need to get the image scale, unfortunately you can't use `restrictedTraverse()`, as this won't be able to resolve the scale.
 But you can use this workaround, by calling the `publishTraverse` method in `ImageScaling` directly:
 
 ```python

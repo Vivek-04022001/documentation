@@ -132,7 +132,7 @@ Pygments provides syntax highlighting in Sphinx.
 When including code snippets, you should specify the language.
 Authors must use a proper [Pygments lexer](https://pygments.org/docs/lexers/) and not generate warnings.
 
-The snippet must be valid syntax for the language you specify, else it will not be highlighted properly.
+The snippet must be valid syntax for the language you specify, else it won't be highlighted properly.
 Avoid adding comments to code snippets, unless you use valid comment syntax for that language.
 For example, JSON doesn't allow comments.
 
@@ -162,7 +162,7 @@ Please contribute to its further development.
 The lexers `html+ng2`, `scss`, `http`, `less` are also suboptimal and particular.
 
 If no other lexer works well, then fall back to `text`.
-At least then the build will succeed without warnings, although syntax highlighting for such snippets will not appear.
+At least then the build will succeed without warnings, although syntax highlighting for such snippets won't appear.
 
 
 #### Validate the lexer

@@ -54,6 +54,6 @@ On this URL, there is the commit hash, who committed it, the diff, the files, an
 -   The author receives the results of tests failing against kgs after ten minutes after the push.
 
 ```{note}
-In case of integration errors with other packages that may fail because of the push, kgs will not be aware of that.
+In case of integration errors with other packages that may fail because of the push, kgs won't be aware of that.
 It's important that at the end (and after the fifty minutes that takes the `coredev` jobs to complete), that you also check the latest version of `coredev` with your push.
 ```

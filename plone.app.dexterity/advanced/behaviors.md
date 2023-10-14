@@ -19,7 +19,7 @@ If the behavior is disabled, the adaptation will fail.
 The behavior interface can also be marked as an `IFormFieldsProvider`, in which case it will add fields to the standard add and edit forms.
 Finally, a behavior may imply a sub-type: a marker interface which will be dynamically provided by instances of the type for which the behavior is enabled.
 
-We will not cover writing new behaviors here, but we will show how to enable behaviors on a type.
+We won't cover writing new behaviors here, but we will show how to enable behaviors on a type.
 Writing behaviors is covered in {doc}`/backend/behaviors`.
 
 In fact, we've already seen one standard behavior applied to our example types, registered in the FTI and imported using GenericSetup.

@@ -140,7 +140,7 @@ Nothing changes.
 
 #### For developers
 
-By default, Plone uses `waitress` instead of `ZServer` as an HTTP server because `ZServer` will not be ported to Python 3.
+By default, Plone uses `waitress` instead of `ZServer` as an HTTP server because `ZServer` won't be ported to Python 3.
 Only when running on Python 2, you can still use `ZServer` by setting `wsgi = off` in the buildout part that configures the instance with `plone.recipe.zope2instance`.
 
 Some options that used to configure `ZServer` are no longer available in `plone.recipe.zope2instance` when running on `WSGI`.

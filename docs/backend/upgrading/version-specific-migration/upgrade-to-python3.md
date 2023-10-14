@@ -298,7 +298,7 @@ $ ./bin/test --all -s collective.package
 
 Remember that you can run `./bin/test -s collective.package -D` to enter a `pdb` session when an error occurs.
 
-With some luck, there will not be too many issues left with the code at this point.
+With some luck, there won't be too many issues left with the code at this point.
 
 If you are unlucky, then you have to fix doctests.
 These should be changed so that Python 3 is the default.

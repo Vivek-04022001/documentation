@@ -495,7 +495,7 @@ On a series of commits make sure the same code line is not changed twice,
 the worst thing you can do to the one reviewing your changes,
 is to make him/her spend time reviewing some code changes that one the next commit are changed again to do something else.
 
-It will not only make your commits smaller, but it will also make it easy to do atomic commits.
+It won't only make your commits smaller, but it will also make it easy to do atomic commits.
 
 ### No cleanup commits please
 

@@ -217,7 +217,7 @@ Name(s) of HTTP headers in the request that must match (in addition to the URL) 
 
 Set this to `True` if you want to force logged-in users to always get a fresh copy.
 
-This works best with the "moderate caching" operation, and will not work well with a `Max age` (to cache content in the browser) greater than zero.
+This works best with the "moderate caching" operation, and won't work well with a `Max age` (to cache content in the browser) greater than zero.
 
 By setting this option, you can focus the other cache settings on the anonymous use case.
 
