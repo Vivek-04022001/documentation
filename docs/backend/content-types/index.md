@@ -15,7 +15,7 @@ This part of the documentation describes how to develop content types in Plone.
 Content types are implemented through the {term}`Dexterity` framework.
 
 
-## What is a content type?
+## What's a content type?
 
 Each item in a Plone site is an instance of a particular content type.
 We have different content types to reflect the different kinds of information about which we need to collect and display information.

@@ -47,7 +47,7 @@ If you have ideas on new interactions or UI your ideas are more than welcome.
 We will help you pair up with implementers if needed.
 
 
-### What is a PLIP champion?
+### What's a PLIP champion?
 
 When you submit your PLIP and it's approved, a Framework Team member who is especially excited about seeing the PLIP completed will be assigned to your PLIP as a champion.
 
@@ -173,7 +173,7 @@ Please keep your eyes and inbox open for changes.
 
 These are the criteria by which the framework team will review your work:
 
--   What is size and status of the work needed to be done?
+-   What's size and status of the work needed to be done?
 -   Is it already an add-on and well established?
 -   Is this idea well baked and expressed clearly?
 -   Does the work proposed belong in Plone now, or in the future?
