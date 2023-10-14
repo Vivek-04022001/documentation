@@ -456,10 +456,10 @@ Warning: Missing factory for webdav.LockItem LockItem
 Warning: Missing factory for plone.app.blob.interfaces IATBlobFile
 Warning: Missing factory for Products.ATContentTypes.interfaces.file IATFile
 Warning: Missing factory for Products.ATContentTypes.interfaces.file IFileContent
-Error: cannot pickle modified record: Can't pickle <class 'Products.ResourceRegistries.tools.JSRegistry.JavaScript'>: attribute lookup Products.ResourceRegistries.tools.JSRegistry.JavaScript failed
+Error: can't pickle modified record: Can't pickle <class 'Products.ResourceRegistries.tools.JSRegistry.JavaScript'>: attribute lookup Products.ResourceRegistries.tools.JSRegistry.JavaScript failed
 Warning: Missing factory for plone.app.collection.collection Collection
 Warning: Missing factory for collective.flowplayer.media VideoInfo
-Error: cannot pickle modified record: Can't pickle <class 'Products.ResourceRegistries.tools.CSSRegistry.Stylesheet'>: attribute lookup Products.ResourceRegistries.tools.CSSRegistry.Stylesheet failed
+Error: can't pickle modified record: Can't pickle <class 'Products.ResourceRegistries.tools.CSSRegistry.Stylesheet'>: attribute lookup Products.ResourceRegistries.tools.CSSRegistry.Stylesheet failed
 Warning: Missing factory for Products.ResourceRegistries.interfaces.settings IResourceRegistriesSettings
 Warning: Missing factory for collective.js.jqueryui.controlpanel IJQueryUICSS
 Warning: Missing factory for collective.js.jqueryui.controlpanel IJQueryUIPlugins
