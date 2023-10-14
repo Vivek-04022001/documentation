@@ -291,7 +291,7 @@ The new registration will look something like:
 ```
 
 Notice how we've now added the `deps` property of `jquery`.
-This isn't necessary—we are just giving an example that this script needs a global jQuery available.
+This isn't necessary - we're just giving an example that this script needs a global jQuery available.
 
 However, this alone won't get your JavaScript included.
 In order to modernize our JavaScript stack, Plone needed to make some changes with how it included JavaScript.
