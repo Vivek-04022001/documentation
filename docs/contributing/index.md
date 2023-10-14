@@ -77,7 +77,7 @@ This is enforced by continuous integration through GitHub Actions.
 Plone uses [`towncrier`](https://github.com/collective/zestreleaser.towncrier) to manage change log entries and to automatically generate history or change log files from the entries.
 The log file is usually named `CHANGES.rst`, `CHANGES.md`, or `CHANGELOG.md`, and is located at the root of the project.
 When a project is released with a new version, the release manager runs `towncrier` as part of the release process.
-Because the log file is automatically generated, you should not edit it directly, except to make corrections, such as broken links.
+Because the log file is automatically generated, you shouldn't edit it directly, except to make corrections, such as broken links.
 
 To create a change log entry or news item, create a file that is placed in the root of the repository directory at `/news`.
 Its format must be `###.type`, where `###` is the referenced GitHub issue or pull request number, `.` is the literal extension delimiter, and `type` is one of the following strings.

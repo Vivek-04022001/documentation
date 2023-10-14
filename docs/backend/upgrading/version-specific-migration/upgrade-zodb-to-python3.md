@@ -269,7 +269,7 @@ The encoding should always be `utf8`, and will be used when porting database ent
 ```
 
 ```{note}
-The encoding fallback is optional and should not be provided by default.
+The encoding fallback is optional and shouldn't be provided by default.
 If a `UnicodeDecodeError` occurs, try to find out if the instance was configured with encodings different from `utf8`.
 Provide those encodings as the `--encoding-fallback` argument.
 If in doubt, try `latin1`, since this was in former times of Zope the default encoding.

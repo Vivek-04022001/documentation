@@ -359,7 +359,7 @@ This is done in such a way that it works, but it creates an unclear situation an
 
 The solution in Plone 6.0 was to create a package called `plone.base`.
 Some often used code from `Products.CMFPlone` and other packages was moved here.
-Backwards compatibility imports were kept in place, so this should not cause any breakage in add-ons.
+Backwards compatibility imports were kept in place, so this shouldn't cause any breakage in add-ons.
 You *will* get warnings in your logs, unless you have silenced them.
 For example when your code has `from Products.CMFPlone.utils import base_hasattr` you will see:
 

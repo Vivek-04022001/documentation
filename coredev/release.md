@@ -81,7 +81,7 @@ These are:
     bin/manage report --interactive
     ```
     
-    This step should not be needed, because we do the check for every single commit, but people may still have forgotten to add a package to the `checkouts.cfg` file.
+    This step shouldn't be needed, because we do the check for every single commit, but people may still have forgotten to add a package to the `checkouts.cfg` file.
 
 4.  Check packages individually.
 

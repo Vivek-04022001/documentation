@@ -180,7 +180,7 @@ The following command is a dry-run. It shows all changes that `modernize` would 
 
 ```{note}
 The `-x` option is used to exclude certain fixers.
-The one that adds `from __future__ import absolute_import` should not be used.
+The one that adds `from __future__ import absolute_import` shouldn't be used.
 See `./bin/python-modernize -l` for a complete list of fixers and the [fixers documentation](https://python-modernize.readthedocs.io/en/latest/fixers.html).
 ```
 

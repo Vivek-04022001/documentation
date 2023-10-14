@@ -10,7 +10,7 @@ myst:
 ```{todo}
 I seriously question the value of this entire guide.
 I think it should be purged.
-Plone should not be in the business of teaching how to use git or GitHub.
+Plone shouldn't be in the business of teaching how to use git or GitHub.
 ```
 
 # Working with Git and GitHub

@@ -62,7 +62,7 @@ The functions `getURL()`, `getPath()`, and `getObject()` can be used to get the 
 If you're working with references, parent objects, or a small number of child objects, it's usually OK to load objects directly to work with them.
 However, if you are working with a large or unknown-but-potentially-large number of objects, you should consider using catalog searches to find them, and use catalog metadata to store frequently used values.
 There is an important trade-off to be made between limiting object access and bloating the catalog with unneeded indexes and metadata, though.
-In particular, large strings (such as the body text of a document) or binary data (such as the contents of image or file fields) should not be stored as catalog metadata.
+In particular, large strings (such as the body text of a document) or binary data (such as the contents of image or file fields) shouldn't be stored as catalog metadata.
 ```
 
 Plone comes with a number of standard indexes and metadata columns.

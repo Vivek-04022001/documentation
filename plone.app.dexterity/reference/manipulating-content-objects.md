@@ -336,7 +336,7 @@ In addition, any field described in the type's schema will be available as a pro
 | id | str | The name (ID) of the object in its container. This is an ASCII string encoding of the `__name__`. |
 | getId() | str | Returns the value of the `id` `property`.
 | isPrincipiaFolderish | bool/int | `True` (or `1`) if the object is a folder. `False` (or `0`) otherwise. |
-| portal_type | str | The `portal_type` of this instance. Should match an FTI in the `portal_types` tool. For Dexterity types, should match a local utility providing `IDexterityFTI`. Note that the `portal_type` is a per-instance property set upon creation (by the factory), and should not be set on the class. |
+| portal_type | str | The `portal_type` of this instance. Should match an FTI in the `portal_types` tool. For Dexterity types, should match a local utility providing `IDexterityFTI`. Note that the `portal_type` is a per-instance property set upon creation (by the factory), and shouldn't be set on the class. |
 | meta_type | str | A Zope 2 specific way to describe a class. Rarely, if ever, used in Dexterity. Don't set it on your own classes unless you know what you're doing. |
 | title_or_id() | str | Returns the value of the `title` property or, if this is not set, the `id` property. |
 | absolute_url() | str | The full URL to the content object. Will take virtual hosting and the current domain into account. |

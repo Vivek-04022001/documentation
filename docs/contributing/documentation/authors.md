@@ -168,7 +168,7 @@ At least then the build will succeed without warnings, although syntax highlight
 #### Validate the lexer
 
 Always build the page to validate syntax.
-The change should not be merged if there are any Sphinx warnings.
+The change shouldn't be merged if there are any Sphinx warnings.
 The Sphinx console will display any warnings, such as the following.
 
 ```console
