@@ -40,7 +40,7 @@ The Plone site root object was neither: it was in its own class.
 In Plone 6, the site root itself is a Dexterity object.
 
 When you upgrade a site from Plone 5.2 to 6.0, at first you will see an empty site root.
-Do not panic.
+Don't panic.
 😱
 Your content is only temporarily invisible.
 Perform the standard migration via the `@@plone-upgrade` view, and your content will be visible again.

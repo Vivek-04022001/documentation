@@ -136,7 +136,7 @@ The snippet must be valid syntax for the language you specify, else it won't be 
 Avoid adding comments to code snippets, unless you use valid comment syntax for that language.
 For example, JSON doesn't allow comments.
 
-Do not indicate elided or omitted code with ellipses (`...` or `…`).
+Don't indicate elided or omitted code with ellipses (`...` or `…`).
 These are almost never valid syntax and will cause syntax highlighting to fail for the code block.
 
 
@@ -146,7 +146,7 @@ Some lexers are less than perfect.
 If your code block doesn't highlight well, then consider specifying a less ambitious lexer, such as `text`.
 
 Use `shell` for commands to be issued in a terminal session.
-Do not include shell prompts.
+Don't include shell prompts.
 This will make commands easy to copy and paste for readers.
 
 Use `console` for output of a shell session.

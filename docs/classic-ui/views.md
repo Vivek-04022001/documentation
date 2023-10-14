@@ -102,7 +102,7 @@ class MyView(BrowserView):
 ```
 
 ```{warning}
-Do not attempt to run any code in the `__init__()` method of a view.
+Don't attempt to run any code in the `__init__()` method of a view.
 If this code fails and an exception is raised, the `zope.component` machinery remaps this to a "View not found" exception or traversal error.
 
 Additionally, a view class may be instantiated in other places than where you intended to render the view.

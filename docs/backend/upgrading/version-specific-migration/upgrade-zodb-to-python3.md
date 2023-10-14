@@ -199,7 +199,7 @@ The `coredev` buildout already has this part.
 After re-running buildout, you will now have a new executable `./bin/zodbupdate`.
 
 ````{warning}
-Do not try to start Plone in Python 3 with the old database before migrating it!
+Don't try to start Plone in Python 3 with the old database before migrating it!
 Trying to do that will destroy the database and result in a traceback, such as the following.
 
 ```console

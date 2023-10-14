@@ -126,4 +126,4 @@ Once you have investigated, analyzed, identified, and confirmed the cause of you
 -   Add-ons: the README usually tells how to report bugs.
 -   [Plone issue tracker](https://github.com/plone/Products.CMFPlone/issues).
 
-Do not abuse the issue trackers by asking for support.
+Don't abuse the issue trackers by asking for support.

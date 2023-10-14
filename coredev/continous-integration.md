@@ -18,7 +18,7 @@ Though, there are some essential rules that needs to be followed in order to ach
 
 ## 1) Don't check in on a broken build
 
-Do not make things more complicated for the developer who is responsible for breaking the build.
+Don't make things more complicated for the developer who is responsible for breaking the build.
 
 If the build breaks, the developer has to identify the cause of the breakage as soon as possible and should fix it.
 If we adopt this strategy, we will always be in the best position to find out what caused the breakage and fix it immediately.
