@@ -219,7 +219,7 @@ class EditHeaderAnimationsView(FormWrapper):
     def __call__(self):
         """ """
 
-        # Signal viewlet layer that we are rendering
+        # Signal viewlet layer that we're rendering
         # edit view for header animations and it's not meaningful
         # to try to render the big animation on this page
         zope.interface.alsoProvides(self.request, INoHeaderLayer)

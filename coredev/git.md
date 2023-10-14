@@ -517,7 +517,7 @@ A series of commits like this:
 * 11ba28c Fix tests, again
 * 11ba28c Fix tests
 * 11ba28c Do something fancy
-* 11ba28c Failing test, we are doing TDD right?
+* 11ba28c Failing test, we're doing TDD right?
 ```
 
 Only tells you that the author did not take care at all about the one who will review it,

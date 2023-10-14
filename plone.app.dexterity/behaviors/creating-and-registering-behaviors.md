@@ -15,7 +15,7 @@ The following example is based on the [`collective.gtags`](https://pypi.org/proj
 It comes with a behavior that adds a `tags` field to the `Categorization` fieldset, storing the actual tags in the Dublin Core `Subject` field.
 
 `collective.gtags` is a standard package, with a `configure.zcml`, a GenericSetup profile, and a number of modules.
-We won't describe those here, though, since we are only interested in the behavior.
+We won't describe those here, though, since we're only interested in the behavior.
 
 First, there are a few dependencies in {file}`setup.py`.
 

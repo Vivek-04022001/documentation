@@ -188,7 +188,7 @@ You may also want to look up [`plone.namedfile`](https://pypi.org/project/plone.
 We will cover these field types later in this manual.
 They can also be found in the reference at the end.
 
-Unlike a standard interface, however, we are deriving from `model.Schema` (actually, `plone.supermodel.model.Schema`).
+Unlike a standard interface, however, we're deriving from `model.Schema` (actually, `plone.supermodel.model.Schema`).
 This is just a marker interface that allows us to add some form hints to the interface, which are then used by Dexterity (actually, the [`plone.autoform`](https://pypi.org/project/plone.autoform/) package) to construct forms.
 Take a look at the [`plone.autoform` documentation](https://pypi.org/project/plone.autoform/#introduction) to learn more about the various hints that are possible.
 The most common ones are from `plone.autoform.directives`.

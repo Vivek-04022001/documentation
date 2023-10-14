@@ -92,7 +92,7 @@ This means that you have introduced a regression bug into the application.
 
 It's **your responsibility**—because you made the change—to fix all tests that aren't passing as a result of your changes.
 
-There are some tests in Plone that fail randomly, we are always working on fixing those.
+There are some tests in Plone that fail randomly, we're always working on fixing those.
 If you think you hit such a test, try to fix it (better) or re-run the Jenkins job to see if it passes again.
 
 In any case the developer who made the commit is responsible to make it pass.
