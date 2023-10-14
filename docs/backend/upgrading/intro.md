@@ -24,7 +24,7 @@ When that's the case, the content that is stored in your Plone instance may not 
 To handle this situation, Plone has a built-in tool that migrates existing content to the new structure.
 
 Before migrating you should read this entire document, as well as {ref}`introduction-version-specific-upgrade-guides-label`, to understand the potential impact migrating will have on your Plone site.
-It is also wise to read the {doc}`troubleshooting` chapter, in case you run into any issues.
+It's also wise to read the {doc}`troubleshooting` chapter, in case you run into any issues.
 
 
 (introduction-versioning-policy-and-numbering-label)=
@@ -60,7 +60,7 @@ The version numbering would increase as in the following example.
 ````
 
 You don't have to expect any breaking changes from such a release.
-It is possible that the user interface changes, due to a new feature that has been added.
+It's possible that the user interface changes, due to a new feature that has been added.
 
 
 (introduction-versioning-policy-bugfix-patch-release-label)=
@@ -129,7 +129,7 @@ If you are at Plone 2.5 and want to upgrade to the latest Plone 6, you should ap
 Export all content and settings that you want to keep from an old site and import it into a fresh site.
 
 This approach allows you to migrate from Plone 4 to 6, from Python 2 to 3, and from Archetypes to Dexterity, in one migration step.
-It is recommended for large and complex migrations.
+It's recommended for large and complex migrations.
 
 The recommended tool for this is [`collective.exportimport`](https://github.com/collective/collective.exportimport).
 An alternative is `transmogrifier` (see the training {ref}`training-2022:transmogrifier-label`).
@@ -174,6 +174,6 @@ Using [collective.exportimport](https://pypi.org/project/collective.exportimport
 ### Plone 6.0: Volto as new frontend
 
 Plone 6.0 comes with a new default frontend called {term}`Volto`.
-It is written in React, and expects some subtle but important changes.
+It's written in React, and expects some subtle but important changes.
 
 See {ref}`backend-migrate-to-volto-label` for the specific migration steps.

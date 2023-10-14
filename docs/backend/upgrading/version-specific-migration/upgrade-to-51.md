@@ -341,7 +341,7 @@ In the {guilabel}`Image Handling Settings` control panel in {guilabel}`Site Setu
 Monitors that support this will show the extra sharp images.
 Others will fall back to show the standard image.
 
-It is disabled by default.
+It's disabled by default.
 You can enable it for showing double density (`2x`) or double and triple density (`2x, 3x`).
 The monitor of the visitor will show the best available density.
 
@@ -453,4 +453,4 @@ You can disable queuing altogether by setting the environment variable `CATALOG_
 CATALOG_OPTIMIZATION_DISABLED=1 ./bin/instance start
 ```
 
-It is a good idea to set `CATALOG_OPTIMIZATION_DISABLED=1` when upgrading if you get error messages related to the catalog.
+It's a good idea to set `CATALOG_OPTIMIZATION_DISABLED=1` when upgrading if you get error messages related to the catalog.

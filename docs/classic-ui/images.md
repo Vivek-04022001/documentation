@@ -374,7 +374,7 @@ This means the generated `srcset` will contain the scales from `preview` up to `
 
 #### Hiding a picture variant in editors
 
-It is possible to hide a picture variant in editors.
+It's possible to hide a picture variant in editors.
 This is useful when you want to define a picture variant to be used in templates only.
 
 ```json

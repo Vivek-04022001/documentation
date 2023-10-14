@@ -644,5 +644,5 @@ Thus the API for getting the target uses:
 -   `to_object`
 
 In addition, the relation value knows under which attribute it has been stored as `from_attribute`.
-It is usually the name of the field with which the relation is created.
+It's usually the name of the field with which the relation is created.
 But it can also be the name of a relation that is created by code, for example, through link integrity relations (`isReferencing`) or the relation between a working copy and the original (`iterate-working-copy`).

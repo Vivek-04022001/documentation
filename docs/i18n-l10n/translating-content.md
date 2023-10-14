@@ -22,7 +22,7 @@ This add-on is installed by default in your Plone site.
 
 ```{warning}
 This multilingual tool makes several assumptions about your content.
-It is recommended to work with these assumptions, not against them.
+It's recommended to work with these assumptions, not against them.
 You may choose to work against these assumptions, but be warned that along this path, "here be dragons".
 ```
 

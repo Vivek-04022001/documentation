@@ -12,11 +12,11 @@ myst:
 # Installation
 
 Caching support is implemented by the package `plone.app.caching`.
-It is already installed as a dependency of the [Plone](https://github.com/plone/plone) package.
+It's already installed as a dependency of the [Plone](https://github.com/plone/plone) package.
 It should be available on all Plone installations.
 
 Even though cache support is available in Plone, it's **not enabled by default**.
-It is highly recommended to configure caching for every new Plone site in production.
+It's highly recommended to configure caching for every new Plone site in production.
 
 
 (import-a-caching-profile-label)=

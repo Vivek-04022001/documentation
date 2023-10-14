@@ -112,7 +112,7 @@ The `presenter` relation field stores a number, which is the integer ID of the t
 Note that this ID is generated when the content object is created, and so is unlikely to be valid on a different site.
 The `details` field, which we marked as primary, is encoded in the body of the message.
 
-It is also possible to upload such a file to create a new session.
+It's also possible to upload such a file to create a new session.
 To do that, the `content_type_registry` tool needs to be configured with a predicate that can detect the type of content from the uploaded file and instantiate the correct type of object.
 Such predicates could be based on an extension or a filename pattern.
 Below, we will see a different approach that uses a custom "file factory" for the containing `Program` type.

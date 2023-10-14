@@ -71,7 +71,7 @@ When you are already using email as login, during the Plone 5.0 migration, the l
 
 When the email addresses aren't unique, for example you have both `joe@example.org` and `JOE@example.org`, the migration will _fail_.
 
-It is best is to fix this in your site in Plone 4
+It's best is to fix this in your site in Plone 4
 Change email addresses or remove no longer needed users.
 When there are only a few users, you can do this manually.
 To assist you in sites with many users, in Plone 4.1 and higher, you can add the [collective.emaillogin4](https://pypi.org/project/collective.emaillogin4) package to the eggs of your Plone instance.
@@ -364,7 +364,7 @@ require([
 
 Here the two dependencies are jQuery and the pattern registry.
 We won't get into the pattern registry, as it's off-topic for this discussion.
-It is basically a registry of JavaScript components.
+It's basically a registry of JavaScript components.
 
 The necessity for using it here is with AJAX calls and binding new {term}`DOM` elements dynamically added to the page.
 

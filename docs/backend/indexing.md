@@ -30,7 +30,7 @@ The most important indexes are described in the following sections.
 ## `SearchableText`
 
 The `SearchableText` is a `ZCTextIndex` for indexing full text.
-It is used by default for Dublin Core fields such as `Title`, `Description`, and `Text`.
+It's used by default for Dublin Core fields such as `Title`, `Description`, and `Text`.
 
 
 (backend-indexing-textindexer-label)=
@@ -167,7 +167,7 @@ There is already an adapter for converting files properly.
 ## Extending indexed data
 
 Sometimes you need to extend the `SearchableText` with additional data which isn't stored in a field.
-It is possible to register a named adapter which provides additional data.
+It's possible to register a named adapter which provides additional data.
 
 ```python
 from plone.app.dexterity import textindexer

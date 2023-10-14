@@ -252,7 +252,7 @@ Avoid animated GIFs because they don't allow control of playback.
 Audio isn't required, but may be helpful.
 If you include audio, it's helpful to include closed captions or a transcript.
 
-It is helpful to include overlays of key strokes, and mouse and other input gestures, to describe how to interact with the user interface.
+It's helpful to include overlays of key strokes, and mouse and other input gestures, to describe how to interact with the user interface.
 
 Paths to videos must resolve in both the main documentation and the submodule's documentation, if present.
 See {ref}`static-assets-label` for details.

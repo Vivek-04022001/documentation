@@ -47,7 +47,7 @@ However, it's normally better to add the item to a folder and then re-get it fro
 Note that the factory is normally installed as a local utility, so the `createObject()` call will only work once you've traversed over the Plone site root.
 
 There is a convenience method that can be used to create a Dexterity object.
-It is mostly useful in tests.
+It's mostly useful in tests.
 
 ```python
 from plone.dexterity.utils import createContent

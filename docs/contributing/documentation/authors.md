@@ -82,7 +82,7 @@ Please ask!
 ```{important}
 Before you add a link, consider whether you really need it for the documentation.
 Avoid linking to blog posts because they rapidly succumb to bitrot.
-It is preferred to copy the content from the source and add a link to the source as a reference through a `seealso` admonition or footnote, than to merely link to the source.
+It's preferred to copy the content from the source and add a link to the source as a reference through a `seealso` admonition or footnote, than to merely link to the source.
 ```
 
 Valid links are enforced automatically through Sphinx's `linkcheck` builder.

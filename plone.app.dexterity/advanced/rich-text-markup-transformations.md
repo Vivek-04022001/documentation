@@ -15,7 +15,7 @@ Many content items need to allow users to provide rich text in some kind of mark
 This markup typically needs to be transformed into HTML for the view template, but we also want to keep track of the original raw markup so that it can be edited again.
 Even when the input format is HTML, there is often a need for a transformation to tidy up the HTML and strip out tags that aren't permitted.
 
-It is possible to store HTML in a standard `Text` field.
+It's possible to store HTML in a standard `Text` field.
 You can even get a WYSIWYG widget, by using a schema such as the following.
 
 ```python

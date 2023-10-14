@@ -32,7 +32,7 @@ You can make the following changes through control panels.
 * Custom CSS in `custom.css`
 
 With `custom.css`, you can make custom styles without compilation.
-It is shipped as the last resource after all other CSS files.
+It's shipped as the last resource after all other CSS files.
 It can be used to override default CSS, sometimes with the use of the CSS property `!important` or specific CSS selectors.
 
 

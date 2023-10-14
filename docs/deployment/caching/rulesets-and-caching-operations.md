@@ -231,7 +231,7 @@ A list of variables in the request (including `Cookies`) that prevent caching if
 
 Note, unlike the other parameters above, this global parameter isn't directly visible in the {guilabel}`plone.app.caching` user interface.
 
-It is unlikely to need to change this list but, if needed, it can be edited via the {guilabel}`Configuration Registry` control panel.
+It's unlikely to need to change this list but, if needed, it can be edited via the {guilabel}`Configuration Registry` control panel.
 
 
 ## Caching operation helper functions
@@ -279,7 +279,7 @@ You should see output in the log like:
 
 The `None` indicates that no ruleset or operation was mapped.
 
-It is probably not a good idea to leave debug logging on for production use, as it can produce a lot of output, fill up log files, and add unnecessary load to your disks.
+It's probably not a good idea to leave debug logging on for production use, as it can produce a lot of output, fill up log files, and add unnecessary load to your disks.
 
 ## `Content-type` based rulesets
 

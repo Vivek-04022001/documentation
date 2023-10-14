@@ -217,7 +217,7 @@ Look in the `types.xml` file in your package's `example/conference/profiles/defa
 
 Note that the type name should be unique.
 If it isn't, use the package name as a prefix and the type name to create a unique name.
-It is important that the `meta_type` is `Dexterity FTI`.
+It's important that the `meta_type` is `Dexterity FTI`.
 The FTI specification is what makes this a Dexterity file type.
 The `types/` file name must match the type's name.
 

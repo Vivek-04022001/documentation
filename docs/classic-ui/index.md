@@ -18,7 +18,7 @@ Perhaps some of this introduction should be an include, so we don't have to repe
 Plone 6 ships with two user interfaces or frontends.
 
 The default frontend of Plone 6 is Volto.
-It is based on the React JavaScript framework.
+It's based on the React JavaScript framework.
 
 The other frontend is based on Twitter Bootstrap 5.
 This frontend is now called "Classic UI".

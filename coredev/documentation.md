@@ -70,7 +70,7 @@ If you do this, your `README.md` must link off site to the documentation.
 ### Reference or API documentation
 
 An API reference provides information about the package's public API (that is, the code that the package exposes for use from external code).
-It is meant for random access to remind the reader of how a particular class or method works, rather than for reading in its entirety.
+It's  meant for random access to remind the reader of how a particular class or method works, rather than for reading in its entirety.
 
 If the codebase is written with docstrings, API documentation can be automatically generated using Sphinx.
 

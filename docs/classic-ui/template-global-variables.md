@@ -33,7 +33,7 @@ It can be used as follows:
 <a href="${portal_url}/@@overview-controlpanel>Overview Controlpanel</a>
 ```
 
-It is basically a short cut for:
+It's basically a short cut for:
 
 ```xml
 <div tal:define="portal_url python: portal_state.portal_url()">

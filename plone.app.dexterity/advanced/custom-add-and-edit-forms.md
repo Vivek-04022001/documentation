@@ -73,7 +73,7 @@ Add forms are similar to edit forms in that they are built from a type's schema 
 However, for an add form to be able to construct a content object, it needs to know which `portal_type` to use.
 
 You should realize that the FTIs in the `portal_types` tool can be modified through the web.
-It is even possible to create new types through the web that reuse existing classes and factories.
+It's even possible to create new types through the web that reuse existing classes and factories.
 
 For this reason, add forms are looked up via a namespace traversal adapter called `++add++`.
 You may have noticed this in the URLs to add forms already.

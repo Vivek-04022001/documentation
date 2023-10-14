@@ -110,7 +110,7 @@ If you want to enable a behavior on an existing content type, create a new direc
 In the `types` directory, create a file named the same as the content type you want to change.
 In the example here, you want to add a behavior to the built-in `Event` content type.
 Create a file named `Event.xml`.
-It is a {term}`Factory Type Information` (FTI) definition.
+It's a {term}`Factory Type Information` (FTI) definition.
 You need to change only the behavior's configuration.
 All other parts can be ignored.
 The file `Event.xml` contains the following.

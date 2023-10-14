@@ -41,7 +41,7 @@ Don't forget to re-run buildout after making changes to {file}`setup.py`.
 We need to create a custom fixture.
 The usual pattern is to create a new layer class that has `PLONE_FIXTURE` as its default base, instantiating that as a separate "fixture" layer.
 This layer isn't to be used in tests directly, since it won't have test and transaction lifecycle management, but represents a shared fixture, potentially for both functional and integration testing.
-It is also the point of extension for other layers that follow the same pattern.
+It's also the point of extension for other layers that follow the same pattern.
 
 Once this fixture has been defined, "end-user" layers can be defined using the `IntegrationTesting` and `FunctionalTesting` classes.
 We'll add this in a {file}`testing.py` file.

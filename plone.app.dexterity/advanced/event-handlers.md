@@ -15,7 +15,7 @@ Zope (and so Plone) has a powerful event notification and subscriber subsystem.
 Events notifications are already fired at several places.
 
 With custom subscribers to these events, more dynamic functionality can be added.
-It is possible to react when something happens to objects of a specific type.
+It's possible to react when something happens to objects of a specific type.
 
 Zope's event model is *synchronous*.
 When an event is broadcast (via the `notify()` function from the [`zope.event`](https://pypi.org/project/zope.event/) package), all registered event handlers will be called.

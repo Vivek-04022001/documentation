@@ -11,11 +11,11 @@ myst:
 
 # Caching proxies
 
-It is common to place a caching reverse proxy in front of Zope when hosting large Plone sites.
+It's common to place a caching reverse proxy in front of Zope when hosting large Plone sites.
 If hosted by yourself, a popular option is {term}`Varnish`.
 There are commercial hosted CDN services including Cloudflare, CloudFront, Fastly, and more.
 
-It is important to realize that while `plone.app.caching` provides some functionality for controlling how Plone interacts with a caching proxy, the proxy itself must be configured separately.
+It's important to realize that while `plone.app.caching` provides some functionality for controlling how Plone interacts with a caching proxy, the proxy itself must be configured separately.
 
 Some operations in `plone.app.caching` can set response headers that instruct the caching proxy how to cache content best.
 For example, it's normally a good idea to cache static resources (such as images and stylesheets) and downloadable files in the proxy.

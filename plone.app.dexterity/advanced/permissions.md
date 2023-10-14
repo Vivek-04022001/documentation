@@ -20,7 +20,7 @@ In the context of developing content types, permissions are typically used in th
 -   Views (including forms) are sometimes protected by custom permissions.
 -   Individual fields are sometimes protected by permissions, so that some users can view and edit fields that others can't see.
 
-It is easy to create new permissions.
+It's easy to create new permissions.
 However, be aware that it's considered good practice to use the standard permissions wherever possible and use *workflow* to control which roles are granted these permissions on a per-instance basis.
 
 For more basic information on permissions and how to create custom permissions read the [Security Section](https://5.docs.plone.org/develop/plone/security/index.html) in the Plone documentation.
@@ -28,7 +28,7 @@ For more basic information on permissions and how to create custom permissions r
 
 ## Performing permission checks in code
 
-It is sometimes necessary to check permissions explicitly in code, for example, in a view.
+It's sometimes necessary to check permissions explicitly in code, for example, in a view.
 A permission check always checks a permission on a context object, since permissions can change with workflow.
 
 ```{note}
@@ -129,7 +129,7 @@ tracks = schema.List(
 ```
 
 The `TextLinesFieldWidget` is used to edit a list of text lines in a text area.
-It is imported as shown.
+It's imported as shown.
 
 ```python
 from plone.z3cform.textlines.textlines import TextLinesFieldWidget

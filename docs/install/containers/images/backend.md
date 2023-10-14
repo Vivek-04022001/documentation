@@ -74,7 +74,7 @@ docker run -p 8081:8081 -e LISTEN_PORT=8081 plone/plone-backend:{PLONE_BACKEND_M
 | `PROFILES` | Initialize site with additional profiles, for example, `eea.api.layout:default` |
 | `DELETE_EXISTING` | Force site to be recreated if it already exists, for example, `true` |
 
-It is possible to initialize your database with a Plone Site instance on its first run.
+It's possible to initialize your database with a Plone Site instance on its first run.
 To do so, pass the `SITE` environment variable with the name of the Plone Site instance, for example, `SITE=Plone`.
 This will add a Volto-ready Plone site.
 If you want a Plone Classic UI instance, pass the environment variable and value `TYPE=classic`.
@@ -228,7 +228,7 @@ These variables are used to configure [CORS](https://developer.mozilla.org/en-US
 
 ### Add-ons
 
-It is possible to include add-ons during startup time in a container created using this image.
+It's possible to include add-ons during startup time in a container created using this image.
 
 ```{warning}
 We advise against using this feature on production environments — the recommended method is to
@@ -276,7 +276,7 @@ fragments.  See {ref}`backend-extending-from-this-image-label` below for instruc
 
 ### Developing packages variable
 
-It is possible to install local packages instead of packages from pip.
+It's possible to install local packages instead of packages from pip.
 To do so, pass the `DEVELOP` environment variable with a space separated list of paths to Python packages to be installed.
 These packages will be installed with `pip install --editable`.
 

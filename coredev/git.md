@@ -384,7 +384,7 @@ As long as a commit is just and only about a specific purpose, and not a mixed s
 - fixing typos on documentation
 - pep8 fixes
 
-It is absolutely fine to refactor.
+It's  absolutely fine to refactor.
 
 And this is actually to help both your present self and your +5 years from now that will have to refactor that code of yours,
 and maybe is struggling to understand what was going on there.

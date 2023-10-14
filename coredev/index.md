@@ -10,7 +10,7 @@ myst:
 # Development in Plone
 
 This part describes the process of development in Plone.
-It is primarily a technical resource for setting up your development environment, fixing bugs, and writing Plone Improvement Proposals (PLIPs).
+It's primarily a technical resource for setting up your development environment, fixing bugs, and writing Plone Improvement Proposals (PLIPs).
 
 
 ## Plone Contributor Agreement

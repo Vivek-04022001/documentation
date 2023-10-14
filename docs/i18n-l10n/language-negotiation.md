@@ -68,7 +68,7 @@ The exact working of each of the negotiation options is implemented in the class
 Plone also sets a cookie with the language preference of the user.
 This cookie is called `I18N_LANGUAGE`.
 It must be declared as a "technical cookie".
-It is a session cookie, which means that it will be deleted after the user leaves the site.
+It's a session cookie, which means that it will be deleted after the user leaves the site.
 To obey the cookie setting, {guilabel}`Use cookie for manual override` should be set along with {guilabel}`Set the language cookie always`.
 
 Building websites with user interfaces in multiple languages is complicated due to the different expectations of the users and the difficulty of the configuration.

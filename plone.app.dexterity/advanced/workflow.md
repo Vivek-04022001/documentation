@@ -30,7 +30,7 @@ However, it's useful to be familiar with the high level concepts.
 You're unlikely to need multi-workflow chains in your first few attempts at workflow, for instance, but it's useful to know what it's if you come across the term.
 
 Plone's workflow system is known as DCWorkflow.
-It is a *states-and-transitions* system, which means that your workflow starts in a particular *state* (the *initial state*) and then moves to other states via *transitions* (also called *actions* in CMF).
+It's a *states-and-transitions* system, which means that your workflow starts in a particular *state* (the *initial state*) and then moves to other states via *transitions* (also called *actions* in CMF).
 
 When an object enters a particular state (including the initial state), the workflow is given a chance to update **permissions** on the object.
 A workflow manages a number of permissions—typically the "core" CMF permissions
@@ -93,7 +93,7 @@ The per-transition scripts are only called for the specific transitions for whic
 Workflows are mapped to types via the `portal_workflow` tool.
 There is a default workflow, indicated by the string `(Default)`.
 Some types have no workflow, which means that they hold no state information and typically inherit permissions from their parent.
-It is also possible for types to have *multiple workflows*.
+It's also possible for types to have *multiple workflows*.
 You can list multiple workflows by separating their names by commas.
 This is called a *workflow chain*.
 

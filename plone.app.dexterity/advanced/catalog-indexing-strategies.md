@@ -108,7 +108,7 @@ If child objects don't have attributes or methods with names corresponding to in
 ```
 
 Catalog indexes and metadata can be installed with the `catalog.xml` GenericSetup import step.
-It is useful to look at the one in Plone, located at {file}`parts/omelette/Products/CMFPlone/profiles/default/catalog.xml`.
+It's useful to look at the one in Plone, located at {file}`parts/omelette/Products/CMFPlone/profiles/default/catalog.xml`.
 
 As an example, let's index the `track` property of a `Session` in the catalog, and add a metadata column for this property as well.
 In {file}`profiles/default/catalog.xml`, we have the following code.
@@ -124,7 +124,7 @@ In {file}`profiles/default/catalog.xml`, we have the following code.
 ```
 
 Notice how we specify both the index name and the indexed attribute.
-It is possible to use an index name (the key you use when searching) that is different to the indexed attribute, although they are usually the same.
+It's possible to use an index name (the key you use when searching) that is different to the indexed attribute, although they are usually the same.
 The metadata column is just the name of an attribute.
 
 

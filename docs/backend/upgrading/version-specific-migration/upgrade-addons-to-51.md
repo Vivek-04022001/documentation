@@ -404,7 +404,7 @@ Content type icons where rendered as HTML tags, which were rendered with methods
 
 ```{note}
 Related code in `plone.app.layout` (especially `getIcon()` and `IContentIcon`) and other locations was more then deprecated.
-It is obsolete and confusing, and is getting removed.
+It's obsolete and confusing, and is getting removed.
 
 The catalog metadata item `getIcon` used to be a string containing the file name of the appropriate icon (unused since Plone 4).
 
@@ -572,7 +572,7 @@ You can also disable queuing altogether by setting the environment variable `CAT
 CATALOG_OPTIMIZATION_DISABLED=1 ./bin/instance start
 ```
 
-It is a good idea to try this when your tests are failing in Plone 5.1.
+It's a good idea to try this when your tests are failing in Plone 5.1.
 
 
 ## `CMFDefault` removal

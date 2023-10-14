@@ -9,7 +9,7 @@ myst:
 
 ```todo
 This should probably be purged.
-It is redundant to the default [CONTRUBITING.md](https://github.com/plone/.github/blob/main/CONTRIBUTING.md) and other files.
+It's  redundant to the default [CONTRUBITING.md](https://github.com/plone/.github/blob/main/CONTRIBUTING.md) and other files.
 ```
 
 % Note: this page is linked to from CONTRIBUTING.rst in all packages.  Keep it short!

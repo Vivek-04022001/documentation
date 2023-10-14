@@ -14,7 +14,7 @@ This chapter describes how to create custom validators for your type.
 Many applications require some form of data entry validation.
 The simplest form of validation you get for free, the [z3c.form](https://pypi.org/project/z3c.form/) library ensures that all data entered in Dexterity add and edit forms is valid for the field type.
 
-It is also possible to set certain properties on the fields to add further validation, or even create your own fields with custom validation logic, although that is a lot less common.
+It's also possible to set certain properties on the fields to add further validation, or even create your own fields with custom validation logic, although that is a lot less common.
 These properties are set as parameters to the field constructor when the schema interface is created.
 You should see the [zope.schema](https://pypi.org/project/zope.schema/) package for details.
 
@@ -53,7 +53,7 @@ my_field = schema.TextLine(title=_("My field"), constraint=checkForMagic)
 ```
 
 Constraints are easy to write, but don't necessarily produce very friendly error messages.
-It is possible to customize these error messages using `z3c.form` error view snippets.
+It's possible to customize these error messages using `z3c.form` error view snippets.
 See the [z3c.form documentation](https://z3cform.readthedocs.io/en/latest/) for more details.
 
 

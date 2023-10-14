@@ -56,14 +56,14 @@ See https://github.com/plone/documentation/issues/1323
 ## Test without customizations
 
 When you have customized page templates or Python scripts, your changes may interfere with changes in the new version of Plone.
-It is important to rule out this possibility.
+It's important to rule out this possibility.
 Your customizations are unique to your site, and no one on the planet will be able to help you solve it.
 
 Temporarily remove your customizations.
 Remove your layers from `portal_skins`.
 Remove files from these layers on the file system.
 If the problem disappears, you will need to double-check your customizations.
-It is usually best to copy the original files of the new version of Plone to your skin, and re-customize those.
+It's usually best to copy the original files of the new version of Plone to your skin, and re-customize those.
 
 
 (upgrading-troubleshooting-test-without-add-ons-label)=

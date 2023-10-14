@@ -233,7 +233,7 @@ This enables solving the problem by either adding a stub class in the code or by
 ## Migrate database using `zodbupdate`
 
 The migration of the database is run on Plone 5.2 in Python 3.
-It is expected to work the same in Python 3.6, 3.7, or 3.8.
+It's expected to work the same in Python 3.6, 3.7, or 3.8.
 
 Run the migration with appropriate arguments.
 

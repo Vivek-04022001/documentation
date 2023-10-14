@@ -10,7 +10,7 @@ myst:
 # Plone Improvement Proposals (PLIPs)
 
 A PLIP is a Plone Improvement Proposal.
-It is a change to a Plone package that would affect everyone.
+It's a change to a Plone package that would affect everyone.
 PLIPs go through a different process than bug fixes because of their broad reaching effect.
 The Plone Framework Team reviews all PLIPs to be sure that it's in the best interest of the broader community to be implemented and that it's of high quality.
 
@@ -102,7 +102,7 @@ If your PLIP is accepted and we haven't seen activity in over a year, we will pr
 ### What happens if your PLIP isn't accepted?
 
 If a PLIP isn't accepted in core, it doesn't mean it's a bad idea.
-It is often the case that there are competing implementations, and we want to see it vetted as an add-on before "blessing" a preferred implementation.
+It's often the case that there are competing implementations, and we want to see it vetted as an add-on before "blessing" a preferred implementation.
 
 
 ## Process Overview

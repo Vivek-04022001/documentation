@@ -30,7 +30,7 @@ For example, each content type has:
 -   a {ref}`workflow <backend-workflows-label>` controling transitions between publishing states and associated permissions
 -   a version policy controling whether to store a revision history
 
-It is common in developing a web site that you'll need customized versions of common content types, or perhaps even entirely new types.
+It's common in developing a web site that you'll need customized versions of common content types, or perhaps even entirely new types.
 
 
 ## Topics

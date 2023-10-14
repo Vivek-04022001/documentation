@@ -11,7 +11,7 @@ myst:
 
 This chapter describes the default values for fields on add forms.
 
-It is often useful to calculate a default value for a field.
+It's often useful to calculate a default value for a field.
 This value will be used on the add form before the field is set.
 
 To continue with our conference example, let's set the default values for the `start` and `end` dates to one week in the future and ten days in the future, respectively.
@@ -50,7 +50,7 @@ The `defaultFactory` is a function that will be called when the add form is load
 The value returned by the method should be a value that's allowable for the field.
 In the case of `Datetime` fields, that's a Python `datetime` object.
 
-It is also possible to write a context-aware default factory that will be passed the container for which the add form is being displayed.
+It's also possible to write a context-aware default factory that will be passed the container for which the add form is being displayed.
 
 ```python
 from zope.interface import provider
@@ -61,7 +61,7 @@ def getContainerId(context):
     return context.getId()
 ```
 
-It is possible to provide different default values depending on the type of context, a request layer, the type of form, or the type of widget used.
+It's possible to provide different default values depending on the type of context, a request layer, the type of form, or the type of widget used.
 See the [z3c.form](https://z3cform.readthedocs.io/en/latest/advanced/validator.html#look-up-value-from-default-adapter) documentation for more details.
 
 We'll cover creating custom forms later in this manual.

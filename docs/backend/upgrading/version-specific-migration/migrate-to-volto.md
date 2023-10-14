@@ -101,7 +101,7 @@ The required steps are:
     This step turns all collections into folderish pages.
     The criteria of the collection are used to configure a listing block in that page.
 
-It is recommended to use the default settings, but you can choose to skip some migration steps in the form.
+It's recommended to use the default settings, but you can choose to skip some migration steps in the form.
 
 ```{note}
 If you are migrating an existing site to Plone 6 using [{py:mod}`collective.exportimport`](https://pypi.org/project/collective.exportimport) and want to use Volto in the new site, then you don't need to use the form `@@migrate_to_volto`.

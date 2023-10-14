@@ -39,7 +39,7 @@ The ETag token names supported by default are:
 
 ## Additional tokens
 
-It is possible to provide additional tokens by registering an `IETagValue` adapter.
+It's possible to provide additional tokens by registering an `IETagValue` adapter.
 
 This should be a named adapter on the published object (typically a view, file resource, or Zope page template object) and request, with a unique name.
 
