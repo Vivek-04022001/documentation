@@ -135,7 +135,7 @@ Now you can edit your code without affecting the default branch.
 
 ```{note}
 The Plone organization is aware of the racially insensitive terms that exist in our projects.
-We are working to correct this mistake.
+We're working to correct this mistake.
 We ask for your patience as we work through complex automated workflows that need to be updated.
 ```
 

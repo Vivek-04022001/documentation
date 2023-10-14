@@ -164,4 +164,4 @@ Run `bin/buildout -c develop.cfg` to add your new product to the configuration, 
 
 The buildout should now configure Plone, Dexterity, and the `example.conference` package.
 
-We are now ready to start adding types.
+We're now ready to start adding types.
