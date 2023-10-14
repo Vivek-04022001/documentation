@@ -60,7 +60,7 @@ There are two kinds of directives.
 | Name     | Description                                                                                                                                               |
 | -------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | fieldset | Creates a new (or reuses an existing) fieldset (rendered in Plone as a tab on the edit form).                                                             |
-| primary  | Designate a given field as the primary field in the schema. This is not used for form rendering, but is used for WebDAV marshaling of the content object. |
+| primary  | Designate a given field as the primary field in the schema. This isn't used for form rendering, but is used for WebDAV marshaling of the content object. |
 
 The code sample below illustrates each of these directives.
 

@@ -18,10 +18,10 @@ This is done in two main ways:
     For example, some viewlets and portlets cache their rendered output in RAM for a time, alleviating the need to calculate them every time.
 -   Some caching operations may cache an entire response in memory, so that they can later intercept the request to return a cached response.
 
-Caching in RAM in Zope is not as efficient as caching in a proxy, for a number of reasons.
+Caching in RAM in Zope isn't as efficient as caching in a proxy, for a number of reasons.
 
 -   Zope still has to perform traversal, security, transaction management, and so on before serving a request with a RAM-cached response.
--   Zope's use of memory is not as efficient as that of a finely optimised caching proxy.
+-   Zope's use of memory isn't as efficient as that of a finely optimised caching proxy.
 -   Storing lots of content in RAM may compete with the standard ZODB object cache and other memory pools used by Zope, thus slowing down Zope overall.
 -   In multi-client ZEO setups, the RAM cache is (by default at least) not shared among instances, although it's shared among threads in that instance.
     Thus each Plone client process will maintain its own cache.
@@ -34,7 +34,7 @@ On the {guilabel}`Change settings` tab, you can also control the size of the cac
 
 The RAM cache exposed through `plone.memoize.ram` is looked up via an `ICacheChoser` utility.
 The default implementation looks up a `zope.ramcache.interfaces.ram.IRAMCache` utility.
-Plone installs a local utility (to allow its settings to be persisted; the cache itself is not persistent), which is shared by all users of the cache.
+Plone installs a local utility (to allow its settings to be persisted; the cache itself isn't persistent), which is shared by all users of the cache.
 
 You can provide your own `ICacheChooser` utility to change this policy, by installing this as a local utility or overriding it in `overrides.zcml`.
 One reason to do this may be to back the cache with a [memcached](https://memcached.org/) server, which would allow a single cache to be shared among multiple Zope clients.

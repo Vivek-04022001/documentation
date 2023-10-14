@@ -167,7 +167,7 @@ From [Web Accessibility In Mind (WebAIM)](https://webaim.org/techniques/alttext/
 
 > Alternative text serves several functions:
 > - It's read by screen readers in place of images allowing the content and function of the image to be accessible to those with visual or certain cognitive disabilities.
-> - It's displayed in place of the image in browsers if the image file is not loaded or when the user has chosen not to view images.
+> - It's displayed in place of the image in browsers if the image file isn't loaded or when the user has chosen not to view images.
 > - It provides a semantic meaning and description to images which can be read by search engines or be used to later determine the content of the image from page context alone.
 
 Accessibility is part of the [Plone brand and identity](https://plone.org/accessibility).
@@ -249,7 +249,7 @@ To embed local videos, such as recordings of demonstrating the user interface, w
 
 Avoid animated GIFs because they don't allow control of playback.
 
-Audio is not required, but may be helpful.
+Audio isn't required, but may be helpful.
 If you include audio, it's helpful to include closed captions or a transcript.
 
 It is helpful to include overlays of key strokes, and mouse and other input gestures, to describe how to interact with the user interface.

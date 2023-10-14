@@ -18,7 +18,7 @@ The same principle can be applied to event handlers, views, and other components
 
 ```{note}
 There is usually no need to use markers to enable a custom adapter since a standard behavior is already a conditional adapter.
-However, in certain cases, you may want to provide one or more adapters to an interface that is not the behavior interface, such as to use a particular extension point provided by another component.
+However, in certain cases, you may want to provide one or more adapters to an interface that isn't the behavior interface, such as to use a particular extension point provided by another component.
 In this case, it may be easier to set a marker interface and provide an adapter from this marker.
 ```
 

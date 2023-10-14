@@ -48,7 +48,7 @@ You may host multiple Plone sites on the same server.
     A UNIX-based operating system is recommended.
 
     ```{important}
-    Windows alone is not recommended because it doesn't support {term}`GNU make`.
+    Windows alone isn't recommended because it doesn't support {term}`GNU make`.
     If you get Plone to run on Windows alone, please feel free to document and share your process.
     ```
 

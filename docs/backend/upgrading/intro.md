@@ -162,7 +162,7 @@ Plone 5.2 added support for Python 3, while Plone 6.0 dropped support for Python
 This means that you can use Plone 5.2 to upgrade to Python 3.
 
 This requires that you run Plone in Python 3 and only use code that supports Python 3.
-It also requires that you migrate the database in a separate step from Python 2 to 3 while Plone is not running.
+It also requires that you migrate the database in a separate step from Python 2 to 3 while Plone isn't running.
 
 See the chapters {doc}`version-specific-migration/upgrade-to-python3` and {doc}`version-specific-migration/upgrade-zodb-to-python3` for detailed information on these steps.
 

@@ -222,7 +222,7 @@ Some of the more commonly used indexes are:
     To get the path of an object such as its parent folder, do `'/'.join(folder.getPhysicalPath())`.
     Searching for an object's path will return the object and any children.
     To limit the depth of the search, for example, to get only those paths one level deep, use a compound query, such as `path={'query': '/'.join(folder.getPhysicalPath()), 'depth': 1}`.
-    If `depth` is specified, the object at the given path is not returned, but any children within the depth limit are.
+    If `depth` is specified, the object at the given path isn't returned, but any children within the depth limit are.
 
 `object_provides`
 :   Used to match interfaces provided by the object.
@@ -252,7 +252,7 @@ In addition, the search results can be sorted based on any `FieldIndex`, `Keywor
 
 -   Use `sort_on='<index name>'` to sort on a particular index.
     For example, `sort_on='sortable_title'` will produce a sensible title-based sort.
-    `sort_on='Date'` will sort on the publication date, or the creation date if this is not set.
+    `sort_on='Date'` will sort on the publication date, or the creation date if this isn't set.
 -   Add `sort_order='reverse'` to sort in reverse.
     The default is `sort_order='ascending'`.
     `'descending'` can be used as an alias for `'reverse'`.

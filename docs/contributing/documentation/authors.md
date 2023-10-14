@@ -175,7 +175,7 @@ The Sphinx console will display any warnings, such as the following.
 /Plone/documentation/classic-ui/bodyclasses.md:10: WARNING: Could not lex literal_block as "python". Highlighting skipped.
 ```
 
-The above warning indicates that the syntax is not valid.
+The above warning indicates that the syntax isn't valid.
 Common mistakes include:
 
 - Using `...` or `…` to indicate omitted code.

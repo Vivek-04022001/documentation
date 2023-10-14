@@ -166,7 +166,7 @@ There is already an adapter for converting files properly.
 
 ## Extending indexed data
 
-Sometimes you need to extend the `SearchableText` with additional data which is not stored in a field.
+Sometimes you need to extend the `SearchableText` with additional data which isn't stored in a field.
 It is possible to register a named adapter which provides additional data.
 
 ```python
@@ -203,7 +203,7 @@ This is a **named** adapter!
 The named registration allows registering multiple extenders on different behavior interfaces applying to the same object.
 The name of the adapter doesn't matter, but it's recommended to use the name of the behavior to reduce potential conflicts.
 
-If your behavior has a defined factory (which is not attribute storage), then you need to define a marker interface and register the adapter on this marker interface. 
+If your behavior has a defined factory (which isn't attribute storage), then you need to define a marker interface and register the adapter on this marker interface. 
 Dexterity objects don't provide behavior interfaces of behaviors, which aren't using attribute storage.
 
 

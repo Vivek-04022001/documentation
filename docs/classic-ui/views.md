@@ -13,7 +13,7 @@ myst:
 
 Views are the basic elements of modern Python web frameworks.
 A {term}`view` runs code to set up Python variables for a rendering template.
-The output is not limited to HTML pages and snippets, but may contain {term}`JSON`, file download payloads, or other data formats.
+The output isn't limited to HTML pages and snippets, but may contain {term}`JSON`, file download payloads, or other data formats.
 
 Views are usually a combination of:
 
@@ -1016,7 +1016,7 @@ Specifically:
 
 ### Allow the `contentmenu` on non-default views
 
-In general, the {guilabel}`contentmenu` (where the actions, display views, factory types, workflow, and other select menus are located) is not shown on non-default views.
+In general, the {guilabel}`contentmenu` (where the actions, display views, factory types, workflow, and other select menus are located) isn't shown on non-default views.
 There are some exceptions, though.
 
 If you want to display the {guilabel}`contentmenu` in such non-default views, you have to mark them with the `IViewView` interface from `plone.app.layout`, either by letting the class provide `IViewView` by declaring it with `zope.component.implements` or by configuring it via ZCML as follows:

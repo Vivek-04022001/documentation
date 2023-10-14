@@ -291,7 +291,7 @@ The new registration will look something like:
 ```
 
 Notice how we have now added the `deps` property of `jquery`.
-This is not necessary—we are just giving an example that this script needs a global jQuery available.
+This isn't necessary—we are just giving an example that this script needs a global jQuery available.
 
 However, this alone won't get your JavaScript included.
 In order to modernize our JavaScript stack, Plone needed to make some changes with how it included JavaScript.
@@ -325,7 +325,7 @@ This defines the compiled resource used in production mode.
 
 Yes, we know.
 We tried very hard to figure out the easiest way to modernize Plone's JavaScript development stack.
-The old, sequential inclusion is not useful these days.
+The old, sequential inclusion isn't useful these days.
 
 That being said, adding resources, bundles and compiling them can all be done Through The Web (TTW) in the new Resource Registries configuration panel.
 That way you can turn on development mode, compile your resources and then copy that compiled version into your package for distribution.
@@ -370,7 +370,7 @@ The necessity for using it here is with AJAX calls and binding new {term}`DOM` e
 
 Additionally, above this `require` call, we provide some backward compatible code that you can inspect.
 
-It is not necessary in this case, but we added it to show how someone could make their script work when requirejs was available and when it was not.
+It isn't necessary in this case, but we added it to show how someone could make their script work when requirejs was available and when it was not.
 
 
 ### Caveats
@@ -446,7 +446,7 @@ An example might be the following.
 
 The value you use for this CSS rule should identify one of the fontello icons included in Plone, or a font-based icon provided by your package itself.
 
-It is not possible at this time to set an icon for your add-on package control panels without including CSS in your package.
+It isn't possible at this time to set an icon for your add-on package control panels without including CSS in your package.
 
 For documentation on how to use it in your own add-ons see {doc}`training:mastering-plone-5/registry`.
 

@@ -17,7 +17,7 @@ As a result, composite views are typically challenging to remove reliably from c
 To address this issue, the default caching profiles set headers that expire the cache immediately, a process known as *weak caching*.
 
 However, the inline resources linked from the composite view—such as CSS, JavaScript, and images—can typically be cached effectively in proxies.
-As a result, caching proxies can improve the overall speed of most composite views, even if the page itself is not cached.
+As a result, caching proxies can improve the overall speed of most composite views, even if the page itself isn't cached.
 
 For relatively stable composite views or views where some staleness is tolerable, it may be tempting to switch from *weak caching* to *terse caching* with the `s-maxage` expiration value set to 60 seconds by default.
 

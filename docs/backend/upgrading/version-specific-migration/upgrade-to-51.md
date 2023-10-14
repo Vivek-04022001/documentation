@@ -320,7 +320,7 @@ Options are: `relevance`, `date (newest first)`, and `alphabetically`.
 
 ```{versionadded} 5.1
 This feature was backported to Plone 4.3.12.
-It is not in Plone 5.0 though.
+It isn't in Plone 5.0 though.
 ```
 
 

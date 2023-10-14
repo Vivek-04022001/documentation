@@ -122,7 +122,7 @@ When working with vocabularies, you'll come across some terminology that is wort
     It's the value passed with the request when the form is submitted.
     A token must uniquely identify a term.
 -   The *value* is the actual value stored on the object.
-    This is not passed to the browser or used in the form.
+    This isn't passed to the browser or used in the form.
     The value is often a Unicode object, but can be any type of object.
 -   The *title* is a Unicode object or translatable message (`zope.i18nmessageid`).
     It's used in the form.
@@ -290,7 +290,7 @@ organizer = schema.Choice(
 ## The autocomplete selection widget
 
 The `organizer` field now has a query-based source.
-The standard selection widget (a drop-down list) is not capable of rendering such a source.
+The standard selection widget (a drop-down list) isn't capable of rendering such a source.
 Instead, we need to use a more powerful widget.
 For a basic widget, see [`z3c.formwidget.query`](https://pypi.org/project/z3c.formwidget.query/).
 But, in a Plone context, you will more likely want to use [`plone.formwidget.autocomplete`](https://pypi.org/project/plone.formwidget.autocomplete/), which extends `z3c.formwidget.query` to provide a friendlier user interface.

@@ -268,7 +268,7 @@ The following FTI properties are used only in Classic UI:
 
 `default_view_fallback`
 :   Boolean.
-    If `True`, the `default_view` will be used if the assigned view is not found.
+    If `True`, the `default_view` will be used if the assigned view isn't found.
 
 `icon_expr`
 :   {term}`TALES` expression returning the name of one of the registered icons.

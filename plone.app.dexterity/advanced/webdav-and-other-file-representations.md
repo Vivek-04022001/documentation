@@ -239,7 +239,7 @@ If the `IRawReadFile` adapter is also an `IStreamIterator`, it will be returned 
 This provides for efficient serving of large files, although it does require that the file can be read in its entirety with the ZODB connection closed.
 Dexterity solves this problem by writing the file content to a temporary file on the server.
 
-If the `IRawReadFile` adapter is not a stream iterator, its contents are returned as a string, by calling its `read()` method.
+If the `IRawReadFile` adapter isn't a stream iterator, its contents are returned as a string, by calling its `read()` method.
 Note that this loads the entire file contents into memory on the server.
 
 The default `IRawReadFile` implementation for Dexterity content returns an {RFC}`2822`-style message document.
@@ -375,7 +375,7 @@ A `MKCOL` request is used to create a new collection resource, in other words, c
 (remember that in WebDAV, the `MKCOL` request, like a `PUT` for a new resource, is sent with a location that specifies the desired new resource location, not the location of the parent object).
 
 `NullResource.MKCOL()` handles the valid case where a `MKCOL` request has been sent to a new resource.
-After checking that the resource doesn't already exist, that the parent is indeed a collection (folderish item), and that the parent is not locked, it calls the `MKCOL_handler()` method on the parent folder.
+After checking that the resource doesn't already exist, that the parent is indeed a collection (folderish item), and that the parent isn't locked, it calls the `MKCOL_handler()` method on the parent folder.
 
 In Dexterity, the `MKCOL()_handler` is overridden to adapt `self` to an
 `IDirectoryFactory` from `zope.filerepresentation` and use this to create a directory.

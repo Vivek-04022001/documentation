@@ -66,9 +66,9 @@ This option is the quickest method to install and develop for Plone 6 and its pa
 
 ### Packages
 
-There may be some cases where using a Plone 6 image and containers is not practical or desired.
+There may be some cases where using a Plone 6 image and containers isn't practical or desired.
 
--   You use an SQL database that is not PostgreSQL.
+-   You use an SQL database that isn't PostgreSQL.
 -   You develop custom applications, themes, and add-ons for Plone.
 -   You use a deployment workflow that has specific requirements.
 

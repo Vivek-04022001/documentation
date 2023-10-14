@@ -15,12 +15,12 @@ Behaviors, like any other code, should be tested.
 If you write a behavior with just a marker interface or schema interface, it's probably not necessary to test the interface.
 However, any actual code, such as a behavior adapter factory, ought to be tested.
 
-Writing a behavior integration test is not very difficult if you are happy to depend on Dexterity in your test.
+Writing a behavior integration test isn't very difficult if you are happy to depend on Dexterity in your test.
 You can create a dummy type by instantiating a Dexterity FTI in `portal_types`.
 Then enable your behavior by adding its interface name to the `behaviors` property.
 
 In many cases, however, it's better not to depend on Dexterity at all.
-It is not too difficult to mimic what Dexterity does to enable behaviors on its types.
+It isn't too difficult to mimic what Dexterity does to enable behaviors on its types.
 The following example is taken from `collective.gtags` and tests the `ITags` behavior we saw on the first page of this manual.
 
 
@@ -134,8 +134,8 @@ True
 ```
 
 This test tries to prove that the behavior is correctly installed and works as intended on a suitable content class.
-It is not a true unit test, however.
-For a true unit test, we would test the `Tags` adapter directly on a dummy context, but that is not terribly interesting, since all it does is convert sets to tuples.
+It isn't a true unit test, however.
+For a true unit test, we would test the `Tags` adapter directly on a dummy context, but that isn't terribly interesting, since all it does is convert sets to tuples.
 
 First, we configure the package.
 To keep the test small, we limit ourselves to the {file}`behaviors.zcml` file, which in this case will suffice.
@@ -197,7 +197,7 @@ Let's say you want to test your Dexterity type when a behavior is enabled or dis
 To do this, you will need to setup the behavior in your test.
 There is an example of this kind of test in the `collective.cover` product.
 There is a behavior that adds the capability for the cover page to refresh itself.
-The test checks if the behavior is not yet enabled, enables the behavior, check its effect, and then disables it again.
+The test checks if the behavior isn't yet enabled, enables the behavior, check its effect, and then disables it again.
 
 ```python
 # -*- coding: utf-8 -*-

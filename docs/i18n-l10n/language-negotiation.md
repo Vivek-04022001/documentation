@@ -20,14 +20,14 @@ Language negotiation is a function of the HTTP protocol.
 It lets a server choose among several language versions of a page based on the URL and preference information sent by the browser.
 
 Plone Classic UI uses specific rules to select the language in which the user interface is presented to the end user.
-There are two distinct use cases: when `plone.app.multilingual` is not enabled and when it is.
+There are two distinct use cases: when `plone.app.multilingual` isn't enabled and when it is.
 
 
 (language-negotiation-plone.app.multilingual-is-not-enabled-label)=
 
-## `plone.app.multilingual` is not enabled
+## `plone.app.multilingual` isn't enabled
 
-When `plone.app.multilingual` is not installed, but the site administrator configures multiple languages in Plone, Plone only allows changing the language of the user interface.
+When `plone.app.multilingual` isn't installed, but the site administrator configures multiple languages in Plone, Plone only allows changing the language of the user interface.
 This means that the language chooser links on the top of the page will only have effect for the user interface elements presented to the user.
 These user interface elements may include search form options, editing interface messages, portal message statuses, and so on.
 
@@ -48,7 +48,7 @@ When I toggled it, nothing changed.
 Does it actually do anything?
 ```
 
-By default, the {guilabel}`Always show language selector` option is not enabled, but it's required if the user wants to offer the language change in the interface.
+By default, the {guilabel}`Always show language selector` option isn't enabled, but it's required if the user wants to offer the language change in the interface.
 
 By selecting the {guilabel}`Negotiation scheme` tab, the site administrator can configure how Plone will select a language to present to each user.
 

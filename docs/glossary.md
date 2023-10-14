@@ -512,7 +512,7 @@ ZCA
 Zope Component Architecture
     Zope Component Architecture (ZCA) is a Python framework for supporting component based design and programming.
     It's very well suited to developing large Python software systems.
-    The ZCA is not specific to the Zope web application server.
+    The ZCA isn't specific to the Zope web application server.
     It can be used for developing any Python application.
     Maybe it should be called Python Component Architecture.
     ```{seealso}
@@ -635,7 +635,7 @@ Node.js
 view
     A view is the basic element of modern Python web frameworks.
     A view runs code to set up Python variables for a rendering template.
-    The output is not limited to HTML pages and snippets, but may contain {term}`JSON`, file download payloads, or other data formats.
+    The output isn't limited to HTML pages and snippets, but may contain {term}`JSON`, file download payloads, or other data formats.
 
 traversal
     Traversal is the process of determining the object that is the target of a request by examining the URL path of the request or in code, and looking up objects in the object hierarchy.

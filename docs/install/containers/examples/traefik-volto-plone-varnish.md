@@ -200,7 +200,7 @@ sub vcl_recv {
 }
 
 sub vcl_pipe {
-  /* This is not necessary if you don't do any request rewriting. */
+  /* This isn't necessary if you don't do any request rewriting. */
   set req.http.connection = "close";
 }
 

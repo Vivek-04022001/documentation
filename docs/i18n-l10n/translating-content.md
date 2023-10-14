@@ -81,7 +81,7 @@ Plone will take care of showing you any content uploaded to those LIFs in all la
 LIFs are internally special folders that are linked to all languages and share the internal structure that saves content objects.
 
 ```{note}
-It is not possible to have more than one LIF per language.
+It isn't possible to have more than one LIF per language.
 Plone won't correctly work if you try to manually add more LIFs.
 That's the reason behind not being able to add more LIFs by default.
 ```
@@ -99,12 +99,12 @@ The language control panel provides several ways to configure this widget:
 -   {guilabel}`General > Show language flags`.
     It's common to use flags to identify languages.
     Enabling this option will do it for you.
-    However, this is not considered a best practice because country flags don't necessarily represent a language.
+    However, this isn't considered a best practice because country flags don't necessarily represent a language.
     Why should one use a Spanish flag to identify the Spanish language when browsing a South American, English-Spanish bilingual site?
     It's recommended to disable the {guilabel}`Show language flags` option.
 
 -   {guilabel}`Multilingual > The policy used to determine how the lookup for available translations will be made by the language selector.`
-    What to do when a given content is not translated to another language?
+    What to do when a given content isn't translated to another language?
     Which link should Plone show, if any?
     Plone provides two policy options to choose from to configure such scenarios.
  

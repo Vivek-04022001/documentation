@@ -327,11 +327,11 @@ do so with {command}`git add --patch`.
 
 The `--patch` (also `-p`) switch allows you to select which hunks you want to add on a commit.
 
-This is not only great to split changes into different commits,
+This isn't only great to split changes into different commits,
 but is also the time when you actually **review** your code before anyone else sees it.
 
 This is the time when you spot typos, pep8 errors, misaligned code, lack of docstrings in methods,
-that a permission is not defined on Generic Setup, that an upgrade should be needed...
+that a permission isn't defined on Generic Setup, that an upgrade should be needed...
 
 Remember that the first code review is the one you do on your own.
 Some inspiration/better phrasing:
@@ -491,7 +491,7 @@ which is a shame.
 
 ### One line one commit
 
-On a series of commits make sure the same code line is not changed twice,
+On a series of commits make sure the same code line isn't changed twice,
 the worst thing you can do to the one reviewing your changes,
 is to make him/her spend time reviewing some code changes that one the next commit are changed again to do something else.
 
@@ -522,7 +522,7 @@ A series of commits like this:
 
 Only tells you that the author did not take care at all about the one who will review it,
 and specially about the person that in +5 years will try to understand that test.
-Specially because now the test is not only spread between 4 commits, but most probably during those 5 years
+Specially because now the test isn't only spread between 4 commits, but most probably during those 5 years
 it has already been refactored, maybe a {command}`git blame` will report that within that test method,
 there are +5 related current commits to check, not nice right?
 

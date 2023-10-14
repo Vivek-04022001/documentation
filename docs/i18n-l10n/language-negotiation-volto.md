@@ -27,7 +27,7 @@ In its configuration, the component tries to match the `I18N_LANGUAGE` cookie se
 
 After that it does the redirection to the matched Language Root Folder.
 
-If the site is not configured to be multilingual, Volto doesn't do any redirect.
+If the site isn't configured to be multilingual, Volto doesn't do any redirect.
 
 ## Overriding the default behavior
 

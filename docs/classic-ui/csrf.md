@@ -31,7 +31,7 @@ One important aspect of `plone.protect` is that it performs the CSRF token valid
 This means that the view can execute and make changes to the database, but the changes won't be persisted unless a valid CSRF token is present in the request.
 
 When a logged-in user requests a page, Plone automatically includes the CSRF token in all forms by applying a transform (using `plone.transformchain`) that adds a hidden input with its value set to the token.
-This includes, but is not limited to the following:
+This includes, but isn't limited to the following:
 
 - add and edit forms
 - control panels
@@ -39,7 +39,7 @@ This includes, but is not limited to the following:
 
 ## Manual protection
 
-To ensure that code that is not part of a database transaction—such as code that writes to an external API or a service that is not automatically included in the transaction mechanism—is protected, you will need to manually implement protection for that code.
+To ensure that code that isn't part of a database transaction—such as code that writes to an external API or a service that isn't automatically included in the transaction mechanism—is protected, you will need to manually implement protection for that code.
 
 `plone.protect` offers the `@protect` decorator.
 The decorator expects a callable to perform the check.
@@ -172,7 +172,7 @@ def some_function(request):
 ```
 
 Disabling all CSRF protection for the whole Plone instance is possible by starting Plone with the environment variable `PLONE_CSRF_DISABLED=true` set.
-This is not recommended but can be handy temporarily in special situations.
+This isn't recommended but can be handy temporarily in special situations.
 
 
 ## Further reading

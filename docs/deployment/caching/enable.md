@@ -118,10 +118,10 @@ _Caching Control Panel with caching enabled_
 
 ## Troubleshooting
 
-When the caching control panel is not there, there can be various reasons for this:
+When the caching control panel isn't there, there can be various reasons for this:
 
--   If your installation doesn't load the `Plone` package, but only `Products.CMFPlone`, then `plone.app.caching` is not included.
--   If the package *is* included, but you add a Plone Site using the advanced form and disable caching, then the control panel is not there.
+-   If your installation doesn't load the `Plone` package, but only `Products.CMFPlone`, then `plone.app.caching` isn't included.
+-   If the package *is* included, but you add a Plone Site using the advanced form and disable caching, then the control panel isn't there.
 
 If you want to install it in an existing Plone Site:
 

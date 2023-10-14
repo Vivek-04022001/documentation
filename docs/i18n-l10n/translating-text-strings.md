@@ -334,7 +334,7 @@ i18ndude rebuild-pot --pot locales/mydomain.pot --create your.app.package .
 ### Manual PO entries
 
 `i18ndude` scans source `.py` and `.pt` files for translatable text strings.
-On some occasions this is not enough, for example, when you dynamically generate message IDs in your code.
+On some occasions this isn't enough, for example, when you dynamically generate message IDs in your code.
 Entries which cannot be detected by an automatic code scan are called {term}`manual .po entries`.
 They're managed in `locales/manual.pot`, which is merged into the generated `locales/yournamespace.app.pot` file.
 

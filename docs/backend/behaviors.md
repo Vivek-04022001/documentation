@@ -180,7 +180,7 @@ You need to add a ZCML snippet to the `configure.zcml` next to `subtitle.py`:
 After a restart of Plone, the behavior can be added to the content type in the {guilabel}`Content Types` control panel.
 The add and edit forms contain a new field `Subtitle`.
 
-This field is not displayed in most views.
+This field isn't displayed in most views.
 To display the entered data in this field, you need to modify the page template by adding the field `context.subtitle`.
 
 ### Creating a behavior with an adapter and factory
@@ -261,7 +261,7 @@ The registration in the `configure.zcml`:
 After a restart of Plone, the behavior can be added to the content type in the {guilabel}`Content Types` control panel.
 The add and edit forms contain a new field `Price (net)`.
 
-This field is not displayed in most views.
+This field isn't displayed in most views.
 To display the entered data in this field, you need to modify the page template by adding the `price_net` field as `context.price_net`.
 To access the `price_vat` and `price_gross` fields from a browser view, you need to get the adapter from the context of the view:
 

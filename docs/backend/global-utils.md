@@ -70,7 +70,7 @@ def getParentObject():
     """
 
 def getCurrentFolder():
-    """If the context is the default page of a folder or is not itself a
+    """If the context is the default page of a folder or isn't itself a
         folder, the parent is returned, otherwise the object itself is
         returned.  This is useful for providing a context for methods
         which wish to act on what's considered the current folder in the

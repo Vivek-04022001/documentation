@@ -48,7 +48,7 @@ Exception: when this `default` profile is marked in an `INonInstallable` utility
 
 ### Uninstall
 
-An uninstall profile is not required, but it's highly recommended.
+An uninstall profile isn't required, but it's highly recommended.
 
 Until Plone 5.0 the `CMFQuickInstallerTool` used to do an automatic partial cleanup, for example, removing added skins and CSS resources.
 

@@ -338,8 +338,8 @@ Support for `StaticCatalogVocabulary` in Volto is currently missing.
 See issues https://github.com/plone/volto/issues/3355 and https://github.com/plone/volto/issues/3439.
 ```
 
-Often the standard widget for relations is not what you want.
-It can be hard to navigate to the content to which you want to relate, and the search mode of the default widget is not suitable for all use cases.
+Often the standard widget for relations isn't what you want.
+It can be hard to navigate to the content to which you want to relate, and the search mode of the default widget isn't suitable for all use cases.
 
 If you want to use checkboxes, radio buttons, or a select menu, you need to use `StaticCatalogVocabulary` instead of `CatalogSource` to specify your options.
 
@@ -618,7 +618,7 @@ When you define in your schema that one can store multiple `RelationValue`s, you
 
 Relations depend on a lot of infrastructure to work.
 This infrastructure in turn depends a lot on event handlers being called properly.
-When this is not the case, things can break.
+When this isn't the case, things can break.
 Because of this, there is a method `isBroken` which you can use to check if the target is available.
 
 There are alternatives to using relations.

@@ -25,7 +25,7 @@ This section provides detailed answers to common questions about PLIPs.
 In general, anything that changes the API of Plone in the backend or the user interface (UI) on the front end should be filed as a PLIP.
 When in doubt, submit it as a PLIP.
 The Framework Team is eager to reduce its own workload and will reclassify it for you.
-If the change you are proposing is not in the scope of a PLIP, a GitHub pull request or issue is the right format.
+If the change you are proposing isn't in the scope of a PLIP, a GitHub pull request or issue is the right format.
 The key point here is that each change must be documented, allowing it to be tracked and understood.
 
 
@@ -99,7 +99,7 @@ In general, we don't want to track a PLIP for more than a year.
 If your PLIP is accepted and we haven't seen activity in over a year, we will probably ask you to restart the whole process.
 
 
-### What happens if your PLIP is not accepted?
+### What happens if your PLIP isn't accepted?
 
 If a PLIP isn't accepted in core, it doesn't mean it's a bad idea.
 It is often the case that there are competing implementations, and we want to see it vetted as an add-on before "blessing" a preferred implementation.
@@ -164,7 +164,7 @@ In the near future, we will start asking that the seconder is either a coding pa
 ### Evaluating PLIPs
 
 After you submit your PLIP, the Framework Team will meet within a couple weeks, and let you know if the PLIP is accepted.
-If the PLIP is not accepted, please don't be sad!
+If the PLIP isn't accepted, please don't be sad!
 
 We encourage most PLIPs to go through the add-on process at first, if at all possible, to make sure the majority of the community uses it.
 
@@ -274,7 +274,7 @@ var = ./var
 
 Before marking your PLIP as ready for review, please add a file to give a set of instructions to the PLIP reviewer.
 This file should be called {file}`plip_<number>_notes.txt`.
-This should include, but is not limited to:
+This should include, but isn't limited to:
 
 -   URLs pointing to all documentation created and updated
 -   Any concerns and issues still remaining
@@ -285,7 +285,7 @@ The Framework Team will assign 2-3 people to review your PLIP.
 They will follow the guidelines listed at {doc}`plip-review`.
 
 After the PLIP has been accepted by the Framework Team and the release manager, you will be asked to merge your work into the main development line.
-Merging the PLIP in is not the hardest part, but you must think about it when you develop.
+Merging the PLIP in isn't the hardest part, but you must think about it when you develop.
 
 You'll have to interact with a large number of people to get it all set up.
 The merge may cause problems with other PLIPs coming in.

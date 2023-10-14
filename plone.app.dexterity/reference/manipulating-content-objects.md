@@ -35,7 +35,7 @@ from zope.component import createObject
 context = createObject("example.type")
 ```
 
-At this point, the object is not wrapped with an acquisition.
+At this point, the object isn't wrapped with an acquisition.
 You can wrap it explicitly by calling the following.
 
 ```python
@@ -338,7 +338,7 @@ In addition, any field described in the type's schema will be available as a pro
 | isPrincipiaFolderish | bool/int | `True` (or `1`) if the object is a folder. `False` (or `0`) otherwise. |
 | portal_type | str | The `portal_type` of this instance. Should match an FTI in the `portal_types` tool. For Dexterity types, should match a local utility providing `IDexterityFTI`. Note that the `portal_type` is a per-instance property set upon creation (by the factory), and shouldn't be set on the class. |
 | meta_type | str | A Zope 2 specific way to describe a class. Rarely, if ever, used in Dexterity. Don't set it on your own classes unless you know what you're doing. |
-| title_or_id() | str | Returns the value of the `title` property or, if this is not set, the `id` property. |
+| title_or_id() | str | Returns the value of the `title` property or, if this isn't set, the `id` property. |
 | absolute_url() | str | The full URL to the content object. Will take virtual hosting and the current domain into account. |
 | getPhysicalPath() | tuple | A sequence of string path elements from the application root. Stays the same regardless of virtual hosting and domain. A common pattern is to use `'/'.join(context.getPhysicalPath())` to get a string representing the path to the Zope application root. Note that it's *not* safe to construct a relative URL from the path, because it doesn't take virtual hosting into account. |
 | title | unicode/str | Property representing the title of the content object. Usually part of an object's schema or provided by the `IBasic` behavior. The default is an empty string. |

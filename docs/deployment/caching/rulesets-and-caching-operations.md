@@ -48,7 +48,7 @@ A public-facing view for a content item that is a folder or container for other 
 
 ### Content item view (`plone.content.itemView`)
 
-A public-facing view for a content item that is not a folder or container for other items.
+A public-facing view for a content item that isn't a folder or container for other items.
 
 ### File and image resources (`plone.resource`)
 
@@ -72,7 +72,7 @@ Hover your mouse over an operation in the select list to view its description.
 Cache in browser and proxy (default: 24 hours).
 
 ```{caution}
-Only use this operation for stable resources that never change without changing their URL, or resources for which temporary staleness is not critical.
+Only use this operation for stable resources that never change without changing their URL, or resources for which temporary staleness isn't critical.
 ```
 
 In the caching profiles `without-caching-proxy` and `with-caching-proxy`, this operation is mapped to the rulesets `plone.resource` and `plone.stableResource`, which causes the following headers to be added to the response:
@@ -207,7 +207,7 @@ Adds a `Last-Modified` header to the response and turns on `304 Not Modified` re
 
 Turn on caching in Zope memory.
 
-If the URL is not specific enough to ensure uniqueness, then either `ETags` or `Last-Modified` should also be added to the list of parameters to generate a unique cache key.
+If the URL isn't specific enough to ensure uniqueness, then either `ETags` or `Last-Modified` should also be added to the list of parameters to generate a unique cache key.
 
 ### Vary (`vary`)
 
@@ -229,7 +229,7 @@ See the example Varnish configuration that comes with this package for more deta
 
 A list of variables in the request (including `Cookies`) that prevent caching if present.
 
-Note, unlike the other parameters above, this global parameter is not directly visible in the {guilabel}`plone.app.caching` user interface.
+Note, unlike the other parameters above, this global parameter isn't directly visible in the {guilabel}`plone.app.caching` user interface.
 
 It is unlikely to need to change this list but, if needed, it can be edited via the {guilabel}`Configuration Registry` control panel.
 

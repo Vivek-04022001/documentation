@@ -134,7 +134,7 @@ For the most part, this template outputs the values of the various fields, using
 
 ```{note}
 Notice how the `details` `RichText` field is output as `tal:content="structure context/details/output"`.
-The `structure` keyword ensures that the rendered HTML is not escaped.
+The `structure` keyword ensures that the rendered HTML isn't escaped.
 The extra traversal to `details/output` is necessary because the `RichText` field actually stores a `RichTextValue` object that contains not only the raw text as entered by the user, but also a MIME type (for example, `text/html`) and the rendered output text.
 `RichText` fields are covered in more detail {ref}`later in this manual <richtext-label>`.
 ```

@@ -26,10 +26,10 @@ This chapter provides instructions and tips for upgrading to Plone 5.2.
 ## Upgrading
 
 This upgrade is unique because Plone 5.2 supports both Python 2 and Python 3.
-The upgrade to 5.2 needs to be done in Python 2.7, and is not different from previous migrations.
+The upgrade to 5.2 needs to be done in Python 2.7, and isn't different from previous migrations.
 To run the upgrade to 5.2, follow the links at the top of the control panel or visit the ZMI for your site at `/@@plone-upgrade`.
 
-If you also want to upgrade from Python 2 to 3 with an existing database, you need to run an additional database migration while the site is not running.
+If you also want to upgrade from Python 2 to 3 with an existing database, you need to run an additional database migration while the site isn't running.
 See the section {ref}`python-3-support` below for details.
 
 

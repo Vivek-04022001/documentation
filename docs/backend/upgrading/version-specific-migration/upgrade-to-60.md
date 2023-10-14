@@ -457,7 +457,7 @@ The code would be like this:
 ```
 
 In Plone 5 this creates a scale of the image, using the Pillow imaging library.
-In Plone 6, the scaled image is not yet created at this point.
+In Plone 6, the scaled image isn't yet created at this point.
 The scaled image is only created when the browser actually requests the image.
 
 This is good, because for various reasons, the browser may never actually ask for this scaled image.

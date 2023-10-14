@@ -68,7 +68,7 @@ Sometimes it's more appropriate to register a stylesheet with Plone's `portal_cs
 This ensures that the resource is available site-wide.
 
 ```{note}
-It may seem wasteful to include a resource that is not be used on all pages in the global registry.
+It may seem wasteful to include a resource that isn't be used on all pages in the global registry.
 Remember, however, that `portal_css` and `portal_javascripts` will merge and compress resources, and set caching headers such that browsers and caching proxies can cache resources well.
 It is often more effective to have one slightly larger file that caches well, than to have a variable number of files that may need to be loaded at different times.
 ```

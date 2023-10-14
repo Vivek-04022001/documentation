@@ -189,5 +189,5 @@ The second and third give the output MIME type.
 If the MIME type is omitted, the default output MIME type will be used.
 
 ```{note}
-Unlike the `output` property, the value is not cached, and so will be calculated each time the page is rendered.
+Unlike the `output` property, the value isn't cached, and so will be calculated each time the page is rendered.
 ```
