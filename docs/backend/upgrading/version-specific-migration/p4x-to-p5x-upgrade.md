@@ -43,7 +43,7 @@ These are about larger changes to Plone, discussed beforehand by the community.
 
 In Plone 5, the custom fields displayed in the user profile and registration forms are managed by `plone.schemaeditor`.
 
-They are dynamically editable from the Plone control panel.
+They're dynamically editable from the Plone control panel.
 They can be imported from a `GenericSetup` profile file named `userschema.xml`.
 
 If you have some custom member properties in your Plone site, be aware of the following.
@@ -469,7 +469,7 @@ Now you can access the property via `get_registry_record()`.
 ```
 
 The keys are mostly the same.
-They are prefixed with `plone.` now.
+They're prefixed with `plone.` now.
 Normally, you don't modify or access these records.
 Instead, you change the settings in your `genericsetup` profile in the file `propertiestool.xml`
 

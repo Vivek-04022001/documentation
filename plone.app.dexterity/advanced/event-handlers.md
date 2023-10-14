@@ -28,7 +28,7 @@ These have an `object` attribute giving access to the content object that the ev
 Object events allow event handlers to be registered for a specific type of object as well as a specific type of event.
 
 Some of the most commonly used event types in Plone are shown below.
-They are all object events.
+They're all object events.
 
 `zope.lifecycleevent.interfaces.IObjectCreatedEvent`
 :   Fired by the standard add form just after an object has been created, but before it has been added on the container.

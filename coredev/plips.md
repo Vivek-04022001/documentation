@@ -51,7 +51,7 @@ We will help you pair up with implementers if needed.
 
 When you submit your PLIP and it's approved, a Framework Team member who is especially excited about seeing the PLIP completed will be assigned to your PLIP as a champion.
 
-They are there to push you through completion, as well as answer any questions and provide guidance.
+They're there to push you through completion, as well as answer any questions and provide guidance.
 
 A champion fulfill the following tasks.
 

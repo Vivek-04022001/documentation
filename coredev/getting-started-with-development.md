@@ -364,7 +364,7 @@ Navigate to this branch in the GitHub user interface, and on the top right, ther
 This will turn your request into a pull request on the main branch.
 There are people who look once a week or more for pending pull requests and will confirm whether or not it's a good fix, and give you feedback where necessary.
 The reviewers are informal and very nice, so don't worry.
-They are there to help!
+They're there to help!
 If you want immediate feedback, visit https://community.plone.org/ with the pull request link and ask for a review.
 
 ```{note}

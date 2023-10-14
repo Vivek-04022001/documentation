@@ -32,7 +32,7 @@ Once rulesets and caching operations have been registered, they will appear in t
 ## Default rulesets
 
 `plone.app.caching` declares a few default rulesets.
-They are listed with descriptions in the control panel.
+They're listed with descriptions in the control panel.
 
 ### Content feed (`plone.content.feed`)
 

@@ -20,7 +20,7 @@ Recall that unit tests are simple tests for a particular function or method, and
 As a rule of thumb, if something can be tested with a simple unit test, do so for the following reasons.
 
 -   Unit tests are quick to write.
--   They are also quick to run.
+-   They're also quick to run.
 -   Because they are more isolated, you are less likely to have tests that pass or fail due to incorrect assumptions or by luck.
 -   You can usually test things more thoroughly and exhaustively with unit tests than with (slower) integration tests.
 

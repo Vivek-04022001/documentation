@@ -209,7 +209,7 @@ Each time the vocabulary is needed, this object will be called (in other words, 
 ## Named vocabularies
 
 Context source binders are great for simple dynamic vocabularies.
-They are also reusable, since you can import the source from a single location and use it in multiple instances.
+They're also reusable, since you can import the source from a single location and use it in multiple instances.
 
 Sometimes, however, we want to provide an additional level of decoupling, by using *named* vocabularies.
 These are similar to context source binders, but are components registered as named utilities, referenced in the schema by name only.

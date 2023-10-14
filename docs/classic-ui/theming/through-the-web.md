@@ -48,7 +48,7 @@ Add screenshots.
 ## CSS variables
 
 Plone uses Twitter Bootstrap's CSS variables.
-They are used to tweak colors, fonts, spacing, and other CSS attributes.
+They're used to tweak colors, fonts, spacing, and other CSS attributes.
 
 ```{todo}
 Provide usage.
