@@ -130,7 +130,7 @@ Dublin Core
 ZMI
     The Zope Management Interface.
     The ZMI is a direct interface into the backend software stack of Plone.
-    While it can still serve as a valuable tool for Plone specialists to fix problems or accomplish certain tasks, it is not recommended as a regular tool for Plone maintenance.
+    While it can still serve as a valuable tool for Plone specialists to fix problems or accomplish certain tasks, it's not recommended as a regular tool for Plone maintenance.
 
 TALES
     TAL Expression Syntax (TALES) expression, which by default expects a path.
@@ -184,7 +184,7 @@ Volto configuration loader
 Configuration registry
     In Plone and in general, the configuration registry is where resources are registered for an application.
 
-    In Volto, it is a singleton object modeled using JavaScript modules.
+    In Volto, it's a singleton object modeled using JavaScript modules.
     It is accessible from the Volto project by importing the module `@plone/volto/config` with `import registry from '@plone/volto/config'`.
     It contains the configuration of the Volto app.
 
@@ -224,7 +224,7 @@ SSR
 server-side rendering
     When a web browser or other HTTP client sends a request, the HTML markup for the page is created on the server, which sends a response consisting of HTML markup back to the client.
 
-    In Volto, SSR returns HTML markup that closely matches the final {term}`DOM` structure of the React components used to render that page, but it is not the complete page.
+    In Volto, SSR returns HTML markup that closely matches the final {term}`DOM` structure of the React components used to render that page, but it's not the complete page.
     After the client loads the initial response, then the {term}`hydration` mechanism performs additional rendering on the client side, populating the DOM with additional HTML markup.
 
     In Classic UI, SSR returns the complete page back to the client in the response.
@@ -279,7 +279,7 @@ Hydration
     After loading an HTML page generated with {term}`SSR` in the browser, React can populate the existing {term}`DOM` elements, and recreate and attach their coresponding components.
 
 JSX
-    A dialect of JavaScript that resembles XML, it is transpiled by Babel to JavaScript functions.
+    A dialect of JavaScript that resembles XML, it's transpiled by Babel to JavaScript functions.
     React uses JSX as its component templating.
 
 Scoped packages
@@ -549,7 +549,7 @@ GNU make
     [GNU Make](https://www.gnu.org/software/make/) is a tool which controls the generation of executables and other non-source files of a program from the program's source files.
 
     Make gets its knowledge of how to build your program from a file called the _makefile_, which lists each of the non-source files and how to compute it from other files.
-    When you write a program, you should write a makefile for it, so that it is possible to use Make to build and install the program.
+    When you write a program, you should write a makefile for it, so that it's possible to use Make to build and install the program.
 
 PLIP
     PLIPs are **PL**one **I**mprovement **P**roposals.

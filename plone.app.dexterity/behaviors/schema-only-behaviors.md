@@ -88,16 +88,16 @@ class IRelatedItems(model.Schema):
 
 This is a standard schema using `plone.autoform.directives`.
 However, notice the lack of a behavior factory.
-This is a directly provided "marker" interface, except that it has attributes, and so it is not actually a marker interface.
+This is a directly provided "marker" interface, except that it has attributes, and so it's not actually a marker interface.
 The result is that the `relatedItems` attribute will be stored directly onto a content object when first set (usually in the add form).
 
 This approach has a few advantages:
 
--   There is no need to write or use a separate factory, so it is a little easier to use.
+-   There is no need to write or use a separate factory, so it's a little easier to use.
 -   The attribute is available on the content object directly, so you can write `context/relatedItems` in a TAL expression, for example.
     This does require that it has been set at least once, though.
     If the schema is used in the type's add form, that will normally suffice, but old instances of the same type may not have the attribute and could raise an `AttributeError.`
--   If the value is going to be used frequently, and especially if it is read when viewing the content object, storing it in an attribute is more efficient than storing it in an annotation.
+-   If the value is going to be used frequently, and especially if it's read when viewing the content object, storing it in an attribute is more efficient than storing it in an annotation.
     This is because the `__annotations__` BTree is a separate persistent object which has to be loaded into memory, and may push something else out of the ZODB cache.
 
 The possible disadvantages are:

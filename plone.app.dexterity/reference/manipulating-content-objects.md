@@ -261,7 +261,7 @@ from zope.lifecycleevent import modified
 modified(context)
 ```
 
-In tests, it is sometimes necessary to reindex explicitly.
+In tests, it's sometimes necessary to reindex explicitly.
 This can be done with the following.
 
 ```python
@@ -316,7 +316,7 @@ Again, note that this uses the Zope 2 permission title.
 
 ### Changing permissions
 
-Normally, permissions should be set with workflow, but in tests it is often useful to manipulate security directly.
+Normally, permissions should be set with workflow, but in tests it's often useful to manipulate security directly.
 
 ```python
 context.manage_permission("View", roles=["Manager", "Owner"], acquire=True)
@@ -340,7 +340,7 @@ In addition, any field described in the type's schema will be available as a pro
 | meta_type | str | A Zope 2 specific way to describe a class. Rarely, if ever, used in Dexterity. Do not set it on your own classes unless you know what you're doing. |
 | title_or_id() | str | Returns the value of the `title` property or, if this is not set, the `id` property. |
 | absolute_url() | str | The full URL to the content object. Will take virtual hosting and the current domain into account. |
-| getPhysicalPath() | tuple | A sequence of string path elements from the application root. Stays the same regardless of virtual hosting and domain. A common pattern is to use `'/'.join(context.getPhysicalPath())` to get a string representing the path to the Zope application root. Note that it is *not* safe to construct a relative URL from the path, because it does not take virtual hosting into account. |
+| getPhysicalPath() | tuple | A sequence of string path elements from the application root. Stays the same regardless of virtual hosting and domain. A common pattern is to use `'/'.join(context.getPhysicalPath())` to get a string representing the path to the Zope application root. Note that it's *not* safe to construct a relative URL from the path, because it does not take virtual hosting into account. |
 | title | unicode/str | Property representing the title of the content object. Usually part of an object's schema or provided by the `IBasic` behavior. The default is an empty string. |
 | Title() | unicode/str | Dublin Core accessor for the `title` property. Set the title by modifying this property. You can also use `setTitle()`. |
 | listCreators() | tuple | A list of user IDs for object creators. The first creator is normally the owner of the content object. You can set this list using the `setCreators()` method. |

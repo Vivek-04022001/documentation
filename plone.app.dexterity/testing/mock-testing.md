@@ -43,7 +43,7 @@ The only way to do that is to replace the `MailHost` object that is acquired whe
 
 If we wanted to write an integration test, we could use `PloneTestCase` to execute this event handler by firing the event manually, and temporarily replace the `MailHost` object in the root of the test case portal (`self.portal`) with a dummy that raised an exception if the wrong value was passed.
 
-However, such integration tests can get pretty heavy handed, and sometimes it is difficult to ensure that it works in all cases.
+However, such integration tests can get pretty heavy handed, and sometimes it's difficult to ensure that it works in all cases.
 In the approach outlined above, for example, we would miss cases where no mail was sent at all.
 
 Enter mock objects.
@@ -156,7 +156,7 @@ Let's run though the test.
 
 -   First, we create a dummy presenter object.
     This is *not* a mock object, it's just a class with the required minimum set of attributes, created using the `create_dummy()` helper method from the `MockTestCase` base class.
-    We use this type of dummy because we are not interested in making any assertions on the `presenter` object: it is used as an "input" only.
+    We use this type of dummy because we are not interested in making any assertions on the `presenter` object: it's used as an "input" only.
 -   Next, we create a dummy event.
     Here we have opted to use a standard implementation from `zope.app.container`.
 -   We then define a few variables that we will use in the various assertions and mock return values: the user data that will form our dummy user search results, and the email data passed to the mail host.
@@ -196,7 +196,7 @@ Much has been written on this, including [_Mocks Aren't Stubs_ by Martin Fowler]
 
 As always, it pays to be pragmatic.
 If you find that you can't write a mock based test without reading every line of code in the method under test and reverse engineering it for the mocks, then an integration test may be more appropriate.
-In fact, it is prudent to have at least some integration tests in any case, since you can never be 100% sure your mocks are valid representations of the real objects they are mocking.
+In fact, it's prudent to have at least some integration tests in any case, since you can never be 100% sure your mocks are valid representations of the real objects they are mocking.
 
 On the other hand, if the code you are testing is using well-defined APIs in a relatively predictable manner, mock objects can be a valuable way to test the "side effects" of your code, and a helpful tool to simulate things like exceptions and input values that may be difficult to produce otherwise.
 

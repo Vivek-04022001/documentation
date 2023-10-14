@@ -51,7 +51,7 @@ For example, if object A contains object `B`, and object `A` has an attribute `x
 ### Influences on traversal
 
 This concept influences traversal in Zope because it allows objects to be accessed on traversal by acquisition in the object hierarchy, rather than having to know the exact location of an object.
-For example, if an object `C` is located at the path `/A/B/C`, it can also be accessed by traversing the hierarchy starting from object `E` in the path `/A/B/D/E` with `E.C`, because it is acquiring attributes of objects `D`, `B`, and `A` along the way.
+For example, if an object `C` is located at the path `/A/B/C`, it can also be accessed by traversing the hierarchy starting from object `E` in the path `/A/B/D/E` with `E.C`, because it's acquiring attributes of objects `D`, `B`, and `A` along the way.
 This makes it at the same time easier and more confusing to find and access objects in a large, complex object hierarchy.
 
 

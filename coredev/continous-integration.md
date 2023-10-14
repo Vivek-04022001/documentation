@@ -40,7 +40,7 @@ In this case run the all tests locally with all the changes and commit them with
 Following this practice ensures the build stays green, and other developers can continue to work without breaking the first rule.
 
 There might be changes that have been checked in before your last update from the version control that might lead to a build failure in Jenkins in combination with your changes.
-Therefore it is essential that you check out ({command}`git pull`) and run the tests again before you push your changes to GitHub.
+Therefore it's essential that you check out ({command}`git pull`) and run the tests again before you push your changes to GitHub.
 
 Furthermore, a common source of errors on check-in is to forget to add some files to the repository.
 
@@ -76,7 +76,7 @@ This way you will allow other developers to continue to work.
 ## 7) Don't comment out failing tests
 
 Once you begin to enforce the previous rule, the result is often that developers start commenting out failing tests in order to get the build passing again as quick as possible.
-While this impulse is understandable, it is **wrong**.
+While this impulse is understandable, it's **wrong**.
 
 The tests have been passing for a while and then start to fail.
 This means that we either caused a regression, made assumptions that are no longer valid, or the application has changed the functionality being tested for a valid reason.

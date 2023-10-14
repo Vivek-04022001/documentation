@@ -12,14 +12,14 @@ myst:
 This chapter describes how to write unit tests for behaviors for content types in Plone.
 
 Behaviors, like any other code, should be tested.
-If you write a behavior with just a marker interface or schema interface, it is probably not necessary to test the interface.
+If you write a behavior with just a marker interface or schema interface, it's probably not necessary to test the interface.
 However, any actual code, such as a behavior adapter factory, ought to be tested.
 
 Writing a behavior integration test is not very difficult if you are happy to depend on Dexterity in your test.
 You can create a dummy type by instantiating a Dexterity FTI in `portal_types`.
 Then enable your behavior by adding its interface name to the `behaviors` property.
 
-In many cases, however, it is better not to depend on Dexterity at all.
+In many cases, however, it's better not to depend on Dexterity at all.
 It is not too difficult to mimic what Dexterity does to enable behaviors on its types.
 The following example is taken from `collective.gtags` and tests the `ITags` behavior we saw on the first page of this manual.
 

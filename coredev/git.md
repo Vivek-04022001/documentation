@@ -218,7 +218,7 @@ stash
 
   :::{note}
   Seems a bit not so useful on a first look,
-  but it is indeed.
+  but it's indeed.
 
   Think about this scenario:
   you are working on your branch coding away.
@@ -507,7 +507,7 @@ have with your pull request?
 Couldn't that pep8 fixes commit or small refactoring go straight into master branch?
 
 Or even if you send a pull request for it, chances are that it will be merged right away.
-As long as it is a cleanup commit, there's not much to argue with it.
+As long as it's a cleanup commit, there's not much to argue with it.
 
 The same goes with commits that improve or actually fix previous commits (within the same pull request).
 A series of commits like this:

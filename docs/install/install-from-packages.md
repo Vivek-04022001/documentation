@@ -78,7 +78,7 @@ Update
 #### Python
 
 Installing Python is beyond the scope of this documentation.
-However, it is recommended to use a Python version manager, [`pyenv`](https://github.com/pyenv/pyenv) that allows you to install multiple versions of Python on your development environment without destroying your system's Python.
+However, it's recommended to use a Python version manager, [`pyenv`](https://github.com/pyenv/pyenv) that allows you to install multiple versions of Python on your development environment without destroying your system's Python.
 
 
 (install-prerequisites-cookiecutter-label)=
@@ -193,9 +193,9 @@ Install the latest Yarn 3 version (not the Classic 1.x one) using `npm`.
 
 {term}`Make` comes installed on most Linux distributions.
 On macOS, you must first [install Xcode](https://developer.apple.com/xcode/resources/), then install its command line tools.
-On Windows, it is strongly recommended to [Install Linux on Windows with WSL](https://learn.microsoft.com/en-us/windows/wsl/install), which will include `make`.
+On Windows, it's strongly recommended to [Install Linux on Windows with WSL](https://learn.microsoft.com/en-us/windows/wsl/install), which will include `make`.
 
-Finally, it is a good idea to update your system's version of `make`, because some distributions, especially macOS, have an outdated version.
+Finally, it's a good idea to update your system's version of `make`, because some distributions, especially macOS, have an outdated version.
 Use your favorite search engine or trusted online resource for how to update `make`.
 
 

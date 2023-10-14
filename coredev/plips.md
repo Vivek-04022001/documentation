@@ -12,7 +12,7 @@ myst:
 A PLIP is a Plone Improvement Proposal.
 It is a change to a Plone package that would affect everyone.
 PLIPs go through a different process than bug fixes because of their broad reaching effect.
-The Plone Framework Team reviews all PLIPs to be sure that it's in the best interest of the broader community to be implemented and that it is of high quality.
+The Plone Framework Team reviews all PLIPs to be sure that it's in the best interest of the broader community to be implemented and that it's of high quality.
 
 
 ## Frequently asked questions about PLIPs
@@ -49,7 +49,7 @@ We will help you pair up with implementers if needed.
 
 ### What is a PLIP champion?
 
-When you submit your PLIP and it is approved, a Framework Team member who is especially excited about seeing the PLIP completed will be assigned to your PLIP as a champion.
+When you submit your PLIP and it's approved, a Framework Team member who is especially excited about seeing the PLIP completed will be assigned to your PLIP as a champion.
 
 They are there to push you through completion, as well as answer any questions and provide guidance.
 
@@ -155,7 +155,7 @@ Please note a few things:
 -   If you find this is the case, and your PLIP is anything more than trivial, maybe some more vetting should be done.
 -   The seconder field is REQUIRED.
 
-We will send the PLIP back to you if it is not filled in.
+We will send the PLIP back to you if it's not filled in.
 Currently, this is just someone else who thinks your PLIP is a good idea, a +1.
 
 In the near future, we will start asking that the seconder is either a coding partner, or someone who is willing and able to finish the PLIP should something happen to the implementer.
@@ -185,7 +185,7 @@ See the {doc}`plip-review` page for more information.
 
 ## Implementing your PLIP
 
-You can start the development at any time, but if you are going to modify Plone itself, it is a good idea to wait to see if your idea is approved.
+You can start the development at any time, but if you are going to modify Plone itself, it's a good idea to wait to see if your idea is approved.
 
 
 ### General Rules
@@ -280,7 +280,7 @@ This should include, but is not limited to:
 -   Any concerns and issues still remaining
 -   Any weird buildout things
 
-Once you have finished, update your PLIP issue to indicate that it is ready for review.
+Once you have finished, update your PLIP issue to indicate that it's ready for review.
 The Framework Team will assign 2-3 people to review your PLIP.
 They will follow the guidelines listed at {doc}`plip-review`.
 

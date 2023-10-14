@@ -23,11 +23,11 @@ Caching in RAM in Zope is not as efficient as caching in a proxy, for a number o
 -   Zope still has to perform traversal, security, transaction management, and so on before serving a request with a RAM-cached response.
 -   Zope's use of memory is not as efficient as that of a finely optimised caching proxy.
 -   Storing lots of content in RAM may compete with the standard ZODB object cache and other memory pools used by Zope, thus slowing down Zope overall.
--   In multi-client ZEO setups, the RAM cache is (by default at least) not shared among instances, although it is shared among threads in that instance.
+-   In multi-client ZEO setups, the RAM cache is (by default at least) not shared among instances, although it's shared among threads in that instance.
     Thus each Plone client process will maintain its own cache.
 
 You can use the {guilabel}`RAM cache` tab in the Caching control panel to view statistics about the use of the RAM cache.
-On the {guilabel}`Change settings` tab, you can also control the size of the cache, and the frequency with which it is purged of old items.
+On the {guilabel}`Change settings` tab, you can also control the size of the cache, and the frequency with which it's purged of old items.
 
 
 ## Alternative RAM cache implementations

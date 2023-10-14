@@ -110,7 +110,7 @@ This usually works fine for most breaking (major) upgrades as well.
 
 When dealing with major changes in Plone, or with very large or complex installations, an {ref}`export-import <introduction-upgrade-strategies-export-import-migrations-label>` based migration is often the better solution.
 
-During in-place migrations, it is advisable **not to skip over** breaking (major) version numbers.
+During in-place migrations, it's advisable **not to skip over** breaking (major) version numbers.
 
 Going from Plone 5.2 to Plone 6.0 is fine.
 

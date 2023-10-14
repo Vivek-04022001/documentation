@@ -69,7 +69,7 @@ To perform all these checks, run the following command.
 make vale
 ```
 
-Because it is difficult to automate good American English grammar and syntax, we do not strictly enforce it.
+Because it's difficult to automate good American English grammar and syntax, we do not strictly enforce it.
 We also understand that contributors might not be fluent in English.
 We encourage contributors to make a reasonable effort, and to request a review of their pull request from community members who are fluent in English to fix grammar and syntax.
 Please ask!
@@ -93,7 +93,7 @@ Valid links are enforced automatically through Sphinx's `linkcheck` builder.
 
 When authors add a link to the documentation, it must be a valid public URL without requiring authentication.
 
-If it is not a valid link, or is private or local, then you must exclude it from `linkcheck` by wrapping it in single backticks.
+If it's not a valid link, or is private or local, then you must exclude it from `linkcheck` by wrapping it in single backticks.
 
 ```md
 Visit the URL `http://www.example.com` for an example.

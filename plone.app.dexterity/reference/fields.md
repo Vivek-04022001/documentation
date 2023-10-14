@@ -29,7 +29,7 @@ Refer to the table below to see what properties a particular interface implies.
 | | `required` | bool | Whether or not the field is required. Used for form validation. The default is `True`. |
 | | `readonly` | bool | Whether or not the field is read only. Default is `False`. |
 | | `default` | | The default value for the field. Used in forms and sometimes as a fallback value. Must be a valid value for the field if set. The default is `None`. |
-| | `missing_value` | | A value that represents "this field is not set". Used by form validation. Defaults to `None`. For lists and tuples, it is sometimes useful to set this to an empty list or tuple. |
+| | `missing_value` | | A value that represents "this field is not set". Used by form validation. Defaults to `None`. For lists and tuples, it's sometimes useful to set this to an empty list or tuple. |
 | `IMinMaxLen` | `min_length` | int | The minimum required length or minimum number of elements. Used for `string`, sequence, mapping, or `set` fields. Default is `0`. |
 | | `max_length `| int | The maximum allowed length or maximum number of elements. Used for `string`, sequence, mapping, or `set` fields. Default is `None` (no check). |
 | `IMinMax` | `min` | | The minimum allowed value. Must be a valid value for the field, for example, an int field should be an integer. Default is `None` (no check). |

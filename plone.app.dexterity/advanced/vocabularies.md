@@ -70,7 +70,7 @@ Since `required` is `False`, there will be a {guilabel}`no value` option in the 
 
 ## Dynamic sources
 
-The static vocabulary is obviously a bit limited, since it is hard-coded in Python.
+The static vocabulary is obviously a bit limited, since it's hard-coded in Python.
 
 We can make a one-off dynamic vocabulary using a context source binder.
 This is a callable, usually a function or an object with a `__call__` method.

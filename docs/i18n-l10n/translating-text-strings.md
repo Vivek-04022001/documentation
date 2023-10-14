@@ -90,7 +90,7 @@ You also need to have the following ZCML entry to signal Plone that the files st
 You will need to declare you own `MessageFactory`.
 This is a callable that marks strings with a translation domain.
 `MessageFactory` is usually declared in the main `__init__.py` file of your package.
-It is imported from wherever it is needed in your package.
+It is imported from wherever it's needed in your package.
 `_` is the standard name that is used in gettext to identify the translation function, and the previous scripts will use that assumption to identify translatable strings.
 
 ```python
@@ -114,7 +114,7 @@ The object will still look like a string:
 u'My text'
 ```
 
-But in reality, it is a `zope.i18nmessageid.message.Message` object:
+But in reality, it's a `zope.i18nmessageid.message.Message` object:
 
 ```pycon
 >>> my_translatable_text.__class__
@@ -351,7 +351,7 @@ msgstr ""
 "Domain: mfabrik.app\n"
 
 # This entry is used in gomobiletheme.mfabrik  templates for the campaign page header
-# It is not automatically picked, since it is referred from external package
+# It is not automatically picked, since it's referred from external package
 #. Default: "Watch video"
 msgid "watch_video"
 msgstr ""

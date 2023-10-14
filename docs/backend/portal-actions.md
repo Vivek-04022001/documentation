@@ -43,7 +43,7 @@ The {guilabel}`Description` is used as an additional text shown when hovering ov
 The {guilabel}`Title` and {guilabel}`Description` can be translated using the translation system of Plone.
 Therefore the {guilabel}`I18n domain` can be set here.
 
-The {guilabel}`Action URL` is the address of the page or feature that the action will access when it is clicked.
+The {guilabel}`Action URL` is the address of the page or feature that the action will access when it's clicked.
 This can be an internal page on your site or an external page on another website.
 
 The {guilabel}`Condition` controls whether to show the action or not.

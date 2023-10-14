@@ -18,7 +18,7 @@ There are commercial hosted CDN services including Cloudflare, CloudFront, Fastl
 It is important to realize that while `plone.app.caching` provides some functionality for controlling how Plone interacts with a caching proxy, the proxy itself must be configured separately.
 
 Some operations in `plone.app.caching` can set response headers that instruct the caching proxy how to cache content best.
-For example, it is normally a good idea to cache static resources (such as images and stylesheets) and downloadable files in the proxy.
+For example, it's normally a good idea to cache static resources (such as images and stylesheets) and downloadable files in the proxy.
 These include Plone content of the types `File` or `Image`.
 This content will then be served to most users straight from the proxy, which is much faster than Zope.
 
@@ -30,7 +30,7 @@ There are four general strategies for dealing with this situation.
 
 ### Change the URL
 
-Since resources are cached in the proxy based on their URL, you can invalidate the cached copy by changing an item's URL when it is updated.
+Since resources are cached in the proxy based on their URL, you can invalidate the cached copy by changing an item's URL when it's updated.
 
 This is the approach taken by Plone's resource management.
 Links that are inserted into Plone's content pages for resources managed by Plone contain a hash-based token, which changes when the main bundle file changes.
@@ -52,7 +52,7 @@ Then a `PURGE` request could be sent to the proxy (originating from the backend,
 
 The final option, of course, is to avoid caching content in the proxy altogether.
 
-The default policies will not allow standard listing pages to be cached in the proxy, because it is too difficult to invalidate cached instances.
+The default policies will not allow standard listing pages to be cached in the proxy, because it's too difficult to invalidate cached instances.
 For example, if you change a content item's title, that may require invalidation of a number of pages where that title appears in the navigation tree, folder listings, `Collections`, portlets, and so on.
 Tracking all these dependencies and purging in an efficient manner is impossible unless the caching proxy configuration is highly customised for the site.
 

@@ -111,7 +111,7 @@ You can replace them with the new ones based on the following table:
 ## No more `temp_folder` or `tempstorage`
 
 The `temp_folder` object in the Zope root is no longer created by default.
-If the object is there, but it is broken, the standard Plone upgrade procedure will remove it.
+If the object is there, but it's broken, the standard Plone upgrade procedure will remove it.
 
 For now, you must explicitly disable the `temp_folder` if you use buildout:
 
@@ -279,7 +279,7 @@ module = example.alternative
 ```
 
 The `includeDependencies` directive is no longer supported.
-It was already recommended not to use this directive, as it is too implicit.
+It was already recommended not to use this directive, as it's too implicit.
 In the ZCML files of your add-on, search for `includeDependencies`.
 Replace all of its instances by explicitly loading any ZCML from other packages used by the add-on.
 Here is a sample change from [`dexterity.membrane`](https://github.com/collective/dexterity.membrane/pull/60):
@@ -472,7 +472,7 @@ This performance improvement makes two other image improvements possible.
 These follow in the sections directly below.
 
 Add-on authors do not *have* to change anything.
-But it is a good idea to check how you are using images, otherwise you miss out on this improvement.
+But it's a good idea to check how you are using images, otherwise you miss out on this improvement.
 If you call the `tag` method like above, you are good.
 If you use the `scale` method and then use its `tag` method, then you should change:
 

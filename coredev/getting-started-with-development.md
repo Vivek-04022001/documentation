@@ -51,7 +51,7 @@ cd ./plone6devel
 
 If you run into issues in this process, please see {doc}`troubleshooting`.
 
-This will run for a long time if it is your first pull (approximately 20 minutes).
+This will run for a long time if it's your first pull (approximately 20 minutes).
 Once that is done pulling down eggs, you can start your new instance with:
 
 ```shell
@@ -248,8 +248,8 @@ A couple quick reminders:
     Otherwise, please create a `pull request` (more on that below).
 -   Please try to make one change per commit.
     If you are fixing three bugs, make three commits.
-    That way, it is easier to see what was done when, and easier to roll back any changes if necessary.
-    If you want to make large changes cleaning up whitespace or renaming variables, it is especially important to do so in a separate commit for this reason.
+    That way, it's easier to see what was done when, and easier to roll back any changes if necessary.
+    If you want to make large changes cleaning up whitespace or renaming variables, it's especially important to do so in a separate commit for this reason.
 -   We have a few angels that follow the changes and each commit to see what happens to their favourite CMS!
     If you commit something REALLY sketchy, they will politely contact you, most likely after immediately reverting changes.
     There are no official people assigned to this so if you are especially nervous, ask in https://community.plone.org/.

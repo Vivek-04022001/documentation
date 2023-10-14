@@ -220,7 +220,7 @@ class EditHeaderAnimationsView(FormWrapper):
         """ """
 
         # Signal viewlet layer that we are rendering
-        # edit view for header animations and it is not meaningful
+        # edit view for header animations and it's not meaningful
         # to try to render the big animation on this page
         zope.interface.alsoProvides(self.request, INoHeaderLayer)
 
@@ -235,9 +235,9 @@ class EditHeaderAnimationsView(FormWrapper):
 
 -   Check that your view is working without a layer assigned globally.
 -   Check that `configure.zcml` has a layer entry.
-    Put some garbage to trigger a syntax error in `configure.zcml` to make sure that it is being loaded.
+    Put some garbage to trigger a syntax error in `configure.zcml` to make sure that it's being loaded.
 -   Add-on layer: check that `profiles/default/browserlayer.xml` has a matching entry with a matching name.
--   Theme layer: if it is a theme layer, check that there is a matching `skins.xml` entry.
+-   Theme layer: if it's a theme layer, check that there is a matching `skins.xml` entry.
 -   Check that the layer name is spelled correctly in the view declaration.
 
 

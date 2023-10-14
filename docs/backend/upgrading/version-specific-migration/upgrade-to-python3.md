@@ -127,7 +127,7 @@ auto-checkout +=
 
 Now everything is prepared to work on the migration of the package.
 
-For small packages or packages that have few dependencies, it is a good idea to try starting your instance now.
+For small packages or packages that have few dependencies, it's a good idea to try starting your instance now.
 
 ```shell
 ./bin/instance fg
@@ -144,11 +144,11 @@ There are some problems that `python-modernize` cannot fix on its own.
 It also can make changes that are not really needed.
 You need to closely review all changes after you run this tool.
 
-`python-modernize` will warn you when it is not sure what to do with a possible problem.
+`python-modernize` will warn you when it's not sure what to do with a possible problem.
 Check this [Cheat Sheet](https://python-future.org/compatible_idioms.html) with idioms for writing Python 2/3 compatible code.
 
 `python-modernize` adds an import of the compatibility library `six` if needed.
-The import is added as the last import, therefore it is often necessary to reorder the imports.
+The import is added as the last import, therefore it's often necessary to reorder the imports.
 The easiest way is to use [isort](https://pypi.org/project/isort), which does this for you automatically.
 Check the [Python style guide for Plone](https://5.docs.plone.org/develop/styleguide/python.html#grouping-and-sorting) for information about the order of imports and an example configuration for `isort`.
 
@@ -287,7 +287,7 @@ Now that the instance is running, you should do the following, and fix all error
 -   Test basic functionality, for example, adding and editing content types and views.
 -   Uninstall the add-on.
 
-For this step, it is recommended that you have installed `Products.PDBDebugMode` to help debug and fix issues.
+For this step, it's recommended that you have installed `Products.PDBDebugMode` to help debug and fix issues.
 
 
 ## 6. Run Tests
@@ -326,7 +326,7 @@ Make an entry in the `CHANGES.rst` file.
 You need to update the `buildout` of the add-on you are migrating to also support Plone 5.2 and Python 3.
 Since the `buildout` of most add-ons are different, we cannot offer advice that works for all add-ons.
 
-But it is a good idea to create an empty new package with {py:mod}`bobtemplates.plone`, and either copy the code of the add-on in there or the new skeleton files into the old add-on.
+But it's a good idea to create an empty new package with {py:mod}`bobtemplates.plone`, and either copy the code of the add-on in there or the new skeleton files into the old add-on.
 The least you can do is look at the files created by {py:mod}`bobtemplates.plone`, and copy whatever is appropriate to the add-on you are working on.
 
 ```

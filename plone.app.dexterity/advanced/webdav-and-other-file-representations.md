@@ -41,7 +41,7 @@ Dexterity content should work with Windows Web Folders [^id2] and well-behaved c
 
 [^id2]: open Internet Explorer, go to {guilabel}`File | Open`, type in a WebDAV address, e.g.  <http://localhost:9800>, and then select {guilabel}`Open as web folder` before hitting {guilabel}`OK`.
 
-On macOS, the Finder claims to support WebDAV, but the implementation is so flaky that it is just as likely to crash macOS as it is to let you browse files and folders.
+On macOS, the Finder claims to support WebDAV, but the implementation is so flaky that it's just as likely to crash macOS as it's to let you browse files and folders.
 Use a dedicated WebDAV client instead, such as [Cyberduck](https://cyberduck.io/).
 
 
@@ -256,7 +256,7 @@ For example, an image type could return the raw image data.
 A `PUT` request reads the body of a request and uses it to update a resource that already exists, or to create a new object.
 
 By default `Resource.PUT()` fails with "405 Method Not Allowed".
-That is, it is not by default possible to `PUT` to a resource that already exists.
+That is, it's not by default possible to `PUT` to a resource that already exists.
 The same is true of `Collection.PUT()`.
 
 In Dexterity, the `PUT()` method is overridden to adapt `self` to `zope.filerepresentation.IRawWriteFile`, and call its `write()` method one or more times, writing the contents of the request body, before calling `close()`.
@@ -410,7 +410,7 @@ Also note that [`plone.locking`](https://pypi.org/project/plone.locking/) uses t
 
 `NullResource.LOCK()` implements locking on a `NullResource`.
 In effect, this means locking the name of the non-existent resource.
-When a `NullResource` is locked, it is temporarily turned into a `LockNullResource` object, which is a persistent object set onto the parent (remember that a `NullResource` is a transient object returned when a child object cannot be found in a WebDAV request).
+When a `NullResource` is locked, it's temporarily turned into a `LockNullResource` object, which is a persistent object set onto the parent (remember that a `NullResource` is a transient object returned when a child object cannot be found in a WebDAV request).
 
 
 ### `UNLOCK`

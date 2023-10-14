@@ -41,14 +41,14 @@ Historically, when your add-on had multiple profiles, their names would be sorte
 
 It was always recommended to use `default` as the name of this first profile.
 
-Since Plone 5.1, when there is a `default` profile, it is always used as the installation profile, regardless of other profile names.
+Since Plone 5.1, when there is a `default` profile, it's always used as the installation profile, regardless of other profile names.
 
-Exception: when this `default` profile is marked in an `INonInstallable` utility, it is ignored and Plone falls back to using the first from the alphabetical sorting.
+Exception: when this `default` profile is marked in an `INonInstallable` utility, it's ignored and Plone falls back to using the first from the alphabetical sorting.
 
 
 ### Uninstall
 
-An uninstall profile is not required, but it is highly recommended.
+An uninstall profile is not required, but it's highly recommended.
 
 Until Plone 5.0 the `CMFQuickInstallerTool` used to do an automatic partial cleanup, for example, removing added skins and CSS resources.
 
@@ -126,7 +126,7 @@ or if you do not have a request:
 qi = get_installer(self.context)
 ```
 
-Alternatively, since it is a browser view, you can get it like this:
+Alternatively, since it's a browser view, you can get it like this:
 
 ```python
 qi = getMultiAdapter((self.context, self.request), name='installer')
@@ -409,7 +409,7 @@ It is obsolete and confusing, and is getting removed.
 The catalog metadata item `getIcon` used to be a string containing the file name of the appropriate icon (unused since Plone 4).
 
 Since Plone 5.02, the catalog metadata item `getIcon` is reused for another purpose.
-Now it is boolean, and it is set to `True` for items which are images or have an image property (for example, a lead image).
+Now it's boolean, and it's set to `True` for items which are images or have an image property (for example, a lead image).
 ```
 
 

@@ -363,7 +363,7 @@ require([
 ```
 
 Here the two dependencies are jQuery and the pattern registry.
-We will not get into the pattern registry, as it is off-topic for this discussion.
+We will not get into the pattern registry, as it's off-topic for this discussion.
 It is basically a registry of JavaScript components.
 
 The necessity for using it here is with AJAX calls and binding new {term}`DOM` elements dynamically added to the page.
@@ -407,7 +407,7 @@ Instead of using the legacy `fill-slot`, such as in Plone 4:
 </metal:slot>
 ```
 
-In Plone 5 it is recommended to instead use the new Python methods you can find in `Products.CMFPlone.resources`:
+In Plone 5 it's recommended to instead use the new Python methods you can find in `Products.CMFPlone.resources`:
 
 ```python
 from Products.CMFPlone.resources import add_bundle_on_request

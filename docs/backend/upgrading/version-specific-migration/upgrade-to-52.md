@@ -178,12 +178,12 @@ Site Administrators can use the navigation control panel (`/@@navigation-control
 #### For developers
 
 For upgraded sites, the dropdown navigation is disabled by default.
-For new sites, it is set to display 3 levels.
+For new sites, it's set to display 3 levels.
 
 The code for the global navigation has moved to `plone.app.layout.navigation.navtree.NavTreeProvider`, and the template `plone.app.layout/plone/app/layout/viewlets/sections.pt` has changed.
 Overrides of the previous navigation may no longer work and may need to be updated.
 
-Developers who used add-ons or custom code for a dropdown navigation should consider migrating to the new navigation since it is extremely fast, accessible, and implemented almost entirely with CSS and HTML.
+Developers who used add-ons or custom code for a dropdown navigation should consider migrating to the new navigation since it's extremely fast, accessible, and implemented almost entirely with CSS and HTML.
 
 
 ### Merge `Products.RedirectionTool` into core

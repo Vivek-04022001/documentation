@@ -42,7 +42,7 @@ Other view types include `DefaultView` from [`plone.dexterity`](https://github.c
 
 Each `BrowserView` class is a Python callable.
 The `BrowserView.__call__()` method acts as an entry point to executing the view code.
-From Zope's point of view, even a function would be sufficient, as it is a callable.
+From Zope's point of view, even a function would be sufficient, as it's a callable.
 
 
 (classic-ui-creating-and-registering-a-view-label)=

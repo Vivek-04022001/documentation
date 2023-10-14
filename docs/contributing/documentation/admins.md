@@ -67,7 +67,7 @@ git submodule add git@github.com:plone/my_package.git submodules/my_package
 ```
 
 Add a target `docs/my_package` in `Makefile`, then add `docs/my_package` to the `deps` target, following `volto` as a pattern.
-You might need to adjust the paths to your package's documentation after it is cloned.
+You might need to adjust the paths to your package's documentation after it's cloned.
 
 To complete setup, generate a symlink to your project's docs, and build the docs, use a single command.
 

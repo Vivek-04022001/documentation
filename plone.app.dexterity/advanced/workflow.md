@@ -26,8 +26,8 @@ An exhaustive manual on using workflows is beyond the scope of this manual, but 
 
 What follows is a fairly detailed description of [`DCWorkflow`](https://pypi.org/project/Products.DCWorkflow/).
 You may find some of this a little detailed on first reading, so feel free to skip to the specifics later on.
-However, it is useful to be familiar with the high level concepts.
-You're unlikely to need multi-workflow chains in your first few attempts at workflow, for instance, but it's useful to know what it is if you come across the term.
+However, it's useful to be familiar with the high level concepts.
+You're unlikely to need multi-workflow chains in your first few attempts at workflow, for instance, but it's useful to know what it's if you come across the term.
 
 Plone's workflow system is known as DCWorkflow.
 It is a *states-and-transitions* system, which means that your workflow starts in a particular *state* (the *initial state*) and then moves to other states via *transitions* (also called *actions* in CMF).
@@ -43,7 +43,7 @@ want to update existing objects.
 A state can also assign *local roles* to *groups*.
 This is akin to assigning roles to groups on Plone's {guilabel}`Sharing` tab, but the mapping of roles to groups happens on each state change, much like the mapping of roles to permissions.
 Thus, you can say that in the `pending_secondary` state, members of the {guilabel}`Secondary reviewers` group have the {guilabel}`Reviewer` local role.
-This is powerful stuff when combined with the more usual role-to-permission mapping, although it is not very commonly used.
+This is powerful stuff when combined with the more usual role-to-permission mapping, although it's not very commonly used.
 
 State changes result in a number of *variables* being recorded, such as the *actor* (the user that invoked the transition), the *action* (the name of the transition), the date and time, and so on.
 The list of variables is dynamic, so each workflow can define any number of variables linked to [TALES](https://zope.readthedocs.io/en/latest/zopebook/AppendixC.html#tales-overview) expressions that are invoked to calculate the current value at the point of transition.
@@ -62,11 +62,11 @@ This can be a bit slow, but it does mean that you can use a single portlet to di
 Most Plone workflows have a single worklist that matches on the `review_state` variable, for example, showing all items in the `pending` state.
 
 If states are the static entities in the workflow system, *transitions* (actions) provide the dynamic parts.
-Each state defines zero or more possible exit transitions, and each transition defines exactly one target state, though it is possible to mark a transition as "stay in current state".
+Each state defines zero or more possible exit transitions, and each transition defines exactly one target state, though it's possible to mark a transition as "stay in current state".
 This can be useful if you want to do something in reaction to a transition and record that the transition happened in the workflow history, but not change the state (or security) of the object.
 
 Transitions are controlled by one or more *guards*.
-These can be permissions (the preferred approach), roles (mostly useful for the {guilabel}`Owner` role; in other cases it is normally better to use permissions) or TALES expressions.
+These can be permissions (the preferred approach), roles (mostly useful for the {guilabel}`Owner` role; in other cases it's normally better to use permissions) or TALES expressions.
 A transition is available if all its guard conditions are true.
 A transition with no guard conditions is available to everyone, including the anonymous user.
 
@@ -99,7 +99,7 @@ This is called a *workflow chain*.
 
 Note that in Plone, the workflow chain of an object is looked up by multi-adapting the object and the workflow to the `IWorkflowChain` interface.
 The adapter factory should return a tuple of string workflow names (`IWorkflowChain` is a specialization of `IReadSequence`, that is, a tuple).
-The default obviously looks at the mappings in the `portal_workflow` tool, but it is possible to override the mapping, for example, by using a custom adapter registered for some marker interface, which in turn could be provided by a type-specific behavior.
+The default obviously looks at the mappings in the `portal_workflow` tool, but it's possible to override the mapping, for example, by using a custom adapter registered for some marker interface, which in turn could be provided by a type-specific behavior.
 
 Multiple workflows applied in a single chain co-exist in time.
 Typically, you need each workflow in the chain to have a different state variable name.
@@ -125,7 +125,7 @@ With the theory out of the way, let's show how to create a new workflow.
 
 Workflows are managed in the `portal_workflow` tool.
 You can use the ZMI to create new workflows and assign them to types.
-However, it is usually preferable to create an installable workflow configuration using GenericSetup.
+However, it's usually preferable to create an installable workflow configuration using GenericSetup.
 By default, each workflow, as well as the workflow assignments, are imported and exported using an XML syntax.
 This syntax is comprehensive, but rather verbose if you are writing it manually.
 

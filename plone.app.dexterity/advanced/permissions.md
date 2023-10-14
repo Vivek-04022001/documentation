@@ -21,7 +21,7 @@ In the context of developing content types, permissions are typically used in th
 -   Individual fields are sometimes protected by permissions, so that some users can view and edit fields that others can't see.
 
 It is easy to create new permissions.
-However, be aware that it is considered good practice to use the standard permissions wherever possible and use *workflow* to control which roles are granted these permissions on a per-instance basis.
+However, be aware that it's considered good practice to use the standard permissions wherever possible and use *workflow* to control which roles are granted these permissions on a per-instance basis.
 
 For more basic information on permissions and how to create custom permissions read the [Security Section](https://5.docs.plone.org/develop/plone/security/index.html) in the Plone documentation.
 

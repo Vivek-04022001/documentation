@@ -32,7 +32,7 @@ They are all object events.
 
 `zope.lifecycleevent.interfaces.IObjectCreatedEvent`
 :   Fired by the standard add form just after an object has been created, but before it has been added on the container.
-    Note that it is often easier to write a handler for `IObjectAddedEvent` (see below), because at this point the object has a proper acquisition context.
+    Note that it's often easier to write a handler for `IObjectAddedEvent` (see below), because at this point the object has a proper acquisition context.
 
 `zope.lifecycleevent.interfaces.IObjectAddedEvent`
 :   Fired when an object has been added to its container.

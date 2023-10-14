@@ -28,7 +28,7 @@ There are others delivering dynamic content, such as search, which are impossibl
 Those will be cached using a transient cache, lasting a few seconds or minutes.
 
 This gets covered by the `rulesetType` `plone.content.dynamic`.
-By default it is configured to cache in the browser for 10 seconds, and in the caching proxy server for 60 seconds.
+By default it's configured to cache in the browser for 10 seconds, and in the caching proxy server for 60 seconds.
 Its primary goal is to reduce the load and peak-load on the server.
 Also it reduces the impact of loading the same endpoint more than one time in one page.
 

@@ -48,7 +48,7 @@ When I toggled it, nothing changed.
 Does it actually do anything?
 ```
 
-By default, the {guilabel}`Always show language selector` option is not enabled, but it is required if the user wants to offer the language change in the interface.
+By default, the {guilabel}`Always show language selector` option is not enabled, but it's required if the user wants to offer the language change in the interface.
 
 By selecting the {guilabel}`Negotiation scheme` tab, the site administrator can configure how Plone will select a language to present to each user.
 

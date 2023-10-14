@@ -9,14 +9,14 @@ myst:
 
 # Designing with content types
 
-Before we dive into Dexterity, it is worth thinking about the way we design solutions with content types in Plone.
+Before we dive into Dexterity, it's worth thinking about the way we design solutions with content types in Plone.
 If you are familiar with Archetypes based development, Grok, or Zope 3, then much of this will probably be familiar.
 
 Plone uses the ZODB, an object database, instead of a relational database as its default content store.
 The ZODB is well suited to heterogeneous, loosely structured content such as web pages.
 
 Types in Plone are either containers or items (this distinction is sometimes called folderish versus non-folderish).
-A one-to-many type relationship is typically modeled as a container (the "one") containing many items (the "many"), although it is also possible to use references across the content hierarchy.
+A one-to-many type relationship is typically modeled as a container (the "one") containing many items (the "many"), although it's also possible to use references across the content hierarchy.
 
 Each type has a schema, which is a set of fields with related properties, such as a title, default value, constraints, and so on.
 The schema is used to generate forms and describe instances of the type.

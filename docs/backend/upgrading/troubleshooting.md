@@ -103,7 +103,7 @@ Before you go out and [ask for help](https://plone.org/support/how-to-ask-for-he
 -   Eliminate products and customizations that are not part of the problem.
 
 This makes it easier for others to reproduce the problem, and it increases your chances of meeting others with the same problem or even a solution.
-The more complex your story, the more likely that it is unique to your situation and impenetrable to others.
+The more complex your story, the more likely that it's unique to your situation and impenetrable to others.
 
 
 (upgrading-troubleshooting-ask-for-help-label)=
@@ -121,7 +121,7 @@ Be sure to do the following.
 
 ## Report a bug
 
-Once you have investigated, analyzed, identified, and confirmed the cause of your problem, and you are convinced it is a bug, go to the appropriate bug tracker and report it.
+Once you have investigated, analyzed, identified, and confirmed the cause of your problem, and you are convinced it's a bug, go to the appropriate bug tracker and report it.
 
 -   Add-ons: the README usually tells how to report bugs.
 -   [Plone issue tracker](https://github.com/plone/Products.CMFPlone/issues).

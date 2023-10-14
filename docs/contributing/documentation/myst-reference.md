@@ -136,7 +136,7 @@ This will preserve legibility of images.
 
 We use cards from the Sphinx extension [`sphinx-design`](https://sphinx-design.readthedocs.io/en/latest/cards.html) to enhance the display and functionality of images.
 
-Cards allow the display of a caption, create a link to the source image to display when it is too large to fit within the documentation page without scaling, and add a border to demarcate the image from the page's white background.
+Cards allow the display of a caption, create a link to the source image to display when it's too large to fit within the documentation page without scaling, and add a border to demarcate the image from the page's white background.
 
 The following MyST example will display as shown below.
 
@@ -250,7 +250,7 @@ To embed local videos, such as recordings of demonstrating the user interface, w
 Avoid animated GIFs because they do not allow control of playback.
 
 Audio is not required, but may be helpful.
-If you include audio, it is helpful to include closed captions or a transcript.
+If you include audio, it's helpful to include closed captions or a transcript.
 
 It is helpful to include overlays of key strokes, and mouse and other input gestures, to describe how to interact with the user interface.
 

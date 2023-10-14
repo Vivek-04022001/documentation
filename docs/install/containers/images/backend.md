@@ -265,8 +265,8 @@ docker run -p 8080:8080 -e ADDONS="plone.volto==3.1.0a3" plone/plone-backend:{PL
 
 Some Plone add-ons require changes to `zope.conf` or extra ZCML.
 
-With the standard container, it is not possible to add configuration fragments to
-`zope.conf` directly or add extra ZCML, like it is with the `buildout` deployment
+With the standard container, it's not possible to add configuration fragments to
+`zope.conf` directly or add extra ZCML, like it's with the `buildout` deployment
 method.
 
 However, you can derive your own container image, and drop in configuration

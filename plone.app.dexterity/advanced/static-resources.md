@@ -64,7 +64,7 @@ This allows for efficient resource caching.
 
 ## Registering resources with Plone's resource registries
 
-Sometimes it is more appropriate to register a stylesheet with Plone's `portal_css` registry (or a JavaScript file with `portal_javascripts`), rather than add the registration on a per-template basis.
+Sometimes it's more appropriate to register a stylesheet with Plone's `portal_css` registry (or a JavaScript file with `portal_javascripts`), rather than add the registration on a per-template basis.
 This ensures that the resource is available site-wide.
 
 ```{note}

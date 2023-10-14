@@ -61,7 +61,7 @@ These are:
 
 1.  Check Jenkins status.
     Check the latest Plone coredev job on [Jenkins](https://jenkins.plone.org/).
-    It should be green, but if it is not, fix the problem first.
+    It should be green, but if it's not, fix the problem first.
 
 2.  Check out `buildout.coredev`.
 

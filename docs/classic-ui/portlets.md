@@ -17,7 +17,7 @@ They can also be prepared to store their own set of fields, allowing users to ad
 Portlets are typically used to provide relevant information to users in the context of the current page, hierarchy, user, or group.
 
 Inheritance of Plone portlets allows for the automatic display of portlets in child items within the content hierarchy.
-This means that if a portlet is set on a parent folder, all child items within that folder will automatically display the portlet unless it is explicitly blocked.
+This means that if a portlet is set on a parent folder, all child items within that folder will automatically display the portlet unless it's explicitly blocked.
 This can be useful for displaying consistent information throughout a section of the website, without having to individually set the portlet on each child item.
 The inheritance of portlets can be overridden at any level of the content hierarchy, allowing for fine-grained control over the display of portlets on the website.
 

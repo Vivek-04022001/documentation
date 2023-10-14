@@ -52,7 +52,7 @@ And register it in {file}`configure.zcml`.
     />
 ```
 
-This form is of course not terribly interesting, since it is identical to the default.
+This form is of course not terribly interesting, since it's identical to the default.
 However, we can now start changing fields and values.
 For example, we could do any of the following.
 
@@ -92,7 +92,7 @@ What actually happens is the following.
 
     -   The `++add++` namespace adapter looks up the FTI with the given name, and gets its `factory` property.
     -   The `factory` property of an FTI gives the name of a particular `zope.component.interfaces.IFactory` utility, which is used later to construct an instance of the content object.
-        Dexterity automatically registers a factory instance for each type, with a name that matches the type name, although it is possible to use an existing factory name in a new type.
+        Dexterity automatically registers a factory instance for each type, with a name that matches the type name, although it's possible to use an existing factory name in a new type.
         This allows administrators to create new "logical" types that are functionally identical to an existing type.
     -   The `++add++` namespace adapter looks up the actual form to render as a multi-adapter from `(context, request, fti)` to `Interface` with a name matching the `factory` property.
         Recall that a standard view is a multi-adapter from `(context, request)` to `Interface` with a name matching the URL segment for which the view is looked up.

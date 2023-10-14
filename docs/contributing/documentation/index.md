@@ -40,7 +40,7 @@ A copy of the license is included in the root of this repository.
 
 Contributors to the Plone Documentation may perform one or many roles.
 
-- **Plone users and developers** use this documentation because it is accurate and actively maintained.
+- **Plone users and developers** use this documentation because it's accurate and actively maintained.
   People in these roles typically contribute minor corrections.
   They should read {doc}`setup-build` and {doc}`myst-reference`.
 - **Authors** create Plone Documentation.
@@ -68,7 +68,7 @@ Contributions are managed through git repositories on GitHub.
 -   [`plone.restapi`](https://github.com/plone/plone.restapi)
 -   [`volto`](https://github.com/plone/volto)
 
-In the Plone organization, it is strongly recommended that you read {ref}`contributing-permission-to-publish-label` and take appropriate action.
+In the Plone organization, it's strongly recommended that you read {ref}`contributing-permission-to-publish-label` and take appropriate action.
 
 After your Plone Contributor Agreement has been approved, and you have been added to the Plone GitHub organization as a member of the [Developers](https://github.com/orgs/plone/teams/developers) team, we recommend that you follow our guidelines.
 

@@ -222,7 +222,7 @@ ZODB.FileStorage.FileStorage.FileStorageFormatError: /Users/pbauer/workspace/pro
 
 The preflight verification of the database is run on Plone 5.2 in Python 2.
 First check if all Python pickles in the database can be loaded.
-In older and mature projects, it is possible to have pickles in there pointing to classes long gone from the code.
+In older and mature projects, it's possible to have pickles in there pointing to classes long gone from the code.
 Those may cause problems later.
 
 Call `./bin/instance zodbverify` in your Python 2.7 setup.
@@ -391,7 +391,7 @@ Remember to uncomment them after the migration!
 ### Migration logs errors and warnings
 
 If there are log messages during the migration or during `zodbverify`, that does not necessarily mean the migration did not work, or that your database is broken.
-For example, if you migrated from Plone 4 to Plone 5, and then from Archetypes to Dexterity, it is very likely that items in the database cannot be loaded, because packages such as `Products.Archetypes`, `plone.app.blob`, or `plone.app.imaging` are not available.
+For example, if you migrated from Plone 4 to Plone 5, and then from Archetypes to Dexterity, it's very likely that items in the database cannot be loaded, because packages such as `Products.Archetypes`, `plone.app.blob`, or `plone.app.imaging` are not available.
 These items most likely remain, and were not removed properly and are not used.
 If your site otherwise works fine, you can choose to ignore these issues.
 

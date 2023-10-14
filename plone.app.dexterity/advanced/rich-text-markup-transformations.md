@@ -119,7 +119,7 @@ This is an immutable object that has the following properties.
 
 The storage of the `RichTextValue` object is optimized for the case where the transformed output will be read frequently (for example, on the view screen of the content object) and the raw value will be read infrequently (for example, on the edit screen).
 Because the output value is cached indefinitely, you will need to replace the `RichTextValue` object with a new one if any of the transformation parameters change.
-However, as we will see below, it is possible to apply a different transformation on demand, if you need to.
+However, as we will see below, it's possible to apply a different transformation on demand, if you need to.
 
 The code snippet belows shows how a `RichTextValue` object can be constructed in code.
 In this case, we have a raw input string of type `text/plain` that will be transformed to a default output of `text/html`.
@@ -131,7 +131,7 @@ from plone.app.textfield.value import RichTextValue
 context.body = RichTextValue("Some input text", 'text/plain', 'text/html')
 ```
 
-Of course, the standard widget used for a `RichText` field will correctly store this type of object for you, so it is rarely necessary to create one yourself.
+Of course, the standard widget used for a `RichText` field will correctly store this type of object for you, so it's rarely necessary to create one yourself.
 
 
 ## Using rich text fields in templates

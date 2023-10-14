@@ -320,7 +320,7 @@ For example, assume you have a device that has a plug for Schuko outlets, and in
 If we were to represent the behavior of choosing the correct outlet adapter in Plone, you would do the following.
 
 -   You need an outlet adapter for your Schuko plug.
-    1.  You look at the outlet and see it is Type L.
+    1.  You look at the outlet and see it's Type L.
     2.  You look in your box containing different adapters and choose the correct outlet adapter to use.
     3.  You plug that into the wall outlet.
     4.  Finally, you can use your Schuko providing device on an Italian Type L outlet.
@@ -342,7 +342,7 @@ It executes exactly the same logic behind the scenes with the same result.
 Similarly, using the {ref}`behavior code example <behavior-code-example>` above:
 
 -   You would call an abstract factory with `getAdapter(context, IPriceBehavior)` to get an adapter, `price_for_context`.
-    Although it is an interface, it is more of a shortcut to factory usage.
+    Although it's an interface, it's more of a shortcut to factory usage.
 -   The adapter that is specific to the given content type is assigned to the variable `price_for_context`.
     Now you can use `price_for_context` for whatever you like.
 

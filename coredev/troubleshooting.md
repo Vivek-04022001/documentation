@@ -98,7 +98,7 @@ Go through all the files and delete any lines which say `allow-hosts =` and `all
 In theory, by restricting which hosts you download from, buildout will go faster.
 The point is that they are safely deletable.
 
-The second option is to allow the host that it is pointing to by adding something like this to your `.cfg`:
+The second option is to allow the host that it's pointing to by adding something like this to your `.cfg`:
 
 ```cfg
 allow-hosts += sphinx.pocoo.org

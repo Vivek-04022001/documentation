@@ -51,7 +51,7 @@ On a large site, this would quickly become prohibitive.
 
 Luckily, Zope comes with a technology called the *ZCatalog*, which is basically a table structure optimized for searching.
 In Plone, there's a ZCatalog instance called `portal_catalog`.
-Standard event handlers will index content in the catalog when it is created or modified, and unindex when the content is removed.
+Standard event handlers will index content in the catalog when it's created or modified, and unindex when the content is removed.
 
 The catalog manages *indexes*, which can be searched, and *metadata* (also known as *columns*), which are object attributes for which the value is copied into the catalog.
 When we perform a search, the result is a lazily loaded list of objects known as *catalog brains*.
@@ -59,7 +59,7 @@ Catalog brains contain the value of metadata columns (but not indexes) as attrib
 The functions `getURL()`, `getPath()`, and `getObject()` can be used to get the URL and path of the indexed content item, and to load the full item into memory.
 
 ```{note}
-If you're working with references, parent objects, or a small number of child objects, it is usually OK to load objects directly to work with them.
+If you're working with references, parent objects, or a small number of child objects, it's usually OK to load objects directly to work with them.
 However, if you are working with a large or unknown-but-potentially-large number of objects, you should consider using catalog searches to find them, and use catalog metadata to store frequently used values.
 There is an important trade-off to be made between limiting object access and bloating the catalog with unneeded indexes and metadata, though.
 In particular, large strings (such as the body text of a document) or binary data (such as the contents of image or file fields) should not be stored as catalog metadata.
@@ -68,7 +68,7 @@ In particular, large strings (such as the body text of a document) or binary dat
 Plone comes with a number of standard indexes and metadata columns.
 These correspond to much of the *Dublin Core* set of metadata as well as several Plone-specific attributes.
 You can view the indexes, columns, and the contents of the catalog through the ZMI pages of the `portal_catalog` tool.
-If you've never done this, it is probably instructive to have a look, both to understand how the indexes and columns may apply to your own content types, and to learn what searches are already possible.
+If you've never done this, it's probably instructive to have a look, both to understand how the indexes and columns may apply to your own content types, and to learn what searches are already possible.
 
 Indexes come in various types. The most common ones are the following.
 
@@ -99,7 +99,7 @@ Indexes come in various types. The most common ones are the following.
 
 When an object is indexed, by default the catalog will attempt to find attributes and methods that match index and column names on the object.
 Methods will be called with no arguments in an attempt to get a value.
-If a value is found, it is indexed.
+If a value is found, it's indexed.
 
 ```{note}
 Objects are normally acquisition-wrapped when they are indexed, which means that an indexed value may be acquired from a parent.
@@ -132,7 +132,7 @@ The metadata column is just the name of an attribute.
 
 Indexing based on attributes sometimes can be limiting.
 First of all, the catalog is indiscriminate in that it attempts to index every attribute that's listed against an index or metadata column for every object.
-Secondly, it is not always feasible to add a method or attribute to a class just to calculate an indexed value.
+Secondly, it's not always feasible to add a method or attribute to a class just to calculate an indexed value.
 
 Plone 3.3 and later ships with a package called [`plone.indexer`](https://pypi.org/project/plone.indexer/) to help make it easier to write custom indexers.
 These are components that are invoked to calculate the value which the catalog sees when it tries to index a given attribute.
@@ -231,7 +231,7 @@ Some of the more commonly used indexes are:
 
 `portal_type`
 :   Used to match the portal type.
-    Note that users can rename portal types, so it is often better not to hardcode these.
+    Note that users can rename portal types, so it's often better not to hardcode these.
     Often using an `object_provides` search for a type-specific interface will be better.
     Conversely, if you are asking the user to select a particular type to search for, then they should be choosing from the currently installed `portal_types`.
 
@@ -257,7 +257,7 @@ In addition, the search results can be sorted based on any `FieldIndex`, `Keywor
     The default is `sort_order='ascending'`.
     `'descending'` can be used as an alias for `'reverse'`.
 -   Add `sort_limit=10` to limit to approximately 10 search results.
-    Note that it is possible to get more results due to index optimizations.
+    Note that it's possible to get more results due to index optimizations.
     Use a list slice on the catalog search results to be absolutely sure that you get the maximum number of results, for example, `results = catalog(…, sort_limit=10)[:10]`.
     Also note that the use of `sort_limit` requires a `sort_on` as well.
 

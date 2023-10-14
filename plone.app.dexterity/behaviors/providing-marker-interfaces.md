@@ -11,7 +11,7 @@ myst:
 
 This chapter describes how to use behaviors to set marker interfaces on instances of a given content type.
 
-Sometimes it is useful for objects that provide a particular behavior to also provide a specific marker interface.
+Sometimes it's useful for objects that provide a particular behavior to also provide a specific marker interface.
 For example, you can register a viewlet for a particular marker, and use a behavior to enable that marker on all instances of a particular content type.
 The viewlet will then only show up when the behavior is enabled.
 The same principle can be applied to event handlers, views, and other components.
@@ -231,7 +231,7 @@ This is a quite complex behavior, but hopefully you can see what's going on:
 -   We define and register an adapter from this marker to `ILocalRoles` from `borg.localrole`.
 -   Similarly, we register a multi-adapter to `IIndexer`, as provided by `plone.indexer`.
 
-Although this behavior provides a lot of functionality, it is no more difficult for integrators to use than any other.
+Although this behavior provides a lot of functionality, it's no more difficult for integrators to use than any other.
 They would list the behavior interface (`iz.behaviors.reviewers.IReviewers` in this case) in the FTI, and all this functionality comes to life.
 This is the true power of behaviors.
 Developers can bundle up complex functionality into reusable behaviors, which can then be enabled on a per-type basis by integrators or the same developers in lazier moments.

@@ -33,7 +33,7 @@ Let's bring you up to speed with the minimum you need to know to start contribut
     -   What happens instead?
     -   Which Plone version are you using?
 
--   If it is a visual issue, can you add a screen shot?
+-   If it's a visual issue, can you add a screen shot?
 
 -   If there is an error in the Site Setup error log, please include it.
     Especially a traceback is helpful.

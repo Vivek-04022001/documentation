@@ -304,7 +304,7 @@ The `Session` type, in `session.xml`, should look like the following.
 Note that the `icon_expr` and `global_allow` declarations have changed from the original.
 
 There is a fair amount of boilerplate here which could actually be omitted, because the Dexterity FTI defaults will take care of most of this.
-However, it is useful to see the options available so that you know what you can change.
+However, it's useful to see the options available so that you know what you can change.
 
 The important lines here are:
 

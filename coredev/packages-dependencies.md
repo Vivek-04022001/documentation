@@ -32,7 +32,7 @@ We do not have any circular dependencies at the package level anymore.
 This was solved already.
 
 Nevertheless we have indirection on all other levels.
-Since Plone consists of a lot of packages, it is complex to untangle those.
+Since Plone consists of a lot of packages, it's complex to untangle those.
 
 
 ## Mental model

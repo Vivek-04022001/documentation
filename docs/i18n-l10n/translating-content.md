@@ -68,13 +68,13 @@ If needed, you will need to develop such connector tools and {term}`hook` into a
 
 ## Language independent content
 
-In some cases it is justified to have "language independent content".
+In some cases it's justified to have "language independent content".
 This means content that you need to be available in several languages, such as files or images.
 Plone provides the {term}`Language Independent Folder`s (LIF), that are automatically created when enabling languages in your site. 
 
 In the root of your language folder you will find a folder containing static assets.
 If you have configured the English site, this folder is called `Assets`.
-In Spanish, it is called `Media`.
+In Spanish, it's called `Media`.
 It can have different names in different languages.
 You can store assets in those language independent folders.
 Plone will take care of showing you any content uploaded to those LIFs in all languages.

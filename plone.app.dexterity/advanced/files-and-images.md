@@ -11,8 +11,8 @@ myst:
 
 This chapter describes how to work with file and image fields, including blobs.
 
-Plone has dedicated `File` and `Image` types, and it is often preferable to use these for managing files and images.
-However, it is sometimes useful to treat fields on an object as binary data.
+Plone has dedicated `File` and `Image` types, and it's often preferable to use these for managing files and images.
+However, it's sometimes useful to treat fields on an object as binary data.
 When working with Dexterity, you can accomplish this by using [`plone.namedfile`](https://pypi.org/project/plone.namedfile/) and [`plone.formwidget.namedfile`](https://pypi.org/project/plone.formwidget.namedfile/).
 
 The `plone.namedfile` package includes four field types, all found in the `plone.namedfile.field` module.
@@ -38,7 +38,7 @@ Note the different module!
 These objects have attributes, such as `data` to access the raw binary data, `contentType`, to get a MIME type, and `filename` to get the original filename.
 The image values also support `_height` and `_width` to get image dimensions.
 
-To use the non-blob image and file fields, it is sufficient to depend on `plone.formwidget.namedfile`, since this includes `plone.namefile` as a dependency.
+To use the non-blob image and file fields, it's sufficient to depend on `plone.formwidget.namedfile`, since this includes `plone.namefile` as a dependency.
 We prefer to be explicit in `setup.py`, however, since we will actually import it directly from `plone.namedfile`.
 
 ```ini

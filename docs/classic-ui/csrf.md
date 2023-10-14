@@ -159,7 +159,7 @@ def some_function(obj, request):
     obj.foo = "bar"  # modify obj
 ```
 
-If there are lots of modifications or it is not possible to identify the boundaries of the writes, the protection can be disabled for the whole current request.
+If there are lots of modifications or it's not possible to identify the boundaries of the writes, the protection can be disabled for the whole current request.
 Then the request can be marked with the `IDisableCSRFProtection` marker interface.
 
 ```python
