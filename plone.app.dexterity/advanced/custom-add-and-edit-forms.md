@@ -12,7 +12,7 @@ myst:
 This chapter describes how to use `z3c.form` to build custom forms.
 
 Until now, we have used Dexterity's default content add and edit forms, supplying form hints in our schemata to influence how the forms are built.
-For most types, that is all that's ever needed.
+For most types, that's all that's ever needed.
 In some cases, however, we want to build custom forms, or supply additional forms.
 
 Dexterity uses the [`z3c.form`](https://z3cform.readthedocs.io/en/latest/) library to build its forms, via the [`plone.z3cform`](https://pypi.org/project/plone.z3cform/) integration package.
@@ -27,12 +27,12 @@ If you want to build standalone forms not related to content objects, see the [`
 
 ## Edit forms
 
-An edit form is just a form that is registered for a particular type of content and knows how to register its fields.
+An edit form is just a form that's registered for a particular type of content and knows how to register its fields.
 If the form is named `edit`, it will replace the default edit form, which is registered with that name for the more general `IDexterityContent` interface.
 
 Dexterity provides a standard edit form base class that provides sensible defaults for buttons, labels, and so on.
 This should be registered for a type schema (not a class).
-To create an edit form that is identical to the default, we could do the following.
+To create an edit form that's identical to the default, we could do the following.
 
 ```python
 from plone.dexterity.browser import edit

@@ -39,7 +39,7 @@ def notifyUser(presenter, event):
 ```
 
 If we want to test that this sends the right kind of email message, we'll need to somehow inspect what's passed to `send().`
-The only way to do that is to replace the `MailHost` object that is acquired when `getToolByName(presenter, ‘MailHost')` is called, with something that performs that assertion for us.
+The only way to do that's to replace the `MailHost` object that's acquired when `getToolByName(presenter, ‘MailHost')` is called, with something that performs that assertion for us.
 
 If we wanted to write an integration test, we could use `PloneTestCase` to execute this event handler by firing the event manually, and temporarily replace the `MailHost` object in the root of the test case portal (`self.portal`) with a dummy that raised an exception if the wrong value was passed.
 

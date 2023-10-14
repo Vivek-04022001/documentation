@@ -164,7 +164,7 @@ record
 
 Add-on
     An add-on in Plone extends its functionality.
-    It's code that is released as a package to make it easier to install.
+    It's code that's released as a package to make it easier to install.
 
     In Volto, an add-on is a JavaScript package.
 
@@ -178,7 +178,7 @@ Volto configuration loader
     A function with signature `config => config`.
     It gets the Volto configuration registry, and it must return it back after mutating it.
     It's similar to `GenericSetup` profiles in the Plone backend.
-    An add-on must provide a default configuration loader that is always loaded when Volto runs.
+    An add-on must provide a default configuration loader that's always loaded when Volto runs.
     An add-on can have multiple configuration loaders, and they can be loaded optionally from the Volto configuration.
 
 Configuration registry
@@ -488,7 +488,7 @@ manual `.po` entries
     Entries which cannot be detected by an automatic code scan.
 
 react-intl
-    A library that is part of [Format.JS](https://formatjs.io/docs/getting-started/installation) which helps developers set up their applications for internationalization.
+    A library that's part of [Format.JS](https://formatjs.io/docs/getting-started/installation) which helps developers set up their applications for internationalization.
 
 WSGI
     The Web Server Gateway Interface (WSGI, pronounced _WIZ-ghee_) is a simple calling convention for web servers to forward requests to web applications or frameworks written in the Python programming language.
@@ -571,7 +571,7 @@ Requests
 HTTP-Response
 HTTP Response
 Response
-    Answer of or action by the server that is executed or send to the client after the {term}`Request` is processed.
+    Answer of or action by the server that's executed or send to the client after the {term}`Request` is processed.
 
 HTTP-Header
 HTTP Header
@@ -587,10 +587,10 @@ Object URL
     The target object of the {term}`Request`.
 
 Authorization Header
-    Part of the {term}`Request` that is responsible for the authentication related to the right user or service to ask for a {term}`Response`.
+    Part of the {term}`Request` that's responsible for the authentication related to the right user or service to ask for a {term}`Response`.
 
 Accept Header
-    Part of the {term}`Request` that is responsible to define the expected type of data to be accepted by the client in the {term}`Response`.
+    Part of the {term}`Request` that's responsible to define the expected type of data to be accepted by the client in the {term}`Response`.
 
 Authentication Method
     Access restriction provided by the connection chain to the server exposed to the client.
@@ -638,13 +638,13 @@ view
     The output isn't limited to HTML pages and snippets, but may contain {term}`JSON`, file download payloads, or other data formats.
 
 traversal
-    Traversal is the process of determining the object that is the target of a request by examining the URL path of the request or in code, and looking up objects in the object hierarchy.
+    Traversal is the process of determining the object that's the target of a request by examining the URL path of the request or in code, and looking up objects in the object hierarchy.
 
 acquisition
     Acquisition is a mechanism that allows objects to inherit attributes from their parent objects in the object hierarchy.
 
 Varnish
-    [Varnish](https://varnish-cache.org) is a popular open source web accelerator that is used to implement HTTP caching.
+    [Varnish](https://varnish-cache.org) is a popular open source web accelerator that's used to implement HTTP caching.
 
 Content Delivery Network
 CDN
@@ -654,7 +654,7 @@ CDN
 unique identifier
 UID
    UID is an acronym meaning "unique identifier".
-   A UID is an identifier that is guaranteed to be unique among all identifiers used for those objects and for a specific purpose.
+   A UID is an identifier that's guaranteed to be unique among all identifiers used for those objects and for a specific purpose.
 
 integer identifier
 intid

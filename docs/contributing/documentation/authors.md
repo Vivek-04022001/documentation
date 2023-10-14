@@ -1,8 +1,8 @@
 ---
 myst:
   html_meta:
-    "description": "Authors' guide to writing Plone Documentation. It covers configuring quality checks and syntax for writing markup that is of particular interest to authors."
-    "property=og:description": "Authors' guide to writing Plone Documentation. It covers configuring quality checks and syntax for writing markup that is of particular interest to authors."
+    "description": "Authors' guide to writing Plone Documentation. It covers configuring quality checks and syntax for writing markup that's of particular interest to authors."
+    "property=og:description": "Authors' guide to writing Plone Documentation. It covers configuring quality checks and syntax for writing markup that's of particular interest to authors."
     "property=og:title": "Authors Guide"
     "keywords": "Plone, Documentation, SEO, meta, Vale, spell, grammar, style, check, linkcheck, lexer"
 ---
@@ -154,7 +154,7 @@ If you have a mix of a shell command and its output, then use `console`.
 
 If `xml` doesn't work well, then try `html`.
 
-`jsx` has a complex syntax that is difficult to parse.
+`jsx` has a complex syntax that's difficult to parse.
 We have high hopes for the project [`jsx-lexer`](https://github.com/fcurella/jsx-lexer).
 We include it in our `requirements.txt` file.
 Please contribute to its further development.
@@ -212,8 +212,8 @@ Note that the content of the two tags `description` and `property=og:description
 ---
 myst:
   html_meta:
-    "description": "Authors' guide to writing Plone Documentation. It covers configuring quality checks and syntax for writing markup that is of particular interest to authors."
-    "property=og:description": "Authors' guide to writing Plone Documentation. It covers configuring quality checks and syntax for writing markup that is of particular interest to authors."
+    "description": "Authors' guide to writing Plone Documentation. It covers configuring quality checks and syntax for writing markup that's of particular interest to authors."
+    "property=og:description": "Authors' guide to writing Plone Documentation. It covers configuring quality checks and syntax for writing markup that's of particular interest to authors."
     "property=og:title": "Authors Guide"
     "keywords": "Plone, Documentation, SEO, meta, Vale, spell, grammar, style, check, linkcheck, lexer"
 ---
@@ -222,8 +222,8 @@ myst:
 This renders in the HTML `<head>` section as follows.
 
 ```html
-<meta content="Authors' guide to writing Plone Documentation. It covers configuring quality checks and syntax for writing markup that is of particular interest to authors." name="description" />
-<meta content="Authors' guide to writing Plone Documentation. It covers configuring quality checks and syntax for writing markup that is of particular interest to authors." property="og:description" />
+<meta content="Authors' guide to writing Plone Documentation. It covers configuring quality checks and syntax for writing markup that's of particular interest to authors." name="description" />
+<meta content="Authors' guide to writing Plone Documentation. It covers configuring quality checks and syntax for writing markup that's of particular interest to authors." property="og:description" />
 <meta content="Authors Guide" property="og:title" />
 <meta content="Plone, Documentation, SEO, meta, Vale, spell, grammar, style, check, linkcheck, lexer" name="keywords" />
 ```

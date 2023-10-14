@@ -77,7 +77,7 @@ At the time of writing, this includes:
 </record>
 ```
 
-Default options for the various standard operations are found in the `registry.xml` file that is part of the standard installation profile for this product, in the directory `profiles/default`.
+Default options for the various standard operations are found in the `registry.xml` file that's part of the standard installation profile for this product, in the directory `profiles/default`.
 
 The custom profile overrides a number of operation settings for specific {doc}`rulesets <rulesets-and-caching-operations>`, as shown below.
 
@@ -107,5 +107,5 @@ Notice how we use a _field reference_ to avoid having to re-define the field.
 It may be useful to look at the bundled `registry.xml` for inspiration if you are building your own caching profile.
 Alternatively, you can export the registry from the `portal_setup` tool, and pull out the records under the prefixes `plone.caching` and `plone.app.caching`.
 
-Typically, `registry.xml` is all that is required, but you are free to add additional import steps if required.
+Typically, `registry.xml` is all that's required, but you are free to add additional import steps if required.
 You can also add a `metadata.xml` and use the GenericSetup dependency mechanism to install other profiles on the fly.

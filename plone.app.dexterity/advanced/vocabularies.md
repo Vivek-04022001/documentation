@@ -113,11 +113,11 @@ A list of `terms` is created.
 The list is passed to the constructor of a `SimpleVocabulary`.
 The `SimpleVocabulary` object is returned.
 
-When working with vocabularies, you'll come across some terminology that is worth explaining:
+When working with vocabularies, you'll come across some terminology that's worth explaining:
 
 -   A *term* is an entry in the vocabulary.
     The term has a value.
-    Most terms are *tokenized* terms which also have a token, and some terms are *titled*, meaning they have a title that is different to the token.
+    Most terms are *tokenized* terms which also have a token, and some terms are *titled*, meaning they have a title that's different to the token.
 -   The *token* must be an ASCII string.
     It's the value passed with the request when the form is submitted.
     A token must uniquely identify a term.
@@ -157,7 +157,7 @@ organizer = schema.Choice(
 ## parameterized sources
 
 We can improve this example by moving the group name out of the function, allowing it to be set on a per-field basis.
-To do so, we turn our `IContextSourceBinder` into a class that is initialized with the group name:
+To do so, we turn our `IContextSourceBinder` into a class that's initialized with the group name:
 
 ```python
 from zope.interface import implementer

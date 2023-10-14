@@ -297,7 +297,7 @@ Most likely you will have additional log messages, warnings, and even errors.
 ```{note}
 You can use the debug mode with `./bin/instance zodbverify -D`.
 This will drop you into a `pdb` session each time a database entry cannnot be unpickled
-You can inspect it, and figure out if that is a real issue or not.
+You can inspect it, and figure out if that's a real issue or not.
 
 Before you start debugging you should read the following section on {ref}`troubleshooting-zodbverify-label`, because in many cases you can ignore the warnings.
 ```

@@ -248,7 +248,7 @@ This gives our view a few extra properties that we can use in the template.
 
 `view.w`
 :   A dictionary of all the display widgets, keyed by field names.
-    For fields provided by behaviors, that is usually prefixed with the behavior interface name (`IBehaviorInterface.field_name`).
+    For fields provided by behaviors, that's usually prefixed with the behavior interface name (`IBehaviorInterface.field_name`).
     For the default schema, unqualified names apply.
 
 `view.widgets`

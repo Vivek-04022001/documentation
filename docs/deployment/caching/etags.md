@@ -32,7 +32,7 @@ The ETag token names supported by default are:
 | language | The language(s) accepted by the browser, in the `ACCEPT_LANGUAGE` header. |
 | userLanguage | The current user's preferred language. |
 | lastModified | A timestamp indicating the last-modified date of the given context. |
-| catalogCounter | A counter that is incremented each time the catalog is updated, such as when content in the site is changed. |
+| catalogCounter | A counter that's incremented each time the catalog is updated, such as when content in the site is changed. |
 | locked | Whether or not the given context is locked for editing. |
 | skin | The name of the current skin (theme). |
 | resourceRegistries | A timestamp indicating the last-modified timestamp for the Resource Registries. This is useful for avoiding requests for expired resources from cached pages. |

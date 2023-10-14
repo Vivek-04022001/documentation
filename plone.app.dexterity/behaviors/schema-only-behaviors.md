@@ -44,7 +44,7 @@ If you adapt an object for which the behavior is enabled to the behavior interfa
 
 ## Storing attributes
 
-This approach is convenient, but there is another approach that is even more convenient, and, contrary to what you may think, may be more efficient: store the attributes of the schema interface directly on the content object.
+This approach is convenient, but there is another approach that's even more convenient, and, contrary to what you may think, may be more efficient: store the attributes of the schema interface directly on the content object.
 
 As an example, here's the standard `IRelatedItems` behavior from `plone.app.dexerity`.
 

@@ -45,7 +45,7 @@ What rights will I continue to have for my contributions?
 
 > Contributors are asked to transfer their intellectual property rights to the Foundation.
 > In return, they will be given back irrevocable rights to use and distribute their contributions.
-> They can even give their contributions to other Open Source projects (as long as those projects are compatible with the license Plone itself is issued under) or use them in non-Open Source commercial applications (if that is compatible with the license Plone is under).
+> They can even give their contributions to other Open Source projects (as long as those projects are compatible with the license Plone itself is issued under) or use them in non-Open Source commercial applications (if that's compatible with the license Plone is under).
 
 Do I have to sign the contributor's agreement to make changes to the Plone core codebase?
 

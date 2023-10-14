@@ -20,9 +20,9 @@ When a push happens on GitHub, `mr.roboto` is triggered and it starts to analyze
 -   If it's on `buildout-coredev`, it starts the job of the branch that has been pushed.
     In this case, we send to `plone-cvs` the commit to keep track of the commits on that list.
 -   If it's on a package that's on the {file}`sources.cfg` of a `buildout-coredev`, it starts the coredev jobs that are linked to that package and a kgs job with that package.
-    This kgs job is a snapshot of the last working version of the `buildout.coredev` with the newest version of the package that is involved on the push.
+    This kgs job is a snapshot of the last working version of the `buildout.coredev` with the newest version of the package that's involved on the push.
     These jobs are really fast, as we only test the package applied to the kgs Plone and Python version `coredev` buildout.
--   If it's on a PLIP specification, it runs the job that is configured Through The Web on the `mr.roboto` interface at http://jenkins.plone.org/roboto/plips.
+-   If it's on a PLIP specification, it runs the job that's configured Through The Web on the `mr.roboto` interface at http://jenkins.plone.org/roboto/plips.
 
 ```{todo}
 `http://jenkins.plone.org/roboto/plips` is obsolete, and returns a 404 not found.

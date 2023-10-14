@@ -12,7 +12,7 @@ myst:
 
 # Overview
 
-Plone is a content management system (CMS) that is well-known for its user-friendly interface and robust security features. 
+Plone is a content management system (CMS) that's well-known for its user-friendly interface and robust security features. 
 With Plone, even non-technical users can easily create and manage the content for a public website or intranet using only a web browser. 
 Plone's intuitive interface and comprehensive set of features make it a popular choice for businesses, governments, universities, and any organization that needs a reliable and easy-to-use CMS.
 
@@ -39,7 +39,7 @@ Plone works as a:
 Security is built into Plone's architecture from the ground up.
 Plone offers fine-grained permission control over content and actions.
 
-Plone is easy to set up compared to other CMSs in its category, extremely flexible, and provides you with a system for managing web content that is ideal for project groups, communities, websites, extranets, and intranets.
+Plone is easy to set up compared to other CMSs in its category, extremely flexible, and provides you with a system for managing web content that's ideal for project groups, communities, websites, extranets, and intranets.
 
 - **Plone empowers content editors and web application developers.**
   The Plone Team includes usability experts who have made Plone easy and attractive for content managers to add, update, and maintain content.
@@ -78,7 +78,7 @@ Throughout its history, Plone has used {term}`server-side rendering` to generate
 Additionally, Plone's use of a component architecture makes it easy to extend and customize, allowing users to create unique, feature rich websites that are tailored to their specific needs.
 
 With the release of Plone 6, you now have the option to choose from two different out-of-the-box supported configurations when setting up a new Plone website.
-The Python-based backend server in Plone can still be used alone to render content server-side and deliver HTML to the browser, a setup that is referred to in the Plone documentation as "Classic UI". 
+The Python-based backend server in Plone can still be used alone to render content server-side and deliver HTML to the browser, a setup that's referred to in the Plone documentation as "Classic UI". 
 This configuration has been supported by Plone since its initial release and is still available in the latest version of the platform.
 For container-based deployment, only the `plone-backend` image is required.
 It may be used as a base image, adding customizations, to make a derivative image.

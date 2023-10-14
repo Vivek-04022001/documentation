@@ -91,7 +91,7 @@ You will need to declare you own `MessageFactory`.
 This is a callable that marks strings with a translation domain.
 `MessageFactory` is usually declared in the main `__init__.py` file of your package.
 It's imported from wherever it's needed in your package.
-`_` is the standard name that is used in gettext to identify the translation function, and the previous scripts will use that assumption to identify translatable strings.
+`_` is the standard name that's used in gettext to identify the translation function, and the previous scripts will use that assumption to identify translatable strings.
 
 ```python
 from zope.i18nmessageid import MessageFactory

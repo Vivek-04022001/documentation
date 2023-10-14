@@ -35,5 +35,5 @@ Other behaviors are added in the same way, by listing additional behavior interf
 Behaviors are normally registered with the `<plone:behavior />` ZCML directive.
 When registered, a behavior will create a global utility providing `IBehavior`, which is used to provide some metadata, such as a title and description for the behavior.
 
-You can find and apply behaviors via the {guilabel}`Dexterity Content Types` control panel that is installed with [`plone.app.dexterity`](https://pypi.org/project/plone.app.dexterity/).
+You can find and apply behaviors via the {guilabel}`Dexterity Content Types` control panel that's installed with [`plone.app.dexterity`](https://pypi.org/project/plone.app.dexterity/).
 For a list of standard behaviors that ship with Plone, see {ref}`backend-built-in-behaviors-label`.

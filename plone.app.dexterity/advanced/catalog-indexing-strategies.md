@@ -25,7 +25,7 @@ Fields in your custom content types aren't necessarily added to SearchableText.
 Fields added via Dublin-core behaviors are automatically part of SearchableText; others are not.
 
 You may need to explicitly add fields to SearchableText if you wish their information to be findable via the main search.
-There are all sorts of highly customizable ways to do this, but the easiest is to use the the behavior `plone.textindexer` that is shipped with `plone.app.dexterity`.
+There are all sorts of highly customizable ways to do this, but the easiest is to use the the behavior `plone.textindexer` that's shipped with `plone.app.dexterity`.
 
 It allows you to easily add fields to SearchableText.
 Once you turn on this behavior, you will then need to specify fields for addition to SearchableText.
@@ -124,7 +124,7 @@ In {file}`profiles/default/catalog.xml`, we have the following code.
 ```
 
 Notice how we specify both the index name and the indexed attribute.
-It's possible to use an index name (the key you use when searching) that is different to the indexed attribute, although they are usually the same.
+It's possible to use an index name (the key you use when searching) that's different to the indexed attribute, although they are usually the same.
 The metadata column is just the name of an attribute.
 
 

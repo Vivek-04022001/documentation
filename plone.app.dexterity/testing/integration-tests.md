@@ -176,7 +176,7 @@ There are some important things to note about this test case.
 -   We set the `layer` attribute to our custom layer.
     This means that all tests in our test case will have the `example.conference:default` profile installed.
 -   We need to create a test user's member folder as `self.folder` because `plone.app.testing` takes a minimalist approach and no content is available by default.
--   We test that the content is addable as a normal member in their member folder, since that is the default security context for the test.
+-   We test that the content is addable as a normal member in their member folder, since that's the default security context for the test.
     Use `self.setRoles([‘Manager'])` to get the `Manager` role and `self.portal` to access the portal root.
     We also test that the FTI is installed and can be located, and that both the FTI and instances of the type know about the correct type schema.
 -   We also test that the view can be looked up and has the correct methods.

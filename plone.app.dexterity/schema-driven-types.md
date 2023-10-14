@@ -129,7 +129,7 @@ class IProgram(model.Schema):
 
 If you haven't developed for Plone before, take special note of the `from example.conference import MessageFactory as _` code.
 This is to aid future internationalization of the package.
-Every string that is presented to the user should be wrapped in `_()`, as shown with the titles and descriptions below.
+Every string that's presented to the user should be wrapped in `_()`, as shown with the titles and descriptions below.
 
 The `_` lives in the package root `__init__.py` file.
 

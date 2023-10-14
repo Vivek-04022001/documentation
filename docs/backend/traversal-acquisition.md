@@ -18,7 +18,7 @@ This chapter describes the concepts of {term}`traversal` and {term}`acquisition`
 
 ## Traversal
 
-In Zope and Plone, {term}`traversal` is the process of determining the object that is the target of a request by examining the URL path of the request or in code, and looking up objects in the object hierarchy.
+In Zope and Plone, {term}`traversal` is the process of determining the object that's the target of a request by examining the URL path of the request or in code, and looking up objects in the object hierarchy.
 The object hierarchy in Zope is made up of "containers" and "item" objects.
 Containers can contain other objects, while item objects cannot.
 This is to some degree like the tree structure of a filesystem with folders, subfolders, and files.

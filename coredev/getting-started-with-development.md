@@ -52,7 +52,7 @@ cd ./plone6devel
 If you run into issues in this process, please see {doc}`troubleshooting`.
 
 This will run for a long time if it's your first pull (approximately 20 minutes).
-Once that is done pulling down eggs, you can start your new instance with:
+Once that's done pulling down eggs, you can start your new instance with:
 
 ```shell
 ./bin/instance fg

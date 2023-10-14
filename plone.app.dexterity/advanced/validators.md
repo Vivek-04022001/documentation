@@ -14,7 +14,7 @@ This chapter describes how to create custom validators for your type.
 Many applications require some form of data entry validation.
 The simplest form of validation you get for free, the [z3c.form](https://pypi.org/project/z3c.form/) library ensures that all data entered in Dexterity add and edit forms is valid for the field type.
 
-It's also possible to set certain properties on the fields to add further validation, or even create your own fields with custom validation logic, although that is a lot less common.
+It's also possible to set certain properties on the fields to add further validation, or even create your own fields with custom validation logic, although that's a lot less common.
 These properties are set as parameters to the field constructor when the schema interface is created.
 You should see the [zope.schema](https://pypi.org/project/zope.schema/) package for details.
 
@@ -33,7 +33,7 @@ The most common constraints are:
 ## Constraints
 
 If this doesn't suffice, you can pass your own constraint function to a field.
-The constraint function should take a single argument: the value that is to be validated.
+The constraint function should take a single argument: the value that's to be validated.
 This will be the field's type.
 The function should return a boolean `True` or `False`.
 

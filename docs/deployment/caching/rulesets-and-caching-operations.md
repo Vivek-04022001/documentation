@@ -44,7 +44,7 @@ Includes files and images in content space, usually either downloaded or include
 
 ### Content folder view (`plone.content.folderView`)
 
-A public-facing view for a content item that is a folder or container for other items.
+A public-facing view for a content item that's a folder or container for other items.
 
 ### Content item view (`plone.content.itemView`)
 
@@ -258,7 +258,7 @@ These headers include:
 Viewing these headers is relatively easy with Web Developer Tools in Firefox or Developer Tools in Chrome.
 
 If you enable the `DEBUG` logging level for the `plone.caching` logger, you will get additional debug output in your event log.
-One way to do that is to set the global Zope logging level to `DEBUG` in `zope.conf`:
+One way to do that's to set the global Zope logging level to `DEBUG` in `zope.conf`:
 
 ```xml
 <eventlog>
@@ -294,7 +294,7 @@ Normally you declare caching rulesets for a view as shown below.
 
 See [`plone.caching`](https://pypi.org/project/plone.caching) for details.
 
-`plone.app.caching` installs a special ruleset lookup adapter that is invoked for skin layer page templates and browser views not assigned a more specific rule set.
+`plone.app.caching` installs a special ruleset lookup adapter that's invoked for skin layer page templates and browser views not assigned a more specific rule set.
 This adapter allows you to declare a ruleset for the *default view* of a given content type by supplying a content type class or interface to the `<cache:ruleset />` directive.
 
 ```xml

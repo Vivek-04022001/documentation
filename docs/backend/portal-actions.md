@@ -37,7 +37,7 @@ We use the terms "Portal actions" and "Actions" in this documentation to mean th
 
 A portal action in Plone consists of a few settings, including the category, title, description, URL, and control parameters.
 
-The action {guilabel}`Title` is the text that is displayed for the action in the site's navigation menu or toolbar.
+The action {guilabel}`Title` is the text that's displayed for the action in the site's navigation menu or toolbar.
 This text should be descriptive and indicate what the action does.
 The {guilabel}`Description` is used as an additional text shown when hovering over the link.
 The {guilabel}`Title` and {guilabel}`Description` can be translated using the translation system of Plone.
@@ -87,7 +87,7 @@ For example, object actions are intended for actions that are specific to a part
 
 ## Expressions
 
-An expression is a piece of code that is evaluated at runtime and can be used to insert dynamic values into the URL or provide the decision for the condition.
+An expression is a piece of code that's evaluated at runtime and can be used to insert dynamic values into the URL or provide the decision for the condition.
 
 ```{todo}
 Contribute to this documentation!

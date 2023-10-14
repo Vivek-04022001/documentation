@@ -245,7 +245,7 @@ TypeError: Class advice impossible in Python3.  Use the @implementer class decor
 
 This tells you that there is a class using an `implements` statement which needs to be replaced by the `@implementer` decorator.
 
-For example, code that is written as follows:
+For example, code that's written as follows:
 
 ```python
 from zope.interface import implements

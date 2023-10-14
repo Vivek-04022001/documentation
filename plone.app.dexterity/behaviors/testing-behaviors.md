@@ -269,5 +269,5 @@ Finally, to have the changes take effect, invalidate the schema cache: `notify(
 
 ## A note about marker interfaces
 
-Marker interface support depends on code that is implemented in Dexterity and is non-trivial to reproduce in a test.
+Marker interface support depends on code that's implemented in Dexterity and is non-trivial to reproduce in a test.
 If you need a marker interface in a test, set it manually with `zope.interface.alsoProvides`, or write an integration test with Dexterity content.

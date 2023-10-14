@@ -594,7 +594,7 @@ But the additional packages that make up the relation functionality don't use th
 
 We want to work with schemas to get automatically generated forms.
 The logic for this is provided by the package [z3c.relationfield](https://pypi.org/project/z3c.relationfield/).
-This package contains the `RelationValue` object and everything needed to define a relation schema, and all the code that is necessary to automatically update the catalog.
+This package contains the `RelationValue` object and everything needed to define a relation schema, and all the code that's necessary to automatically update the catalog.
 
 A `RelationValue` object doesn't reference all objects directly.
 For the target, it uses an ID that it gets from the {term}`IntId` utility.
@@ -645,4 +645,4 @@ Thus the API for getting the target uses:
 
 In addition, the relation value knows under which attribute it has been stored as `from_attribute`.
 It's usually the name of the field with which the relation is created.
-But it can also be the name of a relation that is created by code, for example, through link integrity relations (`isReferencing`) or the relation between a working copy and the original (`iterate-working-copy`).
+But it can also be the name of a relation that's created by code, for example, through link integrity relations (`isReferencing`) or the relation between a working copy and the original (`iterate-working-copy`).

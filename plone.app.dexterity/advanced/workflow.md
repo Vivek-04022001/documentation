@@ -77,7 +77,7 @@ It won't necessarily trigger as soon as the guard condition becomes true, as tha
 When a transition is triggered, the `IBeforeTransitionEvent` and `IAfterTransitionEvent` **events**
 are triggered.
 These are low-level events from `Products.DCWorkflow` that can tell you a lot about the previous and current states.
-There is a higher level `IActionSucceededEvent` in `Products.CMFCore` that is more commonly used to react after a workflow action has completed.
+There is a higher level `IActionSucceededEvent` in `Products.CMFCore` that's more commonly used to react after a workflow action has completed.
 
 In addition to the events, you can configure workflow **scripts**.
 These are either created through-the-web or (more commonly) as External Methods [^id2], and may be set to execute before a transition is complete, that is, before the object enters the target state, or just after it has been completed when the object is in the new state.

@@ -165,7 +165,7 @@ You may also use the `vocabulary` tag rather than `source` to refer to named voc
 
 ### Internationalization
 
-Translation domains and message IDs can be specified for text that is interpreted as Unicode.
+Translation domains and message IDs can be specified for text that's interpreted as Unicode.
 This will result in deserialization as a `zope.i18nmessageid` message ID rather than a basic Unicode string.
 
 Note that we need to add the `i18n` namespace and a domain specification.

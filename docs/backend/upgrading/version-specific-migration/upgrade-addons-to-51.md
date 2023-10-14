@@ -80,7 +80,7 @@ You need to do that when your default profile contains one of these files:
 -   `workflows.xml`
 
 When there is no uninstall profile, the {guilabel}`Add-ons` control panel will give a warning.
-An uninstall profile is a profile that is registered with the name `uninstall`.
+An uninstall profile is a profile that's registered with the name `uninstall`.
 
 See https://github.com/plone/plone.app.multilingual/tree/master/src/plone/app/multilingual/profiles/uninstall.
 
@@ -512,7 +512,7 @@ Instead, a **mimetype icon** (fetched from the MIME type registry) is rendered a
 
 The design decision to use Fontello fonts brings up the question of how to easily create custom fonts for newly created custom Dexterity items.
 
-A workaround for that is to use an icon URL in the `:before` clause.
+A workaround for that's to use an icon URL in the `:before` clause.
 For the custom Dexterity type `dx1`, you might add the line {code}`.contenttype-dx1:before {content: url('dx1_icon.png')}` to your LESS file, and place the icon file in the same folder.
 
 

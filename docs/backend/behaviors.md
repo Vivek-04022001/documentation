@@ -343,7 +343,7 @@ Similarly, using the {ref}`behavior code example <behavior-code-example>` above:
 
 -   You would call an abstract factory with `getAdapter(context, IPriceBehavior)` to get an adapter, `price_for_context`.
     Although it's an interface, it's more of a shortcut to factory usage.
--   The adapter that is specific to the given content type is assigned to the variable `price_for_context`.
+-   The adapter that's specific to the given content type is assigned to the variable `price_for_context`.
     Now you can use `price_for_context` for whatever you like.
 
 When a behavior is enabled for a particular object, it will be possible to adapt that object to the behavior's interface.

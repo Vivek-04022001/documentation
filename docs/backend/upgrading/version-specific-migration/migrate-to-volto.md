@@ -43,7 +43,7 @@ Additionally, after upgrading an existing site to Plone 6 (see {doc}`upgrade-to-
 ```{warning}
 Test all migrations thoroughly before applying them on a production environment!
 
-A site that is made compatible with Volto will be accessible with Plone Classic UI, but it will behave differently.
+A site that's made compatible with Volto will be accessible with Plone Classic UI, but it will behave differently.
 For example, Editors can only effectively work with the content using Volto because HTML is no longer editable in the TinyMCE editor used in Classic UI.
 ```
 
