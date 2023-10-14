@@ -12,7 +12,7 @@ myst:
 # Cross-Site Request Forgery (CSRF)
 
 Cross-Site Request Forgery (CSRF or XSRF) is a type of web attack that allows an attacker to send malicious requests to a web application on behalf of a legitimate user.
-The attack works by tricking the user's web browser into sending a request to the web application that the user did not intentionally make.
+The attack works by tricking the user's web browser into sending a request to the web application that the user didn't intentionally make.
 This can allow an attacker to perform actions on the web application without the user's knowledge or consent.
 
 For example, consider a web application that allows users to transfer money between accounts.

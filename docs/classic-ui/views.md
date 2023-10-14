@@ -895,7 +895,7 @@ def getView(context, name):
     try:
         view = context.unrestrictedTraverse("@@" + name)
     except AttributeError:
-        raise RuntimeError("Instance %s did not have view %s" % (str(context), name))
+        raise RuntimeError("Instance %s didn't have view %s" % (str(context), name))
 
     view = view.__of__(context)
 

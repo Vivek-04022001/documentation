@@ -520,7 +520,7 @@ A series of commits like this:
 * 11ba28c Failing test, we're doing TDD right?
 ```
 
-Only tells you that the author did not take care at all about the one who will review it,
+Only tells you that the author didn't take care at all about the one who will review it,
 and specially about the person that in +5 years will try to understand that test.
 Specially because now the test isn't only spread between 4 commits, but most probably during those 5 years
 it has already been refactored, maybe a {command}`git blame` will report that within that test method,

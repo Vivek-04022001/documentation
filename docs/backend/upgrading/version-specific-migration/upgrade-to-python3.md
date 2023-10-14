@@ -196,7 +196,7 @@ You can use `isort` to fix the order of imports:
 ./bin/isort -rc src/collective.package
 ```
 
-After you run the commands above, you need to review all changes and fix what `modernizer` did not get right.
+After you run the commands above, you need to review all changes and fix what `modernizer` didn't get right.
 
 
 ## 3. Use `precompiler`

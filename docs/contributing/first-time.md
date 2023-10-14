@@ -75,7 +75,7 @@ New contributors should wait for confirmation that they have been added to this 
 
 New contributors to Plone who submit a pull request and don't wait for confirmation that they have been added to the Contributors team will be subjected to persistent nagging from `mr-roboto`.
 `mr-roboto` won't respond to you if you `@` it.
-Core developers may ignore your contribution because you did not follow these instructions.
+Core developers may ignore your contribution because you didn't follow these instructions.
 Please don't be "that person".
 
 
