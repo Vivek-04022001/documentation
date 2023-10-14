@@ -96,7 +96,7 @@ Please don't be "that person".
     -   Discuss on the [Plone Community Forum](https://community.plone.org/).
     -   Discuss in the [Plone chat on Discord](https://discord.com/invite/zFY3EBbjaj).
 1.  **Clarify the scope of work that needs to be done.**
-    Sometimes the issue description is blank or lacks clarity, the requirements have changed since it was created, or work has been completed in a pull request but the issue was not closed.
+    Sometimes the issue description is blank or lacks clarity, the requirements have changed since it was created, or work has been completed in a pull request but the issue wasn't closed.
     Ask for clarification, whether it's still relevant, or whether it should be closed.
 
 After you have satisfied the above steps and have clear direction on how to proceed, then you can begin work on the issue.

@@ -60,7 +60,7 @@ The typical approach is as follows.
 -   Put the mock framework into "replay" mode.
 -   Run the code under test.
 -   Apply any assertions as you normally would.
--   The mock framework will raise exceptions if the mock objects are called incorrectly, such as with the wrong arguments or too many times, or insufficiently, such as an expected method was not called.
+-   The mock framework will raise exceptions if the mock objects are called incorrectly, such as with the wrong arguments or too many times, or insufficiently, such as an expected method wasn't called.
 
 There are several Python mock object frameworks.
 Dexterity itself uses a powerful one called [`mocker`](https://labix.org/mocker), via the [`plone.mocktestcase`](https://pypi.org/project/plone.mocktestcase/) integration package.

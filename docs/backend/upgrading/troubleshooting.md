@@ -90,7 +90,7 @@ If the problem disappears, you will need to double-check the offending product.
 
 Create a new Plone site with your new version of Plone.
 You don't need a new Zope instance, because you can add another Plone site in the root of Zope.
-If the problem doesn't occur in a fresh site, the cause of your problem is most likely a customization, an installed product, or content that was not migrated properly.
+If the problem doesn't occur in a fresh site, the cause of your problem is most likely a customization, an installed product, or content that wasn't migrated properly.
 
 
 (upgrading-troubleshooting-make-the-problem-reproducible-label)=
