@@ -248,7 +248,7 @@ The Plone Documentation Team adopted additional guidelines.
     Keep sentences short and understandable.
     This will greatly improve the editing and maintenance of your documentation.
 
--   Do not follow PEP8 maximum line length standard.
+-   Don't follow PEP8 maximum line length standard.
     Documentation is narrative text and images, not Python code.
 
 -   Use dashes `-` in filenames and avoid underscores.
