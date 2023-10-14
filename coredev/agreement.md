@@ -57,7 +57,7 @@ Before we can merge a pull request, we must ensure that the author has signed th
 
 If they're listed in either the [Developers](https://github.com/orgs/plone/teams/developers/members) or [Contributors](https://github.com/orgs/plone/teams/contributors/members) team, the author has signed the Plone Contributor Agreement, so we can go ahead and merge.
 
-If they aren't listed there, they may have signed and returned the Plone Contributor Agreement, but they were not yet added to a team.
+If they aren't listed there, they may have signed and returned the Plone Contributor Agreement, but they weren't yet added to a team.
 You can ask agreements@plone.org to verify.
 
 Pull requests without a signed Plone Contributor Agreement can only be merged in trivial cases, and only by the release manager.
