@@ -18,7 +18,7 @@ With Plone, non-experts can contribute to and manage content on a website withou
 
 There is no need to install special software on your computer or mobile device to do this.
 
-We use the general word *content* to cover the many types of information you can publish, including:
+We use the general word *content* to cover the many types of information you can publish, including the following:
 
 - text (web pages)
 - photos and images
@@ -29,26 +29,19 @@ We use the general word *content* to cover the many types of information you can
 
 A Plone website can contain these kinds of content and more.
 
-You create *folders* on a Plone website to hold content, and those folders automatically define the website's navigation structure.
-
-You can nest folders in a Plone website just as you would on a computer. By creating folders within folders, you can organize your website's content as finely as you need.
-
-- Folder 1
-- Folder 2
-  - Folder 3
-    - Folder 4
-- Folder 5
+You can create *folders* on a Plone website to hold and organize content. 
+Those folders automatically define the website's structure, which in turn defines how website visitors will navigate the website.
 
 ## You love butterflies
 
-For example, to add content about butterflies, you might add a folder named "Butterflies," then add some text to a web page in the folder:
+For example, to add content about butterflies, you might add a folder named "Butterflies," then add some text to a web page in that folder:
 
 ```{figure} butterflies_folder_text.png
 :align: center
 :alt: true
 ```
 
-And then you might add some butterfly photos to the folder:
+Then you might add some butterfly photos to the folder:
 
 ```{figure} butterflies_folder.png
 :align: center
@@ -96,14 +89,14 @@ The Plone software responds:
 ```
 
 Plone reads its storage to look for information stored in mysite.com.
-It then sends back the web page to your computer, in formats called HTML and CSS.
-Together, HTML and CSS are computer languages that describe what a web page contains and how it looks.
+It then sends back the web page to your computer, in formats such as HTML, CSS, and JSON.
+These are computer languages that describe what a web page contains and how it looks.
 This includes text, graphics, fonts, the color of the background, and the layout of the page.
-There are many online resources that can teach you HTML and CSS, but one of Plone's advantages is that you don't need to know either.
+There are many online resources that can teach you HTML, CSS and JSON, but one of Plone's advantages is that you don't need to know either.
 That's one of main reasons for using Plone: to let you focus on your content (butterfly text and graphics, in this case) instead of having to understand the technical underpinnings.
 
 But back to our overview.
-Your web browser "renders" (translates) this HTML and CSS, and you see the resulting web page:
+Your web browser "renders" (translates) this HTML, CSS and JSON, and you see the resulting web page:
 
 ```{figure} my_site_served.png
 :align: center
