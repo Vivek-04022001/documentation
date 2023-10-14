@@ -403,7 +403,7 @@ For commit messages see: {ref}`git_commit_message_style_guide`.
 
 Always add the full URL to the issue/pull request you are fixing/referring to.
 
-Maybe within the Git repository it makes sense, but as soon as you are outside of it, it will not.
+Maybe within the Git repository it makes sense, but as soon as you are outside of it, it won't.
 
 Take into account mr.roboto automatic commits to buildout.coredev for example, if your commit message goes like *Fix for #33*,
 which issue/pull request is that fixing?
