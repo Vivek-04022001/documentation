@@ -119,13 +119,13 @@ When working with vocabularies, you'll come across some terminology that is wort
     The term has a value.
     Most terms are *tokenized* terms which also have a token, and some terms are *titled*, meaning they have a title that is different to the token.
 -   The *token* must be an ASCII string.
-    It is the value passed with the request when the form is submitted.
+    It's the value passed with the request when the form is submitted.
     A token must uniquely identify a term.
 -   The *value* is the actual value stored on the object.
     This is not passed to the browser or used in the form.
     The value is often a Unicode object, but can be any type of object.
 -   The *title* is a Unicode object or translatable message (`zope.i18nmessageid`).
-    It is used in the form.
+    It's used in the form.
 
 The `SimpleVocabulary` class contains two class methods that can be used to create vocabularies from lists:
 

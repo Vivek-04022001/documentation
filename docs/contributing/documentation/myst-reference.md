@@ -166,8 +166,8 @@ _Caching Control Panel_
 From [Web Accessibility In Mind (WebAIM)](https://webaim.org/techniques/alttext/):
 
 > Alternative text serves several functions:
-> - It is read by screen readers in place of images allowing the content and function of the image to be accessible to those with visual or certain cognitive disabilities.
-> - It is displayed in place of the image in browsers if the image file is not loaded or when the user has chosen not to view images.
+> - It's read by screen readers in place of images allowing the content and function of the image to be accessible to those with visual or certain cognitive disabilities.
+> - It's displayed in place of the image in browsers if the image file is not loaded or when the user has chosen not to view images.
 > - It provides a semantic meaning and description to images which can be read by search engines or be used to later determine the content of the image from page context alone.
 
 Accessibility is part of the [Plone brand and identity](https://plone.org/accessibility).

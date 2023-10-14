@@ -542,7 +542,7 @@ If you need to override templates in core Plone or in an existing add-on, you ca
 
 3.  Make a copy of the `.pt` file you want to override.
     To override a particular file, first determine its canonical filename.
-    It is defined as the path relative to the package within which the file is located.
+    It's defined as the path relative to the package within which the file is located.
     Directory separators are replaced with dots.
 
     Suppose you want to override `plone/app/layout/viewlets/logo.pt`.

@@ -41,7 +41,7 @@ They are all object events.
 
 `OFS.interfaces.IObjectWillBeAddedEvent`
 :   Fired before an object is added to its container.
-    It is also fired on move of an object (copy/paste).
+    It's also fired on move of an object (copy/paste).
 
 `zope.lifecycleevent.interfaces.IObjectModifiedEvent`
 :   Fired by the standard edit form when an object has been modified.
@@ -54,7 +54,7 @@ They are all object events.
 `OFS.interfaces.IObjectWillBeRemovedEvent`
 :   Fired before an object is removed.
     Until here, no deletion has happend.
-    It is also fired on move of an object (copy/paste).
+    It's also fired on move of an object (copy/paste).
 
 `zope.lifecycleevent.interfaces.IObjectMovedEvent`
 :   Fired when an object is added to, removed from, renamed in, or moved between containers.

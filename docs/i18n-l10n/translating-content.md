@@ -97,11 +97,11 @@ This widget will link the actual page the user is browsing with its translated c
 The language control panel provides several ways to configure this widget:
 
 -   {guilabel}`General > Show language flags`.
-    It is common to use flags to identify languages.
+    It's common to use flags to identify languages.
     Enabling this option will do it for you.
     However, this is not considered a best practice because country flags do not necessarily represent a language.
     Why should one use a Spanish flag to identify the Spanish language when browsing a South American, English-Spanish bilingual site?
-    It is recommended to disable the {guilabel}`Show language flags` option.
+    It's recommended to disable the {guilabel}`Show language flags` option.
 
 -   {guilabel}`Multilingual > The policy used to determine how the lookup for available translations will be made by the language selector.`
     What to do when a given content is not translated to another language?

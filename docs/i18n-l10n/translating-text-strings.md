@@ -39,7 +39,7 @@ The package `zope.i18n` implements several APIs related to internationalization 
     This provides a string-like class which allows storing the translation domain with translatable text strings.
 -   {term}`PO file`s must usually be manually converted to binary {term}`MO file`s every time the translations are updated.
     See {term}`i18ndude`.
-    It is also possible to set an environment variable to trigger recompilation of MO files.
+    It's also possible to set an environment variable to trigger recompilation of MO files.
     See {ref}`translating-text-strings-i18ndude-label` below for details.
 
 ```{seealso}
@@ -351,7 +351,7 @@ msgstr ""
 "Domain: mfabrik.app\n"
 
 # This entry is used in gomobiletheme.mfabrik  templates for the campaign page header
-# It is not automatically picked, since it's referred from external package
+# It's not automatically picked, since it's referred from external package
 #. Default: "Watch video"
 msgid "watch_video"
 msgstr ""

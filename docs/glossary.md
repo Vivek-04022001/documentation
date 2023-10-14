@@ -59,7 +59,7 @@ Linode
 
 mxdev
     [mxdev](https://github.com/mxstack/mxdev) [mɪks dɛv] is a utility that makes it easy to work with Python projects containing lots of packages, and you want to develop only some of those packages.
-    It is designed for developers who use stable version constraints, then layer their customizations on top of that base while using a version control system.
+    It's designed for developers who use stable version constraints, then layer their customizations on top of that base while using a version control system.
     This design allows developers to override their base package constraints with a customized or newer version.
 
 NFS
@@ -68,7 +68,7 @@ NFS
 
 NPM
     npm is a package manager for the JavaScript programming language.
-    It is the default package manager for the JavaScript runtime environment Node.js.
+    It's the default package manager for the JavaScript runtime environment Node.js.
     Also a registry of JavaScript packages, similar to PyPI.
 
 pip
@@ -122,7 +122,7 @@ Diazo
 
 Dexterity
     [Dexterity](https://github.com/plone/plone.dexterity) is the base framework for building content types, both through-the-web and as filesystem code.
-     It is aimed at Plone, although this package should work with plain Zope + CMF systems.
+     It's aimed at Plone, although this package should work with plain Zope + CMF systems.
 
 Dublin Core
     The Dublin Core Schema is a small set of vocabulary terms that can be used to describe web resources (video, images, web pages, etc.), as well as physical resources such as books or CDs, and objects like artworks.
@@ -148,7 +148,7 @@ XPath
 
 Rapido application
     It contains the features you implement.
-    It is a folder containing templates, Python code, and YAML files.
+    It's a folder containing templates, Python code, and YAML files.
 
 block
     Blocks display a chunk of HTML which can be inserted in your Plone pages.
@@ -164,7 +164,7 @@ record
 
 Add-on
     An add-on in Plone extends its functionality.
-    It is code that is released as a package to make it easier to install.
+    It's code that is released as a package to make it easier to install.
 
     In Volto, an add-on is a JavaScript package.
 
@@ -177,7 +177,7 @@ Add-on
 Volto configuration loader
     A function with signature `config => config`.
     It gets the Volto configuration registry, and it must return it back after mutating it.
-    It is similar to `GenericSetup` profiles in the Plone backend.
+    It's similar to `GenericSetup` profiles in the Plone backend.
     An add-on must provide a default configuration loader that is always loaded when Volto runs.
     An add-on can have multiple configuration loaders, and they can be loaded optionally from the Volto configuration.
 
@@ -185,7 +185,7 @@ Configuration registry
     In Plone and in general, the configuration registry is where resources are registered for an application.
 
     In Volto, it's a singleton object modeled using JavaScript modules.
-    It is accessible from the Volto project by importing the module `@plone/volto/config` with `import registry from '@plone/volto/config'`.
+    It's accessible from the Volto project by importing the module `@plone/volto/config` with `import registry from '@plone/volto/config'`.
     It contains the configuration of the Volto app.
 
     In Plone core, [`plone.app.registry`](https://pypi.org/project/plone.app.registry/) provides Plone UI and `GenericSetup` integration for [`plone.registry`](https://pypi.org/project/plone.registry/), which in turn implements a configuration registry for Zope applications.
@@ -390,15 +390,15 @@ Traefik Proxy
 
 Volto
     [Volto](https://github.com/plone/volto) is a React-based frontend for the Plone CMS.
-    It is the default user interface for Plone 6.
+    It's the default user interface for Plone 6.
 
     The other frontend is {term}`Classic UI`.
 
 Classic UI
     Classic UI is a secondary frontend for Plone 6.
-    It is integrated with [Products.CMFPlone](https://github.com/plone/Products.CMFPlone/).
+    It's integrated with [Products.CMFPlone](https://github.com/plone/Products.CMFPlone/).
     Its theme is named [Barceloneta](https://github.com/plone/plonetheme.barceloneta/).
-    It is based on Twitter Bootstrap 5.
+    It's based on Twitter Bootstrap 5.
     It uses [Mockup](https://github.com/plone/mockup/) as its JavaScript stack.
     [View Mockup's patterns](https://plone.github.io/mockup/).
 
@@ -511,7 +511,7 @@ plonecli
 ZCA
 Zope Component Architecture
     Zope Component Architecture (ZCA) is a Python framework for supporting component based design and programming.
-    It is very well suited to developing large Python software systems.
+    It's very well suited to developing large Python software systems.
     The ZCA is not specific to the Zope web application server.
     It can be used for developing any Python application.
     Maybe it should be called Python Component Architecture.
@@ -557,7 +557,7 @@ PLIP
     PLIPs are tracked in the GitHub issue tracker for [`Products.CMFPlone`](https://github.com/plone/Products.CMFPlone/issues?q=label%3A%2203+type%3A+feature+%28plip%29%22+).
 
 REST
-    REST stands for [Representational State Transfer](https://en.wikipedia.org/wiki/Representational_state_transfer). It is a software architectural principle to create loosely coupled web APIs.
+    REST stands for [Representational State Transfer](https://en.wikipedia.org/wiki/Representational_state_transfer). It's a software architectural principle to create loosely coupled web APIs.
 
 workflow
     A concept in Plone (and other CMS's) whereby a content object can be in a number of states (private, public, etcetera) and uses transitions to change between them (e.g. "publish", "approve", "reject", "retract"). See the [Plone docs on Workflow](https://5.docs.plone.org/working-with-content/collaboration-and-workflow/)

@@ -26,11 +26,11 @@ The `plone.namedfile` package includes four field types, all found in the `plone
 
 `NamedBlobFile`
 :   Stores blob files (see note below).
-    It is otherwise identical to `NamedFile`.
+    It's otherwise identical to `NamedFile`.
 
 `NamedBlobImage`
 :   Stores blob images (see note below).
-    It is otherwise identical to `NamedImage`.
+    It's otherwise identical to `NamedImage`.
 
 In use, the four field types are all pretty similar.
 They actually store persistent objects of type `plone.namedfile.NamedFile`, `plone.namedfile.NamedImage`, `plone.namedfile.NamedBlobFile` and `plone.namedfile.NamedBlobImage`, respectively.

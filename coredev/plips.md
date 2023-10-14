@@ -151,7 +151,7 @@ Others may be able to point out risks or even offer up better or existing soluti
 
 Please note a few things:
 
--   It is very rare that the "Risks" section will be empty or none.
+-   It's very rare that the "Risks" section will be empty or none.
 -   If you find this is the case, and your PLIP is anything more than trivial, maybe some more vetting should be done.
 -   The seconder field is REQUIRED.
 

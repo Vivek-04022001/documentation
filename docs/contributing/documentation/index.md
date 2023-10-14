@@ -25,7 +25,7 @@ You may give that permission in two ways.
 
 - Sign the [Plone Contributor Agreement](https://plone.org/foundation/contributors-agreement).
   This method also covers contributions to Plone code.
-  It is a one-time only process.
+  It's a one-time only process.
 - In every pull request or commit message, include the following statement.
 
   > I, [full name], agree to have this contribution published under Creative Commons 4.0 International License (CC BY 4.0), with attribution to the Plone Foundation.

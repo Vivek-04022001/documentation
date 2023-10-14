@@ -1,8 +1,8 @@
 ---
 myst:
   html_meta:
-    "description": "Classic UI is a secondary user interface for Plone, but updated to use Twitter Bootstrap 5. It is familiar to users of Plone 5."
-    "property=og:description": "Classic UI is a secondary user interface for Plone, but updated to use Twitter Bootstrap 5. It is familiar to users of Plone 5."
+    "description": "Classic UI is a secondary user interface for Plone, but updated to use Twitter Bootstrap 5. It's familiar to users of Plone 5."
+    "property=og:description": "Classic UI is a secondary user interface for Plone, but updated to use Twitter Bootstrap 5. It's familiar to users of Plone 5."
     "property=og:title": "Classic UI"
     "keywords": "Plone 6, Classic UI, Twitter Bootstrap 5"
 ---

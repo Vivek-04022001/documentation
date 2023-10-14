@@ -182,7 +182,7 @@ div.admonition.admonition-todo>.admonition-title::before {
 
 /* Search */
 
-/* Show search form. It is hidden by default. */
+/* Show search form. It's hidden by default. */
 #search-documentation,
 #search-documentation~form,
 #search-documentation~p {

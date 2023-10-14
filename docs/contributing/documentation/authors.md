@@ -179,7 +179,7 @@ The above warning indicates that the syntax is not valid.
 Common mistakes include:
 
 - Using `...` or `…` to indicate omitted code.
-  It is preferable to never use ellipses.
+  It's preferable to never use ellipses.
   If you must do that, comment it out using the language's comment syntax.
 - Using comments in JSON.
 - A previous code block bleeds through to the next due to invalid MyST syntax.
@@ -259,7 +259,7 @@ The Plone Documentation Team adopted additional guidelines.
     You will notice that the drag and trash icons for each block move inside the block from outside.
 
 -   In user documentation, provide screenshots of each step where the interface changes.
-    It is painstaking, but worth the effort.
+    It's painstaking, but worth the effort.
     Provide sufficient detail of what each option is and does.
 
 
