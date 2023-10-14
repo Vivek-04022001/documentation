@@ -135,7 +135,7 @@ You can read more about the details of the syntax in its documentation.
 Here, we will only show how to use it to create a simple workflow for the `Session` type, allowing members to submit sessions for review.
 
 To use `collective.wtf`, we need to depend on it.
-In {file}`setup.py`, we have the following.
+In {file}`setup.py`, we've the following.
 
 ```python
 install_requires=[

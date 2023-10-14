@@ -14,7 +14,7 @@ This chapter describes how to use a mock objects framework to write mock based t
 Mock testing is a powerful approach to testing that lets you make assertions about how the code under test is interacting with other system modules.
 It's often useful when the code you want to test is performing operations that can't be easily asserted by looking at its return value.
 
-In our example product, we have an event handler.
+In our example product, we've an event handler.
 
 ```python
 def notifyUser(presenter, event):
@@ -158,7 +158,7 @@ Let's run though the test.
     This is *not* a mock object, it's just a class with the required minimum set of attributes, created using the `create_dummy()` helper method from the `MockTestCase` base class.
     We use this type of dummy because we aren't interested in making any assertions on the `presenter` object: it's used as an "input" only.
 -   Next, we create a dummy event.
-    Here we have opted to use a standard implementation from `zope.app.container`.
+    Here we've opted to use a standard implementation from `zope.app.container`.
 -   We then define a few variables that we will use in the various assertions and mock return values: the user data that will form our dummy user search results, and the email data passed to the mail host.
 -   Next, we create mocks for each of the tools that our code needs to look up.
     For each, we use the `expect()` method from `MockTestCase` to make some assertions.

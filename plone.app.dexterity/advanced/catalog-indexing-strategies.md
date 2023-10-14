@@ -111,7 +111,7 @@ Catalog indexes and metadata can be installed with the `catalog.xml` GenericSetu
 It's useful to look at the one in Plone, located at {file}`parts/omelette/Products/CMFPlone/profiles/default/catalog.xml`.
 
 As an example, let's index the `track` property of a `Session` in the catalog, and add a metadata column for this property as well.
-In {file}`profiles/default/catalog.xml`, we have the following code.
+In {file}`profiles/default/catalog.xml`, we've the following code.
 
 ```xml
 <?xml version="1.0"?>
@@ -188,7 +188,7 @@ If you create custom indexers and need to add new catalog indexes or columns for
 
 ### Searching using your indexes
 
-Once we have registered our indexers and re-installed our product to ensure that the `catalog.xml` import step is allowed to install new indexes in the catalog, we can use our new indexes just like we would any of the default indexes.
+Once we've registered our indexers and re-installed our product to ensure that the `catalog.xml` import step is allowed to install new indexes in the catalog, we can use our new indexes just like we would any of the default indexes.
 
 The pattern is always the same, as shown below.
 

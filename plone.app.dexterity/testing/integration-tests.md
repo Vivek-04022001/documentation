@@ -171,7 +171,7 @@ For example, we could test the add permissions more thoroughly, and we ought to 
 
 There are some important things to note about this test case.
 
--   We extend `unittest.TestCase`, which means we have access to a full Plone integration test environment.
+-   We extend `unittest.TestCase`, which means we've access to a full Plone integration test environment.
     See the [testing tutorial](https://5.docs.plone.org/external/plone.testing/docs/index.html) for more details.
 -   We set the `layer` attribute to our custom layer.
     This means that all tests in our test case will have the `example.conference:default` profile installed.

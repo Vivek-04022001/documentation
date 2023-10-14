@@ -157,7 +157,7 @@ Ideally, we'd write our own class and implement `IDublinCore` directly.
 However, in many cases, the types from `CMFDefault` are going to provide convenient test fodder.
 
 If our behavior was more complex, we'd add more intricate tests.
-By the last section of the doctest, we have enough context to test the adapter factory.
+By the last section of the doctest, we've enough context to test the adapter factory.
 
 To run the test, we need a test suite.
 Here is our {file}`tests.py`.

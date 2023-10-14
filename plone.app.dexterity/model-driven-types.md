@@ -86,7 +86,7 @@ It should now contain the following code.
 </object>
 ```
 
-For the `Presenter` type, we have `example.conference.presenter.xml`.
+For the `Presenter` type, we've `example.conference.presenter.xml`.
 
 ```xml
 <?xml version="1.0"?>

@@ -122,7 +122,7 @@ Because the output value is cached indefinitely, you will need to replace the `R
 However, as we will see below, it's possible to apply a different transformation on demand, if you need to.
 
 The code snippet belows shows how a `RichTextValue` object can be constructed in code.
-In this case, we have a raw input string of type `text/plain` that will be transformed to a default output of `text/html`.
+In this case, we've a raw input string of type `text/plain` that will be transformed to a default output of `text/html`.
 Note that we would normally look up the default output type from the field instance.
 
 ```python

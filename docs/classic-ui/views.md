@@ -235,7 +235,7 @@ http://localhost:8080/Plone/news/@@my-view
 
 ### Template slots
 
-In the generated template above, we have a `fill-slot` attribute, which will fill the slot with the name `content-core`, which is defined in Plone's [`main_template`](https://github.com/plone/Products.CMFPlone/blob/master/Products/CMFPlone/browser/templates/main_template.pt).
+In the generated template above, we've a `fill-slot` attribute, which will fill the slot with the name `content-core`, which is defined in Plone's [`main_template`](https://github.com/plone/Products.CMFPlone/blob/master/Products/CMFPlone/browser/templates/main_template.pt).
 The following list shows the available options for `<metal fill-slot="">` in your template.
 
 ```{note}

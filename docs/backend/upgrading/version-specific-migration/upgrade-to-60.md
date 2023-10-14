@@ -445,7 +445,7 @@ For example, old images would otherwise have a large scale with width 768, where
 
 ## Image pre-scaling
 
-In Plone 6, we have made a split between generating a URL for an image scale and actually scaling the image.
+In Plone 6, we've made a split between generating a URL for an image scale and actually scaling the image.
 Why would you want this?
 
 As an add-on author, you create a template and you want to show an uploaded image with the preview scale.

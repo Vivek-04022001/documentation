@@ -11,7 +11,7 @@ myst:
 
 This chapter describes how to use `z3c.form` to build custom forms.
 
-Until now, we have used Dexterity's default content add and edit forms, supplying form hints in our schemata to influence how the forms are built.
+Until now, we've used Dexterity's default content add and edit forms, supplying form hints in our schemata to influence how the forms are built.
 For most types, that's all that's ever needed.
 In some cases, however, we want to build custom forms, or supply additional forms.
 

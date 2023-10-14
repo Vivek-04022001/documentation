@@ -131,7 +131,7 @@ To run just this test suite, use the following command.
 ./bin/test example.conference -t TestProgramUnit
 ```
 
-This is useful when we have other test suites that we don't want to run when they're integration tests and require lengthy setup.
+This is useful when we've other test suites that we don't want to run when they're integration tests and require lengthy setup.
 
 To get a report about test coverage, we can run the following command.
 

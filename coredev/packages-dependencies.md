@@ -31,7 +31,7 @@ There are multiple level of dependencies:
 We don't have any circular dependencies at the package level anymore.
 This was solved already.
 
-Nevertheless we have indirection on all other levels.
+Nevertheless we've indirection on all other levels.
 Since Plone consists of a lot of packages, it's complex to untangle those.
 
 
@@ -80,7 +80,7 @@ A base mental model for how Plone is organized in Plone 6 since alpha 4 is shown
 └────────────────────────────┘
 ```
 
-As a rough model we have two packages as dividing lines:
+As a rough model we've two packages as dividing lines:
 
 1.  `Products.CMFPlone`
 2.  `plone.base`
@@ -88,7 +88,7 @@ As a rough model we have two packages as dividing lines:
 
 ## Packages in detail
 
-If we look deeper into those, we have more sub-dividers, but first group all into the three groups:
+If we look deeper into those, we've more sub-dividers, but first group all into the three groups:
 
 Then, based on the 6.0.0.a4 release, these are the packages:
 

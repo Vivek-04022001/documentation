@@ -290,12 +290,12 @@ The new registration will look something like:
 </registry>
 ```
 
-Notice how we have now added the `deps` property of `jquery`.
+Notice how we've now added the `deps` property of `jquery`.
 This isn't necessary—we are just giving an example that this script needs a global jQuery available.
 
 However, this alone won't get your JavaScript included.
 In order to modernize our JavaScript stack, Plone needed to make some changes with how it included JavaScript.
-All we have done so far is to define a resource.
+All we've done so far is to define a resource.
 
 For a resource to be included, it needs to be part of a bundle.
 A bundle defines a set of resources that should be compiled together and distributed to the browser.
@@ -394,7 +394,7 @@ For advanced users, compilation can be done using a tool such as grunt in your d
 In Plone 5, individual resources can't be registered conditionally to a specific page.
 This is due to the way we build JavaScript with AMD.
 
-Instead, we have Python helper methods in the Resource Registry to add custom JavaScript and CSS to your views or forms.
+Instead, we've Python helper methods in the Resource Registry to add custom JavaScript and CSS to your views or forms.
 
 Instead of using the legacy `fill-slot`, such as in Plone 4:
 

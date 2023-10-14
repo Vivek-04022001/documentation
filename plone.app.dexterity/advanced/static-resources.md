@@ -11,7 +11,7 @@ myst:
 
 This chapter describes how to add images, stylesheets, JavaScripts, and other static assets.
 
-Earlier in this manual, we have seen how to create views, and how to use file and image fields.
+Earlier in this manual, we've seen how to create views, and how to use file and image fields.
 These are all dynamic, however, and often we just want to ship with a static image, icon, CSS or JavaScript file.
 For this, we need to register static resources.
 
@@ -113,7 +113,7 @@ To use the image in a view, you can construct an `<img />` tag as follows.
 ## Content type icons
 
 Finally, to use an image resource as the icon for a content type, simply list it in the FTI under the `content_icon` property.
-For example, in {file}`profiles/default/types/example.conference.presenter.xml`, we can use the following line, presuming we have a {file}`presenter.gif` in the `example.conference` resource directory.
+For example, in {file}`profiles/default/types/example.conference.presenter.xml`, we can use the following line, presuming we've a {file}`presenter.gif` in the `example.conference` resource directory.
 
 ```xml
 <property name="content_icon">++resource++example.conference/presenter.gif</property>

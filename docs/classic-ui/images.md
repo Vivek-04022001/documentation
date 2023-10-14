@@ -26,7 +26,7 @@ We will use the image object as context in the following examples.
 ## Default scales
 
 In `/@@imaging-controlpanel` Plone allows you to configure which scales are available and what dimensions they should have.
-By default, we have the following scales configured:
+By default, we've the following scales configured:
 
 * huge 1600:65536
 * great 1200:65536
@@ -312,7 +312,7 @@ The default configuration covers image size optimization, and will provide the b
 ### Optional settings
 
 The `sourceset` property is an array and can have more than one entry.
-If we have the following two entries, the `image_srcset` output filter will generate one `source` tag for each entry and an additional `img` tag from the last entry.
+If we've the following two entries, the `image_srcset` output filter will generate one `source` tag for each entry and an additional `img` tag from the last entry.
 
 ```json
 {
@@ -396,7 +396,7 @@ This is useful when you want to define a picture variant to be used in templates
 ### Art direction
 
 With image size optimization, the browser is able to choose the optimal image for each display size.
-But we have no control over which scale the browser will actually use.
+But we've no control over which scale the browser will actually use.
 For example to force the browser to use a zoomed version of an image for smaller screens, we can use media queries.
 The technique is called [art direction](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images#art_direction).
 
@@ -501,7 +501,7 @@ Given a content type with a `NamedBlobField` named `picture`, we can get the fol
               'width': 800}]}
 ```
 
-This information shows we have everything we need to generate our image URLs, without waking up any objects.
+This information shows we've everything we need to generate our image URLs, without waking up any objects.
 
 ```xml
 <li tal:define="preview python: brain.image_scales['picture'][0]['scales']['preview']">

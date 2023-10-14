@@ -49,7 +49,7 @@ The process of translating Plone Classic UI is the following.
 3.  Either update or create a translation.
 
     -   To _update_ an existing translation, translate the {term}`PO file`s under your language of choice at `plone/app/locales/locales/{language_code}/LC_MESSAGES/*.po`.
-    In Classic UI, we have several language files because some of the original messages are spread over several language domains and products.
+    In Classic UI, we've several language files because some of the original messages are spread over several language domains and products.
     -   To _create_ a translation, create a new directory at `plone/app/locales/locales/{language_code}/LC_MESSAGES`, copy all the `.pot` files in `plone/app/locales/locales` to your new directory, rename the files in your directory by changing the file extension to `.po`, and start translating.
 
 4.  Commit your changes, and create a pull request with them.

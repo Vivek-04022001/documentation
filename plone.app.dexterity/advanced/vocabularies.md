@@ -141,7 +141,7 @@ Only the value is required.
 
 Also to mention, `plone.app.vocabularies` has some helpers creating Unicode safe vocabularies.
 
-In the example above, we have chosen to create a `SimpleVocabulary` from terms with the user id used as value and token, and the user's full name as a title.
+In the example above, we've chosen to create a `SimpleVocabulary` from terms with the user id used as value and token, and the user's full name as a title.
 
 To use this context source binder, we use the `source` argument to the `Choice` constructor:
 

@@ -22,7 +22,7 @@ Do not make things more complicated for the developer who is responsible for bre
 
 If the build breaks, the developer has to identify the cause of the breakage as soon as possible and should fix it.
 If we adopt this strategy, we will always be in the best position to find out what caused the breakage and fix it immediately.
-If one of the developers has made a check-in and broken the build as a result, we have the best chance of fixing the build if we have a clear look at the problem.
+If one of the developers has made a check-in and broken the build as a result, we've the best chance of fixing the build if we've a clear look at the problem.
 Checking in further changes and triggering new builds will just lead to more problems.
 
 If the build is broken over a longer period of time (more than a couple of hours) you should either notify the developer who is responsible for the breakage, fix the problem yourself, or just revert the commit in order to be able to continue to work.

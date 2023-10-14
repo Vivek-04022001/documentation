@@ -29,7 +29,7 @@ install_requires=[
 ],
 ```
 
-Next, we have {file}`behaviors.zcml`, which is included from {file}`configure.zcml`, and contains all the necessary configuration to set up the behaviors.
+Next, we've {file}`behaviors.zcml`, which is included from {file}`configure.zcml`, and contains all the necessary configuration to set up the behaviors.
 
 ```xml
 <configure

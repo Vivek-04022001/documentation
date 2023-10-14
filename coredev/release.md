@@ -86,7 +86,7 @@ These are:
 4.  Check packages individually.
 
     Use the `bin/fullrelease` script from the core development buildout.
-    This includes extra checks that we have added in `plone.releaser`.
+    This includes extra checks that we've added in `plone.releaser`.
     It guides you through all the next steps.
 
     1.  Check changelog.
