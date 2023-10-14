@@ -41,7 +41,7 @@ Submitting a PLIP can be a great learning process.
 We encourage people of all backgrounds to submit a PLIP.
 When the PLIP is accepted, a Framework Team member will "champion" your PLIP and be dedicated to its completion.
 
-PLIPs are not just for code monkeys.
+PLIPs aren't just for code monkeys.
 If you have ideas on new interactions or UI your ideas are more than welcome.
 
 We will help you pair up with implementers if needed.

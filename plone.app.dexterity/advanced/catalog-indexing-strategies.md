@@ -21,7 +21,7 @@ You may have two different interests in regard to indexing your custom content t
 
 Plone's main index is called *SearchableText*.
 This is the index which is searched when you use the main portal search.
-Fields in your custom content types are not necessarily added to SearchableText.
+Fields in your custom content types aren't necessarily added to SearchableText.
 Fields added via Dublin-core behaviors are automatically part of SearchableText; others are not.
 
 You may need to explicitly add fields to SearchableText if you wish their information to be findable via the main search.

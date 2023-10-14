@@ -52,6 +52,6 @@ Let's bring you up to speed with the minimum you need to know to start contribut
     Please mark all such strings as translatable.
 -   Be nice and use code quality checkers like flake8 and jshint.
 -   See if you can use git to squash multiple commits into one where this makes sense.
-    If you are not comfortable with git, never mind.
+    If you aren't comfortable with git, never mind.
 -   If after reading this you become hesitant: don't worry.
     You can always create a pull request, mark it as WIP (work in progress), and improve the above points later.

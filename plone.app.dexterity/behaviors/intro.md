@@ -32,7 +32,7 @@ This manual is aimed at developers who want to write new behaviors.
 This is a slightly more advanced topic than the writing of custom content types.
 It assumes you are familiar with buildout, know how to create a custom package, understand interfaces, and have a basic understanding of Zope's component architecture.
 
-Behaviors are not tied to Dexterity, but Dexterity provides behavior support for its types via the *behaviors* FTI property.
+Behaviors aren't tied to Dexterity, but Dexterity provides behavior support for its types via the *behaviors* FTI property.
 In fact, if you've used Dexterity before, you've probably used some behaviors.
 Take a look at the {doc}`Dexterity Developer Manual <../index>` for more information about how to enable behaviors on a type, and for a list of standard behaviors.
 

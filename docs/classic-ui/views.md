@@ -453,7 +453,7 @@ zope.component.provideAdapter(
     # Our class
     factory=TestingRedirectHandler,
     # (context, request) layers for multiadapter lookup
-    # We provide None as layers are not used
+    # We provide None as layers aren't used
     adapts=(None, None),
     # All views are registered as IBrowserView interface
     provides=zope.publisher.interfaces.browser.IBrowserView,

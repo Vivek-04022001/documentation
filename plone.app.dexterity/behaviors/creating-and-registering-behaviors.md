@@ -108,7 +108,7 @@ class Tags(object):
     def __init__(self, context):
         self.context = context
 
-    # the properties below are not necessary the first time when you just want to see your added field(s)
+    # the properties below aren't necessary the first time when you just want to see your added field(s)
     @property
     def tags(self):
         return set(self.context.Subject())

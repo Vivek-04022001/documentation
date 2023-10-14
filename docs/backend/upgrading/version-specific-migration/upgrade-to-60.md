@@ -59,7 +59,7 @@ When you use the `Plone` package in your project, you will get the `plone.volto`
 This package prepares your Plone site's backend as a REST API.
 
 ```{note}
-The classic integrated frontend which is called "Classic UI" is still available if you are not ready for the new separate frontend.
+The classic integrated frontend which is called "Classic UI" is still available if you aren't ready for the new separate frontend.
 If you choose to use Classic UI, then do not use the `plone.volto` package.
 ```
 

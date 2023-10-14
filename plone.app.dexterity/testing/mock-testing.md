@@ -151,12 +151,12 @@ def test_suite():
 
 Note that the other tests in this module have been removed for the sake of brevity.
 
-If you are not familiar with mock testing, it may take a bit of time to get your head around what's going on here.
+If you aren't familiar with mock testing, it may take a bit of time to get your head around what's going on here.
 Let's run though the test.
 
 -   First, we create a dummy presenter object.
     This is *not* a mock object, it's just a class with the required minimum set of attributes, created using the `create_dummy()` helper method from the `MockTestCase` base class.
-    We use this type of dummy because we are not interested in making any assertions on the `presenter` object: it's used as an "input" only.
+    We use this type of dummy because we aren't interested in making any assertions on the `presenter` object: it's used as an "input" only.
 -   Next, we create a dummy event.
     Here we have opted to use a standard implementation from `zope.app.container`.
 -   We then define a few variables that we will use in the various assertions and mock return values: the user data that will form our dummy user search results, and the email data passed to the mail host.
@@ -200,5 +200,5 @@ In fact, it's prudent to have at least some integration tests in any case, since
 
 On the other hand, if the code you are testing is using well-defined APIs in a relatively predictable manner, mock objects can be a valuable way to test the "side effects" of your code, and a helpful tool to simulate things like exceptions and input values that may be difficult to produce otherwise.
 
-Remember also that mock objects are not necessarily an "all or nothing" proposition.
+Remember also that mock objects aren't necessarily an "all or nothing" proposition.
 You can use simple dummy objects or "real" instances in most cases, and augment them with a few mock objects for those difficult-to-replicate test cases.

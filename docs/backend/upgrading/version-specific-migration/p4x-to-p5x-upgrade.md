@@ -57,7 +57,7 @@ If you have some custom member properties in your Plone site, be aware of the fo
 When a custom field is defined in `userschema.xml`, its corresponding attribute is automatically created in the `portal_memberdata` tool.
 There is no need to declare it in `memberdata_properties.xml`.
 
-`memberdata_properties.xml` will only handle attributes that are not related to the user profile and registration forms.
+`memberdata_properties.xml` will only handle attributes that aren't related to the user profile and registration forms.
 ```
 
 
@@ -69,7 +69,7 @@ Starting with Plone 4.0, you can use an email address as a login in the security
 In Plone 5.0 some related improvements were made.
 When you are already using email as login, during the Plone 5.0 migration, the login names will be transformed to lowercase.
 
-When the email addresses are not unique, for example you have both `joe@example.org` and `JOE@example.org`, the migration will _fail_.
+When the email addresses aren't unique, for example you have both `joe@example.org` and `JOE@example.org`, the migration will _fail_.
 
 It is best is to fix this in your site in Plone 4
 Change email addresses or remove no longer needed users.
@@ -234,8 +234,8 @@ Scripts that expect JavaScript dependency scripts and objects to be globally ava
 
 There are two scenarios where this will happen that we will tackle in this section.
 
-1.  You have JavaScript registered in `portal_javascripts` that are not AMD compatible.
-2.  You have JavaScript included in the `head` tag of your theme and/or specific page templates that are not AMD compatible.
+1.  You have JavaScript registered in `portal_javascripts` that aren't AMD compatible.
+2.  You have JavaScript included in the `head` tag of your theme and/or specific page templates that aren't AMD compatible.
 
 
 ### Working with deprecated `portal_javascripts`
@@ -334,7 +334,7 @@ Thus you do not need to know any newfangled Node.js technologies like grunt, gul
 
 ### Updating non-AMD scripts
 
-If you are not including your JavaScript in the Resource Registries and need it to work alongside Plone's JavaScript because you're manually including the JavaScript files in one way or another (such as page templates or themes), there are a number of techniques available
+If you aren't including your JavaScript in the Resource Registries and need it to work alongside Plone's JavaScript because you're manually including the JavaScript files in one way or another (such as page templates or themes), there are a number of techniques available
 to read on the web that describe how to make your scripts conditionally work with AMD.
 
 For the sake of this section, we will describe one technique used in Plone core to fix the JavaScript.

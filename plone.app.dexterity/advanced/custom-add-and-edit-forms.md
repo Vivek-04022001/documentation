@@ -96,7 +96,7 @@ What actually happens is the following.
         This allows administrators to create new "logical" types that are functionally identical to an existing type.
     -   The `++add++` namespace adapter looks up the actual form to render as a multi-adapter from `(context, request, fti)` to `Interface` with a name matching the `factory` property.
         Recall that a standard view is a multi-adapter from `(context, request)` to `Interface` with a name matching the URL segment for which the view is looked up.
-        As such, add forms are not standard views, because they get the additional `fti` parameter when constructed.
+        As such, add forms aren't standard views, because they get the additional `fti` parameter when constructed.
     -   If this fails, there is no custom add form for this factory, as is normally the case.
         The fallback is an unnamed adapter from `(context, request, fti)`.
         The default Dexterity add form is registered as such an adapter, specific to the `IDexterityFTI` interface.

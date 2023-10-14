@@ -141,7 +141,7 @@ If it doesn't start up, you should continue with the next steps instead of tryin
 `python-modernize` is a utility that automatically prepares Python 2 code for porting to Python 3.
 After running `python-modernize`, there is manual work ahead.
 There are some problems that `python-modernize` cannot fix on its own.
-It also can make changes that are not really needed.
+It also can make changes that aren't really needed.
 You need to closely review all changes after you run this tool.
 
 `python-modernize` will warn you when it's not sure what to do with a possible problem.
@@ -223,7 +223,7 @@ If you want to avoid running the complete buildout every time, you can use the `
 ## 4. Start the instance
 
 As a next step, we recommend that you try to start the instance with your add-on.
-This will fail on all import errors (e.g., relative imports that are not allowed in Python 3).
+This will fail on all import errors (e.g., relative imports that aren't allowed in Python 3).
 If it works then you can try to install the add-on.
 
 You need to fix all issues that appear before you can do manual testing to check for big, obvious issues.

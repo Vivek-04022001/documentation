@@ -39,7 +39,7 @@ What does the Contributor's Agreement cover?
 
 > This agreement is for the Plone core codebase only.
 > The Plone core codebase is that code which lives in the Plone core version repositories, currently located at [https://github.com/plone].
-> Contributions to the "Collective", currently located at [https://github.com/collective] are not assigned to the Plone Foundation, and are made available under whatever license the project developers wish to use, although add-on products that import from GPLed Plone code are of course subject to the terms of the GPL, which requires derived works to be GPL licensed.
+> Contributions to the "Collective", currently located at [https://github.com/collective] aren't assigned to the Plone Foundation, and are made available under whatever license the project developers wish to use, although add-on products that import from GPLed Plone code are of course subject to the terms of the GPL, which requires derived works to be GPL licensed.
 
 What rights will I continue to have for my contributions?
 

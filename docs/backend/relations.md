@@ -170,7 +170,7 @@ This makes it very flexible for limiting relatable items by type, path, date, an
 
 Setting the mode of the widget to `search` makes it easier to select from the content that results from your catalog query instead of having to navigate through your content tree.
 
-The problem is that, in the default mode of the relations widget, items that are in containers are not shown unless you add these types of containers to the query.
+The problem is that, in the default mode of the relations widget, items that are in containers aren't shown unless you add these types of containers to the query.
 
 Therefore, it's recommended to use `CatalogSource` only in `search` mode.
 
@@ -635,7 +635,7 @@ The built-in `linkintegrity` feature of Plone 5 is also implemented using relati
 
 `RelationValue` objects have a fairly complete API.
 For both target and source, you can receive the `IntId`, the `object`, and the `path`.
-On a `RelationValue`, the terms `source` and `target` are not used.
+On a `RelationValue`, the terms `source` and `target` aren't used.
 Instead, they are `from` and `to`.
 Thus the API for getting the target uses:
 

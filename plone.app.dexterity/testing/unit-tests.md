@@ -12,7 +12,7 @@ myst:
 This chapter describes how to write basic unit tests for content types.
 
 As all good developers know, automated tests are very important.
-If you are not comfortable with automated testing and test-driven development, you should read the [Plone testing tutorial](https://5.docs.plone.org/external/plone.testing/docs/index.html).
+If you aren't comfortable with automated testing and test-driven development, you should read the [Plone testing tutorial](https://5.docs.plone.org/external/plone.testing/docs/index.html).
 In this section, we will assume you are familiar with Plone testing basics, and show some tests that are particularly relevant to our example types.
 
 Firstly, we will add a few unit tests.

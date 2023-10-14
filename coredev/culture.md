@@ -22,7 +22,7 @@ Most of our developers work there and you will get the best advice there.
 
 If you are actively committing code, always keep an eye on our [Jenkins CI](https://jenkins.plone.org/) to know if your recent commits have broken (or fixed!) the build.
 
-If you are in a timezone when things are not very active, please post to the forum or grab a drink and wait for people to wake up.
+If you are in a timezone when things aren't very active, please post to the forum or grab a drink and wait for people to wake up.
 
 **When in doubt, please ask**
 

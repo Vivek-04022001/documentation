@@ -138,7 +138,7 @@ You can configure your notifier of choice with this url: `https://jenkins.plone.
 
 ## Check out packages to fix
 
-Most packages are not in {file}`src/` by default, so you can use `mr.developer` to get the latest and make sure you are always up to date.
+Most packages aren't in {file}`src/` by default, so you can use `mr.developer` to get the latest and make sure you are always up to date.
 It can be a little daunting at first to find out which packages cause the bug in question, but just ask in https://community.plone.org/ if you need some help.
 Once you know which packages you want, pull their source.
 
@@ -331,7 +331,7 @@ HOWEVER, there are a few situations where a branch is appropriate.
 If you:
 
 -   are just getting started
--   are not sure about your changes
+-   aren't sure about your changes
 -   want feedback or code review
 -   are implementing a non-trivial change
 

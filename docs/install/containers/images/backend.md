@@ -336,7 +336,7 @@ ENV ZODB_CACHE_SIZE="120000"
 Of course, you can always override these variables upon container
 start by using the Docker `docker run` argument `-e VAR=value`.
 
-Be aware that some variables are not intended to be used in production.
+Be aware that some variables aren't intended to be used in production.
 Check the respective variable documentation above to determine whether
 you should use it, or use a different method to get the desired result
 in production.

@@ -71,7 +71,7 @@ It is usually best to copy the original files of the new version of Plone to you
 ## Test without add-ons
 
 Bugs or compatibility problems in add-ons that you have installed may cause problems in Plone.
-Go to {guilabel}`Site Setup > Add-ons`, and deactivate all add-ons that are not distributed with Plone.
+Go to {guilabel}`Site Setup > Add-ons`, and deactivate all add-ons that aren't distributed with Plone.
 Remove the deactivated add-ons from the packages of your Zope instance.
 
 If the problem disappears, you will need to double-check the offending product.
@@ -100,7 +100,7 @@ If the problem doesn't occur in a fresh site, the cause of your problem is most 
 Before you go out and [ask for help](https://plone.org/support/how-to-ask-for-help), you should be able to describe your problem in such a way that others can reproduce it in their environment.
 
 -   Reduce the problem to the smallest possible domain.
--   Eliminate products and customizations that are not part of the problem.
+-   Eliminate products and customizations that aren't part of the problem.
 
 This makes it easier for others to reproduce the problem, and it increases your chances of meeting others with the same problem or even a solution.
 The more complex your story, the more likely that it's unique to your situation and impenetrable to others.

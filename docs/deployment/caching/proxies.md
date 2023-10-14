@@ -89,7 +89,7 @@ Bundles managed through the resource registration do not need purging, since the
 To purge Plone content when modified or removed, you must select the content types in the control panel.
 By default, only the `File` and `Image` types are purged.
 
-You should not enable purging for types that are not likely to be cached in the proxy.
+You should not enable purging for types that aren't likely to be cached in the proxy.
 Although purging happens asynchronously at the end of the request, it may still place unnecessary load on your server.
 
 Finally, you can use the {guilabel}`Purge` tab in the control panel to manually purge one or more URLs.

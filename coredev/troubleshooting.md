@@ -110,7 +110,7 @@ Again, this is only necessary if the package wasn't found in the end.
 ### `mr.developer` path errors
 
 ```console
-ERROR: You are not in a path which has mr.developer installed (:file:`.mr.developer.cfg` not found).
+ERROR: You aren't in a path which has mr.developer installed (:file:`.mr.developer.cfg` not found).
 ```
 
 When running any {command}`./bin/develop` command.
