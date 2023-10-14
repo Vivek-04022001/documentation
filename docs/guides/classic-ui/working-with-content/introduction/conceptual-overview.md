@@ -61,7 +61,7 @@ After adding a few reports and videos to the Butterflies folder, the content wou
 A typical Plone website exists as an installation of Plone software on a web server.
 The web server may be anywhere on the internet, such as on a virtual machine from a cloud provider.
 
-Your Plone site is a combination of software and storage running on one or more servers.
+Your Plone website is a combination of software and storage running on one or more servers.
 
 This simplified diagram shows your interaction with Plone:
 
@@ -90,9 +90,8 @@ The Plone software responds:
 
 Plone reads its storage to look for information stored in mysite.com.
 It then sends back the web page to your computer, in formats such as HTML, CSS, and JSON.
-These are computer languages that describe what a web page contains and how it looks.
-This includes text, graphics, fonts, the color of the background, and the layout of the page.
-There are many online resources that can teach you HTML, CSS and JSON, but one of Plone's advantages is that you don't need to know either.
+These are computer languages that describe what a web page contains and how it looks, including its text, graphics, fonts, the color of the background, and its layout.
+There are many online resources that can teach you HTML, CSS and JSON, but one of Plone's advantages is that you don't need to know any of them.
 That's one of main reasons for using Plone: to let you focus on your content (butterfly text and graphics, in this case) instead of having to understand the technical underpinnings.
 
 But back to our overview.
@@ -111,7 +110,7 @@ You can also upload photos, documents, and other types of content:
 :alt: true
 ```
 
-After you make your edits and save your changes, the new version of the web page will be immediately available to anyone viewing your site:
+After you make your edits and save your changes, the new version of the web page is available to anyone who views your website:
 
 ```{figure} plone_donut_full.png
 :align: center
