@@ -303,7 +303,7 @@ configure Git to do always so with:
 git config branch.autosetuprebase always # add the --global switch to make it default everywhere
 ```
 
-This way you do not introduce new extra commits and the Git history is kept as simple as possible.
+This way you don't introduce new extra commits and the Git history is kept as simple as possible.
 
 This is especially important when trying to understand why some changes were made,
 or who did actually change that line,

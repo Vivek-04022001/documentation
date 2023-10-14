@@ -185,7 +185,7 @@ default_context:
 
 Stop the backend with {kbd}`ctrl-c`.
 Then apply your changes and start the backend.
-You do not need to stop the frontend.
+You don't need to stop the frontend.
 
 ```shell
 make build-backend
@@ -399,7 +399,7 @@ The command `make build-backend`:
 -   Returning to the target `instance/etc/zope.ini`:
 
     -   This creates or updates the Zope configuration from its `instance.yaml` file using `cookiecutter-zope-instance`.
-    -   Creates specified directories, if they do not exist.
+    -   Creates specified directories, if they don't exist.
 
 -   Returning to the target `build-dev`:
 

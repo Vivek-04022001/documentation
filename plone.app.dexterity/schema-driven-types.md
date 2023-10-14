@@ -399,7 +399,7 @@ If the package fails to install in the {guilabel}`Add-ons` control panel:
 -   Check the syntax and placement of the profile files.
     Remember that you need a `types.xml` listing your types, and corresponding files in `types/*.xml`.
 
-If your forms do not look right, for example custom widgets are missing, then:
+If your forms don't look right, for example custom widgets are missing, then:
 
 -   Make sure your schema derives from `model.Schema`.
 -   Remember that the directives require you to specify the correct field name, even if they are placed before or after the relevant field.

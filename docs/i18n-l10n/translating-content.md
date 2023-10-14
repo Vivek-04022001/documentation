@@ -99,7 +99,7 @@ The language control panel provides several ways to configure this widget:
 -   {guilabel}`General > Show language flags`.
     It's common to use flags to identify languages.
     Enabling this option will do it for you.
-    However, this is not considered a best practice because country flags do not necessarily represent a language.
+    However, this is not considered a best practice because country flags don't necessarily represent a language.
     Why should one use a Spanish flag to identify the Spanish language when browsing a South American, English-Spanish bilingual site?
     It's recommended to disable the {guilabel}`Show language flags` option.
 

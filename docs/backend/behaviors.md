@@ -302,8 +302,8 @@ See the chapter {ref}`training:behaviors1-label` from the Mastering Plone 6 Trai
 ## How behaviors work
 
 ```{note}
-Skip this section if you do not want to dive deeper into the internals of behaviors.
-You do not *need* to know this, but it may help if you run into problems.
+Skip this section if you don't want to dive deeper into the internals of behaviors.
+You don't *need* to know this, but it may help if you run into problems.
 ```
 
 In Plone, behaviors can be globally enabled on content types at runtime.

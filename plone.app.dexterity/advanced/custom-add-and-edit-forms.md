@@ -160,7 +160,7 @@ The name here should match the *factory* name.
 By default, Dexterity types have a factory called the same as the FTI name.
 If no such factory exists (in other words, you have not registered a custom `IFactory` utility), a local factory utility will be created and managed by Dexterity when the FTI is installed.
 
-Also note that we do not specify a context here.
+Also note that we don't specify a context here.
 Add forms are always registered for any `IFolderish` context.
 
 ```{note}

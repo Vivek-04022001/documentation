@@ -52,7 +52,7 @@ To use the constraint, pass the function as the `constraint` argument to the fie
 my_field = schema.TextLine(title=_("My field"), constraint=checkForMagic)
 ```
 
-Constraints are easy to write, but do not necessarily produce very friendly error messages.
+Constraints are easy to write, but don't necessarily produce very friendly error messages.
 It is possible to customize these error messages using `z3c.form` error view snippets.
 See the [z3c.form documentation](https://z3cform.readthedocs.io/en/latest/) for more details.
 

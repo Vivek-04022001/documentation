@@ -295,7 +295,7 @@ Instead, we need to use a more powerful widget.
 For a basic widget, see [`z3c.formwidget.query`](https://pypi.org/project/z3c.formwidget.query/).
 But, in a Plone context, you will more likely want to use [`plone.formwidget.autocomplete`](https://pypi.org/project/plone.formwidget.autocomplete/), which extends `z3c.formwidget.query` to provide a friendlier user interface.
 
-The widget is provided with [`plone.app.dexterity`](https://pypi.org/project/plone.app.dexterity/), so we do not need to configure it ourselves.
+The widget is provided with [`plone.app.dexterity`](https://pypi.org/project/plone.app.dexterity/), so we don't need to configure it ourselves.
 We only need to tell Dexterity to use this widget instead of the default, using a form widget hint as shown earlier.
 At the top of {file}`program.py`, we add the following import:
 

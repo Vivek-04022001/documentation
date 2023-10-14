@@ -110,5 +110,5 @@ The possible disadvantages are:
     Loading an object with a blob or BTree doesn't mean loading the entire data, so the memory overhead doesn't occur unless the whole blob or BTree is actually used.
 
 ```{note}
-"The moral of this story? BTrees do not always make things more efficient!" ~ Laurence Rowe
+"The moral of this story? BTrees don't always make things more efficient!" ~ Laurence Rowe
 ```

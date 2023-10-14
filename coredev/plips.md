@@ -34,7 +34,7 @@ The key point here is that each change must be documented, allowing it to be tra
 Anyone who has signed a Plone Contributor Agreement can work on a PLIP.
 Don't let the wording freak you out: signing the agreement is easy and you will get access almost immediately.
 
-You do not have to be the most amazing coder in the entire world to submit a PLIP.
+You don't have to be the most amazing coder in the entire world to submit a PLIP.
 The Framework Team is happy to help you at any point in the process.
 
 Submitting a PLIP can be a great learning process.
@@ -253,7 +253,7 @@ virtualenv .
 ./bin/buildout -c plips/plip-1234-widget-frobbing.cfg
 ```
 
-If you are using a {file}`local.cfg` to extend your PLIP file with some changes that you do not want to commit accidentally, be aware that you need to override some settings from {file}`plipbase.cfg` to avoid some files being created in the {file}`plips` directory or in the directory above the buildout directory.
+If you are using a {file}`local.cfg` to extend your PLIP file with some changes that you don't want to commit accidentally, be aware that you need to override some settings from {file}`plipbase.cfg` to avoid some files being created in the {file}`plips` directory or in the directory above the buildout directory.
 This is done as shown below.
 
 ```ini

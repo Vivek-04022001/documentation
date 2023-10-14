@@ -264,7 +264,7 @@ environment-vars =
 Note that the value doesn't matter.
 The code in `zope.i18n` looks for the mere existence of the variable, and doesn't care what is its value.
 
-If you do not add that environment variable, you will need to provide the MO files in your package.
+If you don't add that environment variable, you will need to provide the MO files in your package.
 To make this easier, and if you use [zest.releaser](https://pypi.org/project/zest.releaser/) to publish your packages, you can use [zest.pocompile](https://pypi.org/project/zest.pocompile/).
 This script hooks into the release process and builds the MO files for you.
 

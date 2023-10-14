@@ -319,7 +319,7 @@ git merge my-awesome-feature-4.2
 
 ```{note}
 This section needs a rewrite.
-Meanwhile we do not allow direct commits, except in very rare cases.
+Meanwhile we don't allow direct commits, except in very rare cases.
 ```
 
 Plone used to be in an svn repository, so everyone is familiar and accustomed to committing directly to the branches.

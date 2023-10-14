@@ -247,7 +247,7 @@ The following MyST example will display as shown below.
 
 To embed local videos, such as recordings of demonstrating the user interface, we require that the videos be saved as `.mp4` for greatest compatibility, usability, accessibility, and reduced file size.
 
-Avoid animated GIFs because they do not allow control of playback.
+Avoid animated GIFs because they don't allow control of playback.
 
 Audio is not required, but may be helpful.
 If you include audio, it's helpful to include closed captions or a transcript.

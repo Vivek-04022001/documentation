@@ -84,7 +84,7 @@ When the release manager requests to create a new `plone.app.locales` release, t
         for po in `find . -name "*.po"` ; do msgfmt --no-hash -o `dirname $po`/`basename $po .po`.mo $po; done
     ```
 
-    You can ignore the errors `'msgid' and 'msgstr' entries do not both end with '\n'`.
+    You can ignore the errors `'msgid' and 'msgstr' entries don't both end with '\n'`.
     If there are other errors, please fix them.
 
 5.  Release.

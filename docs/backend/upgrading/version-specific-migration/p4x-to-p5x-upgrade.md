@@ -329,7 +329,7 @@ The old, sequential inclusion is not useful these days.
 
 That being said, adding resources, bundles and compiling them can all be done Through The Web (TTW) in the new Resource Registries configuration panel.
 That way you can turn on development mode, compile your resources and then copy that compiled version into your package for distribution.
-Thus you do not need to know any newfangled Node.js technologies like grunt, gulp, bower, npm, and so on.
+Thus you don't need to know any newfangled Node.js technologies like grunt, gulp, bower, npm, and so on.
 
 
 ### Updating non-AMD scripts
@@ -470,7 +470,7 @@ Now you can access the property via `get_registry_record()`.
 
 The keys are mostly the same.
 They are prefixed with `plone.` now.
-Normally, you do not modify or access these records.
+Normally, you don't modify or access these records.
 Instead, you change the settings in your `genericsetup` profile in the file `propertiestool.xml`
 
 | Old Property Sheet | Old Key | New Property |
@@ -944,7 +944,7 @@ Nothing should be done in Plone 5.
 The new setting is on `Products.CMFPlone.interfaces.controlpanel.INavigationSchema.displayed_types`, and it works the other way around.
 
 Instead of blacklisting content types, it whitelists them.
-If you do not want your content type to show, there is nothing to do.
+If you don't want your content type to show, there is nothing to do.
 
 
 ### `typesLinkToFolderContentsInFC`

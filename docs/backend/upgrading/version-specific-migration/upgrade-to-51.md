@@ -400,7 +400,7 @@ This will cache the result in memory, which avoids waking up the objects the nex
 ```
 
 ```{note}
-Images added in the TinyMCE editor do not currently benefit from this feature.
+Images added in the TinyMCE editor don't currently benefit from this feature.
 ```
 
 

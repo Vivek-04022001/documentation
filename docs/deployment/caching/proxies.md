@@ -41,7 +41,7 @@ This approach has the benefit of also invalidating content stored in a browser's
 
 This means that content may be stale, but typically only up to a few minutes.
 
-This is sometimes an acceptable policy for high-volume sites where most users do not log in.
+This is sometimes an acceptable policy for high-volume sites where most users don't log in.
 
 ### Most caching proxies support receiving `PURGE` requests for paths that should be purged
 
@@ -85,7 +85,7 @@ The default purge paths include:
     This includes support for the standard `File` and  `Image` types.
 
 Files and images created (or customized) in the ZMI are purged automatically when modified.
-Bundles managed through the resource registration do not need purging, since they have stable URLs.
+Bundles managed through the resource registration don't need purging, since they have stable URLs.
 To purge Plone content when modified or removed, you must select the content types in the control panel.
 By default, only the `File` and `Image` types are purged.
 

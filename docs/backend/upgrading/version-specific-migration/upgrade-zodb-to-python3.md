@@ -139,7 +139,7 @@ Traceback (most recent call last):
 UnicodeDecodeError: 'ascii' codec can't decode byte 0xc3 in position 0: ordinal not in range(128)
 ```
 
-Or when UTF-8 encoded byte strings are interpreted as Unicode, we do not get an error, but mangled non-ASCII characters:
+Or when UTF-8 encoded byte strings are interpreted as Unicode, we don't get an error, but mangled non-ASCII characters:
 
 ```console
 $ python3

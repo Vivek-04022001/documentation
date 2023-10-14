@@ -105,7 +105,7 @@ Multiple workflows applied in a single chain co-exist in time.
 Typically, you need each workflow in the chain to have a different state variable name.
 The standard `portal_workflow` API (in particular, `doActionFor()`, which is used to change the state of an object) also assumes the transition IDs are unique.
 If you have two workflows in the chain and both currently have a `submit` action available, only the first workflow will be transitioned if you do `portal_workflow.doActionFor(context, ‘submit')`.
-Plone will show all available transitions from all workflows in the current object's chain in the `State` drop-down, so you do not need to create any custom user interface for this.
+Plone will show all available transitions from all workflows in the current object's chain in the `State` drop-down, so you don't need to create any custom user interface for this.
 However, Plone always assumes the state variable is called `review_state` (which is also the variable indexed in `portal_catalog`).
 Therefore, the state of a secondary workflow won't show up unless you build some custom UI.
 

@@ -69,7 +69,7 @@ To perform all these checks, run the following command.
 make vale
 ```
 
-Because it's difficult to automate good American English grammar and syntax, we do not strictly enforce it.
+Because it's difficult to automate good American English grammar and syntax, we don't strictly enforce it.
 We also understand that contributors might not be fluent in English.
 We encourage contributors to make a reasonable effort, and to request a review of their pull request from community members who are fluent in English to fix grammar and syntax.
 Please ask!
@@ -114,12 +114,12 @@ make linkcheck
 Open `/_build/linkcheck/output.txt` for a list of broken links.
 
 ```{danger}
-Please do not abuse `linkcheck_ignore`.
+Please don't abuse `linkcheck_ignore`.
 
-There is a special place in hell reserved for contributors who do not bother to update bad links, either dead ones or redirects, causing `linkcheck` to fail.
+There is a special place in hell reserved for contributors who don't bother to update bad links, either dead ones or redirects, causing `linkcheck` to fail.
 And there is a doubly punishing place for those who disable `linkcheck` because there are too many bad links.
 
-Please do not be "that person".
+Please don't be "that person".
 ```
 
 

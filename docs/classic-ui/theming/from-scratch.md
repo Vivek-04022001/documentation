@@ -28,7 +28,7 @@ Theming based on a filesystem package without any dependency.
 ## Theme package
 
 -   Create a theme package as explained here.
--   Remove what you do not need
+-   Remove what you don't eed
 -   Overrides
 -   Static files
 

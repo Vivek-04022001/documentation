@@ -97,7 +97,7 @@ After your Plone Contributor Agreement has been approved, and you have been adde
     -   Ask on the [Plone Community Forum, Documentation topic](https://community.plone.org/c/documentation/13).
     -   Ask in the [Plone chat on Discord](https://discord.com/invite/zFY3EBbjaj).
 
-1.  For first-time contributors especially, **you do not need to ask to be assigned to, or to work on, an open issue**.
+1.  For first-time contributors especially, **you don't need to ask to be assigned to, or to work on, an open issue**.
     As in any open source project, you can start work on open issues at your convenience.
 
     ```{tip}

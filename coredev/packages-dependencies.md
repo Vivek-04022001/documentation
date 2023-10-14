@@ -28,7 +28,7 @@ There are multiple level of dependencies:
 -   ZCML level (includes)
 -   testing (need for layers, such as functional testing)
 
-We do not have any circular dependencies at the package level anymore.
+We don't have any circular dependencies at the package level anymore.
 This was solved already.
 
 Nevertheless we have indirection on all other levels.

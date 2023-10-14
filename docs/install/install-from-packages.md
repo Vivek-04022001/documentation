@@ -180,7 +180,7 @@ Install the latest Yarn 3 version (not the Classic 1.x one) using `npm`.
     3.2.3
     ```
     
-    If you do not see a version of Yarn 3, then try the following to set the active version.
+    If you don't see a version of Yarn 3, then try the following to set the active version.
     
     ```shell
     yarn set version 3.x
@@ -214,7 +214,7 @@ Docker Desktop includes all Docker tools.
 We install Plone 6 with {term}`pip`, {term}`Cookiecutter`, {term}`mxdev`, {term}`make`, and other developer tools.
 
 ```{note}
-We do not maintain documentation for installing Plone 6 or later with `buildout`.
+We don't maintain documentation for installing Plone 6 or later with `buildout`.
 For Plone 5, `buildout` was the preferred installation method.
 You can read the [documentation of how to install Plone 5 with `buildout`](https://5.docs.plone.org/manage/installing/installation_minimal_buildout.html), and adapt it to your needs for Plone 6.
 ```

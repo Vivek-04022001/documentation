@@ -120,7 +120,7 @@ from Products.CMFPlone.utils import get_installer
 qi = get_installer(self.context, self.request)
 ```
 
-or if you do not have a request:
+or if you don't have a request:
 
 ```python
 qi = get_installer(self.context)
@@ -368,7 +368,7 @@ class NonInstallable(object):
         return ['your.package:base']
 ```
 
-When you do not need them both, you can let the other return an empty list, or you can leave that method out completely.
+When you don't need them both, you can let the other return an empty list, or you can leave that method out completely.
 
 ````{note}
 If you need to support older Plone versions at the same time, you can let your class implement the old interface as well:

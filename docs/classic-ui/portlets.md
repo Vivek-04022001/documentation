@@ -37,7 +37,7 @@ As a user, you can add a portlet to a web page in a Plone site by following thes
    This will open the screen to manage portlets for the current item.
 
    Note that you must have the appropriate permissions to add portlets to a web page.
-   If you do not see the {guilabel}`Manage portlets` link, you may need to contact the site administrator to request access.
+   If you don't see the {guilabel}`Manage portlets` link, you may need to contact the site administrator to request access.
 
 3. In the {menuselection}`Add portlets` menu, select the portlet type that you want to add, and click the {guilabel}`Add` button.
   This will open a form to edit the settings for the selected portlet type.

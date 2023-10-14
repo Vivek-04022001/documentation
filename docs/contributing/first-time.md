@@ -45,7 +45,7 @@ Learn from their mistakes, and don't commit them yourself.
 1.  **Never ask to be assigned to an issue.**
     Instead you may post a comment to claim it, if no one else has claimed it (see {ref}`Avoid duplicate effort <mistake-2-label>`).
     For example, "I am working on this issue in pull request #123."
-    You do not need to ask to be assigned to, or to work on, an open issue.
+    You don't need to ask to be assigned to, or to work on, an open issue.
     As in any open source software project, you can start work on open issues at your convenience.
     Privileged team members may ignore or delete comments asking to be assigned to an issue.
 
@@ -73,7 +73,7 @@ New contributors should wait for confirmation that they have been added to this 
 
 [`mr-roboto`](https://github.com/plone/mr.roboto) enforces the requirement of a signed Plone Contributor Agreement from a new contributor, and being assigned to a Plone team on GitHub.
 
-New contributors to Plone who submit a pull request and do not wait for confirmation that they have been added to the Contributors team will be subjected to persistent nagging from `mr-roboto`.
+New contributors to Plone who submit a pull request and don't wait for confirmation that they have been added to the Contributors team will be subjected to persistent nagging from `mr-roboto`.
 `mr-roboto` won't respond to you if you `@` it.
 Core developers may ignore your contribution because you did not follow these instructions.
 Please don't be "that person".
@@ -176,7 +176,7 @@ Once you have completed, tested, and linted your code, and created a {ref}`contr
 
 ```{todo}
 Provide instructions when the contributor needs to update their pull request with changes from the default branch.
-Members of Contributors do not have the button "Update branch" to easily do this, and must use git foo to manage the situation.
+Members of Contributors don't have the button "Update branch" to easily do this, and must use git foo to manage the situation.
 ```
 
 Welcome to the Plone community, and thank you for contributing!

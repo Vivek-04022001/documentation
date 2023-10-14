@@ -49,7 +49,7 @@ install_requires=[
 ```
 
 ```{note}
-Again, we do not need separate `<include />` lines in `configure.zcml` for these new dependencies, because we use `<includeDependencies />`.
+Again, we don't need separate `<include />` lines in `configure.zcml` for these new dependencies, because we use `<includeDependencies />`.
 ```
 
 To demonstrate, we will add an image of the speaker to the `Presenter` type.

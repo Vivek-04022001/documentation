@@ -117,7 +117,7 @@ The new action should now appear in the actions listing under the selected categ
 You can now edit its settings by clicking its {guilabel}`Edit` button.
 
 It's important to note that the ability to add or edit portal actions is only available to users with the appropriate permissions.
-If you do not have the necessary permissions, you won't be able to access the {guilabel}`Portal actions` control panel.
+If you don't have the necessary permissions, you won't be able to access the {guilabel}`Portal actions` control panel.
 
 ## Exporting or importing portal actions
 

@@ -60,7 +60,7 @@ This package prepares your Plone site's backend as a REST API.
 
 ```{note}
 The classic integrated frontend which is called "Classic UI" is still available if you aren't ready for the new separate frontend.
-If you choose to use Classic UI, then do not use the `plone.volto` package.
+If you choose to use Classic UI, then don't use the `plone.volto` package.
 ```
 
 To learn how to modify an existing Plone site to run with Volto, please read {doc}`migrate-to-volto`.
@@ -471,7 +471,7 @@ This avoids generating image scales that never get used.
 This performance improvement makes two other image improvements possible.
 These follow in the sections directly below.
 
-Add-on authors do not *have* to change anything.
+Add-on authors don't *have* to change anything.
 But it's a good idea to check how you are using images, otherwise you miss out on this improvement.
 If you call the `tag` method like above, you are good.
 If you use the `scale` method and then use its `tag` method, then you should change:
@@ -527,7 +527,7 @@ The catalog brain of an image then has all the needed information about each sca
 This is used on lists of images to be able to show a scale in a tag without waking up the image objects from the database.
 In other words, this speeds up pages that contain lots of images.
 
-Add-on authors do not have to change anything, as this happens automatically.
+Add-on authors don't have to change anything, as this happens automatically.
 If you have a very special use case, you can influence this with some new adapters.
 
 ````{note}

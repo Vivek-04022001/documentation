@@ -21,7 +21,7 @@ References are most commonly used in form fields with a selection or content bro
 Dexterity comes with a standard widget in [`plone.formwidget.contenttree`](https://pypi.org/project/plone.formwidget.contenttree/) configured for the `RelationList` and `RelationChoice` fields from `z3c.relationfield`.
 
 To illustrate the use of references, we will allow the user to create a link between a `Session` and its `Presenter`.
-Since Dexterity already ships with and installs `plone.formwidget.contenttree` and `z3c.relationfield`, we do not need to add any further setup code, and we can use the field directly in {file}`session.py`:
+Since Dexterity already ships with and installs `plone.formwidget.contenttree` and `z3c.relationfield`, we don't need to add any further setup code, and we can use the field directly in {file}`session.py`:
 
 ```python
 from z3c.relationfield.schema import RelationChoice

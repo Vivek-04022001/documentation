@@ -59,7 +59,7 @@ The version numbering would increase as in the following example.
 5.1.7 -> 5.2.0
 ````
 
-You do not have to expect any breaking changes from such a release.
+You don't have to expect any breaking changes from such a release.
 It is possible that the user interface changes, due to a new feature that has been added.
 
 

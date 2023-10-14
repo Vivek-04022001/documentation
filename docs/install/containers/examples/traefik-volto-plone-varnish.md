@@ -144,7 +144,7 @@ sub vcl_recv {
   # Process redirects
   call process_redirects;
 
-  # Sanitize cookies so they do not needlessly destroy cacheability for anonymous pages
+  # Sanitize cookies so they don't needlessly destroy cacheability for anonymous pages
   if (req.http.Cookie) {
     set req.http.Cookie = ";" + req.http.Cookie;
     set req.http.Cookie = regsuball(req.http.Cookie, "; +", ";");
@@ -200,7 +200,7 @@ sub vcl_recv {
 }
 
 sub vcl_pipe {
-  /* This is not necessary if you do not do any request rewriting. */
+  /* This is not necessary if you don't do any request rewriting. */
   set req.http.connection = "close";
 }
 

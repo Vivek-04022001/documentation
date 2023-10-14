@@ -206,7 +206,7 @@ class INoHeaderLayer(IBrowserRequest):
     """ When applied to HTTP request object, header animations
     or images aren't rendered on this layer.
 
-    If this layer is on a request, do not render header images.
+    If this layer is on a request, don't render header images.
     This allows uncluttered editing of header animations and images.
     """
 

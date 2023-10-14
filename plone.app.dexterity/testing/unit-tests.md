@@ -16,7 +16,7 @@ If you aren't comfortable with automated testing and test-driven development, yo
 In this section, we will assume you are familiar with Plone testing basics, and show some tests that are particularly relevant to our example types.
 
 Firstly, we will add a few unit tests.
-Recall that unit tests are simple tests for a particular function or method, and do not depend on an outside environment being set up.
+Recall that unit tests are simple tests for a particular function or method, and don't depend on an outside environment being set up.
 As a rule of thumb, if something can be tested with a simple unit test, do so for the following reasons.
 
 -   Unit tests are quick to write.
@@ -140,5 +140,5 @@ To get a report about test coverage, we can run the following command.
 ```
 
 Test coverage reporting is important.
-If you have a module with low test coverage, it means that your tests do not cover many of the code paths in those modules, and so are less useful for detecting bugs or guarding against future problems.
+If you have a module with low test coverage, it means that your tests don't cover many of the code paths in those modules, and so are less useful for detecting bugs or guarding against future problems.
 Aim for 100% coverage.
