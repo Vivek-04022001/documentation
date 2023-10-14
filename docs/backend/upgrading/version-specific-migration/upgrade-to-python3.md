@@ -140,7 +140,7 @@ If it doesn't start up, you should continue with the next steps instead of tryin
 
 `python-modernize` is a utility that automatically prepares Python 2 code for porting to Python 3.
 After running `python-modernize`, there is manual work ahead.
-There are some problems that `python-modernize` cannot fix on its own.
+There are some problems that `python-modernize` can't fix on its own.
 It also can make changes that aren't really needed.
 You need to closely review all changes after you run this tool.
 
@@ -324,7 +324,7 @@ Make an entry in the `CHANGES.rst` file.
 ## 8. Create a test setup that tests in Python 2 and Python 3
 
 You need to update the `buildout` of the add-on you are migrating to also support Plone 5.2 and Python 3.
-Since the `buildout` of most add-ons are different, we cannot offer advice that works for all add-ons.
+Since the `buildout` of most add-ons are different, we can't offer advice that works for all add-ons.
 
 But it's a good idea to create an empty new package with {py:mod}`bobtemplates.plone`, and either copy the code of the add-on in there or the new skeleton files into the old add-on.
 The least you can do is look at the files created by {py:mod}`bobtemplates.plone`, and copy whatever is appropriate to the add-on you are working on.

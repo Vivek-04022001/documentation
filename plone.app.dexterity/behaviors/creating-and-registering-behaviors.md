@@ -131,7 +131,7 @@ If your behavior doesn't provide form fields, you can just derive from `zope.int
 
 Next, we write the class that implements the behavior adapter and acts as the adapter factory.
 Notice how it implements the behavior interface (`ITags`), and adapts a broad interface `(IDexterityContent`).
-The behavior cannot be enabled on types not supporting this interface.
+The behavior can't be enabled on types not supporting this interface.
 In many cases, you will omit the `adapter()` line, provided your behavior is generic enough to work on any context.
 
 The adapter is otherwise identical to any other adapter.

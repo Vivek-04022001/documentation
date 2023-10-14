@@ -16,7 +16,7 @@ These classes are defined in the [`plone.dexterity.content`](https://github.com/
 
 For most applications, these two classes will suffice.
 We will normally use behaviors, adapters, event handlers, and schema interfaces to build additional functionality for our types.
-In some cases, however, it's useful or necessary to override the class, typically to override some method or property provided by the base class that cannot be implemented with an adapter override.
+In some cases, however, it's useful or necessary to override the class, typically to override some method or property provided by the base class that can't be implemented with an adapter override.
 A custom class may also be able to provide marginally better performance by side-stepping some of the schema-dependent dynamic behavior found in the base classes.
 In real life, you are very unlikely to notice, though.
 

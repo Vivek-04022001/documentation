@@ -89,10 +89,10 @@ Cache in browser but expire immediately (same as `weak caching`), and cache in p
 Use a purgable caching reverse proxy for best results.
 
 ```{caution}
-If the proxy cannot be purged reliably—for example, in the case of composite pages where it may be difficult to track when a dependency has changed—then stale responses might be seen until the cached entry expires.
+If the proxy can't be purged reliably—for example, in the case of composite pages where it may be difficult to track when a dependency has changed—then stale responses might be seen until the cached entry expires.
 ```
 
-A similar caution applies even if in the purgeable case, if the proxy cannot be configured to disallow caching in other intermediate proxies that may exist between the local proxies and the browser.
+A similar caution applies even if in the purgeable case, if the proxy can't be configured to disallow caching in other intermediate proxies that may exist between the local proxies and the browser.
 See the example proxy configs included with this package for some solutions to this problem.
 
 In the caching profile `with-caching-proxy`, this operation is mapped to the rulesets `plone.content.feed` and `plone.content.file`, which causes the following headers to be added to the response.

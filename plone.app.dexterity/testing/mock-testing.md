@@ -12,7 +12,7 @@ myst:
 This chapter describes how to use a mock objects framework to write mock based tests.
 
 Mock testing is a powerful approach to testing that lets you make assertions about how the code under test is interacting with other system modules.
-It's often useful when the code you want to test is performing operations that cannot be easily asserted by looking at its return value.
+It's often useful when the code you want to test is performing operations that can't be easily asserted by looking at its return value.
 
 In our example product, we have an event handler.
 

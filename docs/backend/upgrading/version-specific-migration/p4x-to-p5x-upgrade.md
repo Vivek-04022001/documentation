@@ -391,7 +391,7 @@ For advanced users, compilation can be done using a tool such as grunt in your d
 
 #### Conditional Resources
 
-In Plone 5, individual resources cannot be registered conditionally to a specific page.
+In Plone 5, individual resources can't be registered conditionally to a specific page.
 This is due to the way we build JavaScript with AMD.
 
 Instead, we have Python helper methods in the Resource Registry to add custom JavaScript and CSS to your views or forms.

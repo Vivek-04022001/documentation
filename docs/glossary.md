@@ -485,7 +485,7 @@ i18ndude
     Support tool to create and update message catalogs from instrumented source code.
 
 manual `.po` entries
-    Entries which cannot be detected by an automatic code scan.
+    Entries which can't be detected by an automatic code scan.
 
 react-intl
     A library that's part of [Format.JS](https://formatjs.io/docs/getting-started/installation) which helps developers set up their applications for internationalization.

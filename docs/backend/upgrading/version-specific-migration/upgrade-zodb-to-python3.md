@@ -27,7 +27,7 @@ For new projects, you can start with Python 3 with a fresh database.
 To use an existing project in Python 3 though, you need to migrate your existing database first.
 This section explains how to do that.
 
-ZODB itself is compatible with Python 3, but a database created in Python 2.7 cannot be used in Python 3 without modifying it.
+ZODB itself is compatible with Python 3, but a database created in Python 2.7 can't be used in Python 3 without modifying it.
 See {ref}`why-do-i-have-to-migrate-my-database-label` for technical background.
 
 
@@ -391,7 +391,7 @@ Remember to uncomment them after the migration!
 ### Migration logs errors and warnings
 
 If there are log messages during the migration or during `zodbverify`, that doesn't necessarily mean the migration did not work, or that your database is broken.
-For example, if you migrated from Plone 4 to Plone 5, and then from Archetypes to Dexterity, it's very likely that items in the database cannot be loaded, because packages such as `Products.Archetypes`, `plone.app.blob`, or `plone.app.imaging` aren't available.
+For example, if you migrated from Plone 4 to Plone 5, and then from Archetypes to Dexterity, it's very likely that items in the database can't be loaded, because packages such as `Products.Archetypes`, `plone.app.blob`, or `plone.app.imaging` aren't available.
 These items most likely remain, and were not removed properly and aren't used.
 If your site otherwise works fine, you can choose to ignore these issues.
 

@@ -572,7 +572,7 @@ directives.widget(
 ```
 
 ```{note}
-For control panels, this is the best way to store relations because you cannot store `RelationValue` objects in the registry.
+For control panels, this is the best way to store relations because you can't store `RelationValue` objects in the registry.
 ```
 
 (relations-the-stack-label)=

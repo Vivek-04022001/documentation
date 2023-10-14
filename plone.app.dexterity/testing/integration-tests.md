@@ -282,7 +282,7 @@ def test_suite():
     return unittest.defaultTestLoader.loadTestsFromName(__name__)
 ```
 
-Notice here how we test that the `Session` type cannot be added directly to a folder, and that it can be added inside a program.
+Notice here how we test that the `Session` type can't be added directly to a folder, and that it can be added inside a program.
 We also add a test for the `possible_tracks()` vocabulary method, as well as tests for the installation of the `track` index and metadata column and the custom workflow.
 
 ```python

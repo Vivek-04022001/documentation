@@ -126,7 +126,7 @@ However, representing containers as collections makes it impossible to access th
 
 To allow access to this information, a pseudo-file called `_data` will be exposed inside a Dexterity container.
 This file can be read and written like any other, to access or modify the container's data.
-It cannot be copied, moved, renamed, or deleted.
+It can't be copied, moved, renamed, or deleted.
 Those operations should be performed on the container itself.
 
 
@@ -209,7 +209,7 @@ These are mixed into *item* and *container* content objects, respectively.
 The `webdav` package also defines the `NullResource` object.
 A `NullResource` is a kind of placeholder, which supports the HTTP verbs `HEAD`, `PUT`, and `MKCOL`.
 
-Contents based on `ObjectManager` (including those in Dexterity) will return a `NullResource` if they cannot find the requested object and the request is a WebDAV request.
+Contents based on `ObjectManager` (including those in Dexterity) will return a `NullResource` if they can't find the requested object and the request is a WebDAV request.
 
 The [`zope.filerepresentation`](https://pypi.org/project/zope.filerepresentation/) package defines a number of interfaces which are intended to help manage file representations of content objects.
 Dexterity uses these interfaces to allow the exact file read and write operations to be overridden without subclassing.
@@ -410,7 +410,7 @@ Also note that [`plone.locking`](https://pypi.org/project/plone.locking/) uses t
 
 `NullResource.LOCK()` implements locking on a `NullResource`.
 In effect, this means locking the name of the non-existent resource.
-When a `NullResource` is locked, it's temporarily turned into a `LockNullResource` object, which is a persistent object set onto the parent (remember that a `NullResource` is a transient object returned when a child object cannot be found in a WebDAV request).
+When a `NullResource` is locked, it's temporarily turned into a `LockNullResource` object, which is a persistent object set onto the parent (remember that a `NullResource` is a transient object returned when a child object can't be found in a WebDAV request).
 
 
 ### `UNLOCK`

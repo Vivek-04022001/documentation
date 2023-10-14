@@ -152,7 +152,7 @@ It also has a fallback for demo and testing.
 
 ### Fallback
 
-There is a Plone icon defined as `fallback` if the name of the icon cannot be found in the registry.
+There is a Plone icon defined as `fallback` if the name of the icon can't be found in the registry.
 
 Fallbacks are grouped, such as [`mimetype icons`](https://github.com/plone/plone.staticresources/blob/master/src/plone/staticresources/profiles/default/registry/icons_mimetype.xml).
 
