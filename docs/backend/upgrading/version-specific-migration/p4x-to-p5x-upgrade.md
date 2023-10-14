@@ -230,7 +230,7 @@ We chose AMD over other module loading implementations (such as commonjs) becaus
 This way, someone can click "development mode" in the resource registry control panel and work with the non-compiled JavaScript files directly.
 
 Getting back on point, much of Plone's JavaScript was or still is using JavaScript in a non-AMD form.
-Scripts that expect JavaScript dependency scripts and objects to be globally available and not loaded synchronously will have a difficult time figuring out what is going on when upgrading to Plone 5.
+Scripts that expect JavaScript dependency scripts and objects to be globally available and not loaded synchronously will have a difficult time figuring out what's going on when upgrading to Plone 5.
 
 There are two scenarios where this will happen that we will tackle in this section.
 

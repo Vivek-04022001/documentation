@@ -10,7 +10,7 @@ myst:
 # Mr. Roboto
 
 ```{todo}
-Add brief description of what is Mr. Roboto and what it does.
+Add brief description of what's Mr. Roboto and what it does.
 ```
 
 ## GitHub push
